@@ -4,6 +4,10 @@ A_L_I_S_Eのnote公開記事を、記事番号・タイトル・公開日・テ�
 
 **公開中の索引ページ：** [https://s99lab.github.io/alise-article-index/](https://s99lab.github.io/alise-article-index/)
 
+**GitHub内のS. Meta記事を探す・編集する：** [S. Meta研究ポータルの別リポジトリ](https://github.com/s99lab/s99lab.github.io) ／ [S. Meta note記事索引のHTML原本](https://github.com/s99lab/s99lab.github.io/blob/main/smeta-note-index.html)
+
+※ このリポジトリにはA_L_I_S_Eの記事索引を保管しています。S. Metaの12記事は上記の別リポジトリです。
+
 **検索エンジン用サイトマップ：** [sitemap.xml](https://s99lab.github.io/alise-article-index/sitemap.xml)
 
 ## A_L_I_S_Eとは、なぜ公開するのか
