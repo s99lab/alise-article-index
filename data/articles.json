@@ -1,0 +1,78 @@
+{
+  "collection": "A_L_I_S_E scan",
+  "source": "https://note.com/alise_s99lab",
+  "status": "five-article-pilot",
+  "index_updated": "2026-10-21",
+  "note": "Index metadata only. note remains canonical for article bodies. No unverified summary for scan #15.",
+  "articles": [
+    {
+      "number": 13,
+      "title": "報じられる異論、沈む侵入",
+      "published": "2026-07-02",
+      "time_jst": "10:31",
+      "url": "https://note.com/alise_s99lab/n/n3aa272b40788",
+      "topic": "政治・報道",
+      "summary": "国旗損壊罪をめぐる政治報道と議員宿舎への侵入事案を比較し、ニュースの重量配分を考察する。",
+      "tags": [
+        "政治",
+        "メディア",
+        "報道"
+      ]
+    },
+    {
+      "number": 14,
+      "title": "現金しか持たない人から、静かに貧しくなる",
+      "published": "2026-07-03",
+      "time_jst": "21:26",
+      "url": "https://note.com/alise_s99lab/n/n5e1f48f50865",
+      "topic": "経済・格差",
+      "summary": "物価や資産価格の変化を手がかりに、現金中心の生活と資産へのアクセスの違いを考察する。",
+      "tags": [
+        "現金",
+        "インフレ",
+        "格差"
+      ]
+    },
+    {
+      "number": 15,
+      "title": "怒らない日本人が、いちばん怖い",
+      "published": "2026-07-06",
+      "time_jst": "21:47",
+      "url": "https://note.com/alise_s99lab/n/ne835337950f1",
+      "topic": "日本社会",
+      "summary": null,
+      "tags": [
+        "日本社会",
+        "社会観察"
+      ]
+    },
+    {
+      "number": 16,
+      "title": "薬で数値は戻った。人間は戻ったのか",
+      "published": "2026-07-10",
+      "time_jst": "08:52",
+      "url": "https://note.com/alise_s99lab/n/n2581d9f574f7",
+      "topic": "医療・生活",
+      "summary": "検査数値を整える医療の価値と、本人の生活や元気をどう評価するかを問い直す。",
+      "tags": [
+        "医療",
+        "健康指標",
+        "生活の質"
+      ]
+    },
+    {
+      "number": 18,
+      "title": "国家が弱ると、安全は買うものになる",
+      "published": "2026-07-13",
+      "time_jst": "19:38",
+      "url": "https://note.com/alise_s99lab/n/n2d8f84c58f64",
+      "topic": "社会・公共インフラ",
+      "summary": "南アフリカを例に、公共機能が弱まる社会で安全やインフラを私的に確保できる人とできない人の分断を考察する。",
+      "tags": [
+        "南アフリカ",
+        "公共インフラ",
+        "安全"
+      ]
+    }
+  ]
+}
