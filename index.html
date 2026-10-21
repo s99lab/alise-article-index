@@ -62,7 +62,7 @@ footer{border-top:1px solid var(--line);padding:32px 0 50px;font-size:12px;color
 </style>
 </head>
 <body>
-<header><div class="wrap mast"><a class="brand" href="./">A_L_I_S_E</a><nav class="mastnav" aria-label="サイト内ナビゲーション"><a href="about.html">A_L_I_S_Eとは</a><a href="https://note.com/alise_s99lab" target="_blank" rel="noopener noreferrer">noteの原文 ↗</a></nav></div></header>
+<header><div class="wrap mast"><a class="brand" href="./">A_L_I_S_E</a><nav class="mastnav" aria-label="主要ページと関連サイト"><a href="about.html">A_L_I_S_Eとは</a><a href="https://s99lab.github.io/index_ja.html">← S. Meta研究ポータル</a><a href="https://note.com/alise_s99lab" target="_blank" rel="noopener noreferrer">noteの原文 ↗</a></nav></div></header>
 <main class="wrap">
 <section class="hero"><div class="eyebrow">PUBLIC ARTICLE INDEX / NOTE ARCHIVE</div><h1>見つけられる、<br>言葉の記録。</h1>
 <p class="intro">A_L_I_S_Eは、人間とAIの協働の境界面から発展したUniversal OSを通して、政治・経済・社会・技術・人間行動の背後にある構造を読み解くメディアです。公開記事は、その分析を読者と共有し、現実世界で試していく継続的な実践でもあります。</p>
@@ -103,7 +103,7 @@ footer{border-top:1px solid var(--line);padding:32px 0 50px;font-size:12px;color
 </div>
 <p id="empty" hidden>該当する記事はありません。別のキーワードをお試しください。</p>
 </main>
-<footer><div class="wrap foot"><span>© A_L_I_S_E — 公開記事索引</span><span>記事原文は <a href="https://note.com/alise_s99lab">note</a> で公開されています。 <a href="data/articles.json">記事データ (JSON)</a></span></div></footer>
+<footer><div class="wrap foot"><span>© A_L_I_S_E — 公開記事索引</span><span><a href="about.html">A_L_I_S_Eとは</a>　<a href="https://s99lab.github.io/index_ja.html">← S. Meta研究ポータルへ</a>　<a href="https://note.com/alise_s99lab">note原文</a>　<a href="data/articles.json">記事データ (JSON)</a></span></div></footer>
 <script>
 const input=document.getElementById("filter"), entries=[...document.querySelectorAll(".entry")],count=document.getElementById("count"),empty=document.getElementById("empty");
 input.addEventListener("input",()=>{const q=input.value.trim().toLowerCase();let n=0;for(const e of entries){const ok=e.dataset.search.toLowerCase().includes(q);e.hidden=!ok;if(ok)n++;}count.textContent=String(n);empty.hidden=n!==0;});
