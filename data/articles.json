@@ -3,7 +3,7 @@
   "source": "https://note.com/alise_s99lab",
   "status": "verified-partial-archive",
   "index_updated": "2026-10-22",
-  "note": "37 original URLs of confirmed SCAN/MEMO posts and 2 independent guides. Article bodies stay on note. No unpublished or unverified draft metadata; missing original URLs stay out of public catalog.",
+  "note": "38 confirmed SCAN/MEMO note URLs and 2 independent guide URLs. Missing numbers are not treated as nonexistent; note remains canonical for article bodies.",
   "guides": [
     {
       "key": "launch",
@@ -483,6 +483,23 @@
     },
     {
       "type": "scan",
+      "number": 2,
+      "title": "円安は金利差だけで終わらない",
+      "published": "2026-06-25",
+      "time_jst": "06:47",
+      "url": "https://note.com/alise_s99lab/n/n2bac8073fdfe",
+      "topic": "為替・通貨",
+      "summary": null,
+      "tags": [
+        "為替",
+        "円安",
+        "ステーブルコイン",
+        "ドル"
+      ],
+      "verification": "note-original-direct"
+    },
+    {
+      "type": "scan",
       "number": 1,
       "title": "米国はドルをアプリ化した",
       "published": "2026-06-24",
@@ -496,7 +513,6 @@
   ],
   "verification_pending": {
     "scan_numbers_not_yet_matched": [
-      2,
       3,
       5,
       8,
