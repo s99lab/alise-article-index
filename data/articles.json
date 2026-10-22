@@ -3,7 +3,7 @@
   "source": "https://note.com/alise_s99lab",
   "status": "verified-partial-archive",
   "index_updated": "2026-10-22",
-  "note": "Metadata only; note is canonical. Confirmed SCAN/MEMO posts and 2 independent guide posts. Inventory incomplete; no inferred URLs, dates or summaries.",
+  "note": "37 verified SCAN/MEMO original URLs and 2 independent guides; note remains canonical. Candidate titles without URL are not included as published articles. Index is not complete.",
   "guides": [
     {
       "key": "launch",
@@ -134,6 +134,18 @@
       "summary": null,
       "tags": [],
       "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 33,
+      "title": "SWIFTを使い続けるための工事費は、誰が払うのか",
+      "published": "2026-08-26",
+      "time_jst": "10:48",
+      "url": "https://note.com/alise_s99lab/n/n2fbb7e1e2cab",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-web-result"
     },
     {
       "type": "scan",
@@ -399,6 +411,18 @@
     },
     {
       "type": "scan",
+      "number": 11,
+      "title": "MiCAが壊したのは、USDTの価格ではない",
+      "published": "2026-07-01",
+      "time_jst": "08:22",
+      "url": "https://note.com/alise_s99lab/n/nb5b423bca297",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-web-result"
+    },
+    {
+      "type": "scan",
       "number": 10,
       "title": "AI開発は、なぜ止まらないのか",
       "published": "2026-06-30",
@@ -468,18 +492,6 @@
       "summary": null,
       "tags": [],
       "verification": "public-note-search"
-    },
-    {
-      "type": "scan",
-      "number": 33,
-      "title": "SWIFTを使い続けるための工事費は、誰が払うのか",
-      "published": null,
-      "time_jst": null,
-      "url": "https://note.com/alise_s99lab/n/n2fbb7e1e2cab",
-      "topic": "SCAN",
-      "summary": null,
-      "tags": [],
-      "verification": "public-note-search"
     }
   ],
   "verification_pending": {
@@ -488,15 +500,26 @@
       3,
       5,
       8,
-      11,
       12,
       17,
       22
     ],
     "guide_links": 0,
-    "undated_confirmed_scan": [
-      33
-    ],
-    "memo_other_issues": "MEMO #01 and #05 verified. MEMO #02-#04 have unverified original links; no completeness claim."
+    "undated_confirmed_scan": [],
+    "memo_other_issues": "MEMO #01 and #05 verified. MEMO #02-#04 have unverified original links; no completeness claim.",
+    "unverified_title_only": {
+      "scan": {
+        "2": "円安は金利差だけで終わらない",
+        "3": "XRPはデジタルドル時代のどこに置かれるのか",
+        "5": "中国は世界を囲みながら、内側から沈んでいるのか",
+        "12": "ステーブルコインは、打出の小槌だった"
+      },
+      "memo": {
+        "2": "お金の流れを追えば、真実が見える",
+        "3": "不満は、証拠を集める",
+        "4": "サムネイル詐欺"
+      },
+      "note": "過去の著者との会話に登場するタイトル候補。note公開URL・日時は未照合のため articles には収録しない。正式タイトルや公開状況も再確認が必要。"
+    }
   }
 }
