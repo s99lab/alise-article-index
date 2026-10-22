@@ -3,7 +3,7 @@
   "source": "https://note.com/alise_s99lab",
   "status": "verified-partial-archive",
   "index_updated": "2026-10-22",
-  "note": "37 verified SCAN/MEMO original URLs and 2 independent guides; note remains canonical. Candidate titles without URL are not included as published articles. Index is not complete.",
+  "note": "37 original URLs of confirmed SCAN/MEMO posts and 2 independent guides. Article bodies stay on note. No unpublished or unverified draft metadata; missing original URLs stay out of public catalog.",
   "guides": [
     {
       "key": "launch",
@@ -506,20 +506,6 @@
     ],
     "guide_links": 0,
     "undated_confirmed_scan": [],
-    "memo_other_issues": "MEMO #01 and #05 verified. MEMO #02-#04 have unverified original links; no completeness claim.",
-    "unverified_title_only": {
-      "scan": {
-        "2": "円安は金利差だけで終わらない",
-        "3": "XRPはデジタルドル時代のどこに置かれるのか",
-        "5": "中国は世界を囲みながら、内側から沈んでいるのか",
-        "12": "ステーブルコインは、打出の小槌だった"
-      },
-      "memo": {
-        "2": "お金の流れを追えば、真実が見える",
-        "3": "不満は、証拠を集める",
-        "4": "サムネイル詐欺"
-      },
-      "note": "過去の著者との会話に登場するタイトル候補。note公開URL・日時は未照合のため articles には収録しない。正式タイトルや公開状況も再確認が必要。"
-    }
+    "memo_other_issues": "MEMO #01 and #05 verified. MEMO #02-#04 have unverified original links; no completeness claim."
   }
 }
