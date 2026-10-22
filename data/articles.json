@@ -3,25 +3,27 @@
   "source": "https://note.com/alise_s99lab",
   "status": "verified-partial-archive",
   "index_updated": "2026-10-22",
-  "note": "Confirmed metadata only; note is canonical. Current archive is not yet complete; no guessed URLs or summaries. Former 5-article pilot is preserved as archival history.",
+  "note": "Metadata only; note is canonical. Confirmed SCAN/MEMO posts and 2 independent guide posts. Inventory incomplete; no inferred URLs, dates or summaries.",
   "guides": [
     {
       "key": "launch",
       "kind": "guide",
-      "title": "A_L_I_S_E起動のお知らせ",
       "label": "プロフィール記事",
-      "url": null,
-      "verification": "pending-original-url",
-      "note": "正式タイトルとnote原文URLを照合中"
+      "title": "A_L_I_S_E（アライズ）を起動しました",
+      "published": "2026-06-24",
+      "time_jst": "10:36",
+      "url": "https://note.com/alise_s99lab/n/n1abf7de120f8",
+      "verification": "note-original-opened"
     },
     {
       "key": "first-five",
       "kind": "guide",
-      "title": "まずは読んでもらいたい5記事",
       "label": "読書ガイド記事",
-      "url": null,
-      "verification": "pending-original-url",
-      "note": "正式タイトルとnote原文URLを照合中"
+      "title": "はじめてのA_L_I_S_E｜まず読んでほしい5本",
+      "published": "2026-07-27",
+      "time_jst": "15:13",
+      "url": "https://note.com/alise_s99lab/n/n14c398e27452",
+      "verification": "note-original-opened"
     }
   ],
   "articles": [
@@ -158,6 +160,66 @@
       "verification": "public-note-search"
     },
     {
+      "type": "scan",
+      "number": 30,
+      "title": "科学は命令しない。命令した人間がいる――ファウチの黙秘と、「科学に従った」の後ろで消えた責任",
+      "published": "2026-08-07",
+      "time_jst": "20:47",
+      "url": "https://note.com/alise_s99lab/n/n6544035b7256",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 29,
+      "title": "AI競争の勝者は、知能ではなく世界を持っている",
+      "published": "2026-08-07",
+      "time_jst": "08:23",
+      "url": "https://note.com/alise_s99lab/n/ncfbcc9631bbd",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "memo",
+      "number": 5,
+      "title": "AIは、開いていた扉から出ていった",
+      "published": "2026-08-06",
+      "time_jst": "12:20",
+      "url": "https://note.com/alise_s99lab/n/n1953f42337c0",
+      "topic": "短編MEMO",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 28,
+      "title": "公約とはなんぞや――選挙で渡したのは、白紙委任ではない",
+      "published": "2026-08-05",
+      "time_jst": "06:48",
+      "url": "https://note.com/alise_s99lab/n/n4e1038ad2bb5",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 27,
+      "title": "なぜアメリカまで円を買ったのか――「弱い円でも回る国」の限界",
+      "published": "2026-08-02",
+      "time_jst": "13:16",
+      "url": "https://note.com/alise_s99lab/n/n9a55767a10b0",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
       "type": "memo",
       "number": 1,
       "title": "同じ2万円でも、未来の向きは違う",
@@ -171,6 +233,90 @@
         "時間"
       ],
       "verification": "note-public-page"
+    },
+    {
+      "type": "scan",
+      "number": 26,
+      "title": "チャンスは突然来る。だが、つかめる人は突然つくられない",
+      "published": "2026-07-27",
+      "time_jst": "13:55",
+      "url": "https://note.com/alise_s99lab/n/nd945218083b6",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 25,
+      "title": "「高すぎても誰かが買う時間」が終わる",
+      "published": "2026-07-27",
+      "time_jst": "07:01",
+      "url": "https://note.com/alise_s99lab/n/n579c615b3be7",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 24,
+      "title": "敗者のいないアメリカの勝利",
+      "published": "2026-07-26",
+      "time_jst": "06:02",
+      "url": "https://note.com/alise_s99lab/n/n55fc6f366b3f",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 23,
+      "title": "勝っている間だけ、国民だった",
+      "published": "2026-07-24",
+      "time_jst": "08:38",
+      "url": "https://note.com/alise_s99lab/n/n7ed50ea6521e",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 21,
+      "title": "イーロン・マスクの未来には、人間の欲望がいない",
+      "published": "2026-07-20",
+      "time_jst": "12:47",
+      "url": "https://note.com/alise_s99lab/n/ndf48c8c8a6ee",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 20,
+      "title": "国旗損壊罪を必要にしたのは、誰か",
+      "published": "2026-07-18",
+      "time_jst": "08:06",
+      "url": "https://note.com/alise_s99lab/n/n42deb3a0b6b7",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 19,
+      "title": "東京では4万円で一人暮らしができる。世界では、もう難しい",
+      "published": "2026-07-15",
+      "time_jst": "09:50",
+      "url": "https://note.com/alise_s99lab/n/nc44270959f2e",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
     },
     {
       "number": 18,
@@ -253,6 +399,18 @@
     },
     {
       "type": "scan",
+      "number": 10,
+      "title": "AI開発は、なぜ止まらないのか",
+      "published": "2026-06-30",
+      "time_jst": "10:57",
+      "url": "https://note.com/alise_s99lab/n/n90fbb0f49f61",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
       "number": 9,
       "title": "イーロン・マスクは、火星を目指しているだけなのか",
       "published": "2026-06-29",
@@ -265,6 +423,18 @@
     },
     {
       "type": "scan",
+      "number": 7,
+      "title": "日本政府は、本当に円安を嫌がっているのか",
+      "published": "2026-06-27",
+      "time_jst": "09:04",
+      "url": "https://note.com/alise_s99lab/n/n9e77f4beb1d7",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
       "number": 6,
       "title": "北尾吉孝は、戦後メディアの配線を変えようとしているのか",
       "published": "2026-06-26",
@@ -274,6 +444,18 @@
       "summary": null,
       "tags": [],
       "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 4,
+      "title": "東京不動産は円から逃げる箱になるのか",
+      "published": "2026-06-25",
+      "time_jst": "09:53",
+      "url": "https://note.com/alise_s99lab/n/n65be3304adb5",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "note-original-opened"
     },
     {
       "type": "scan",
@@ -304,31 +486,17 @@
     "scan_numbers_not_yet_matched": [
       2,
       3,
-      4,
       5,
-      7,
       8,
-      10,
       11,
       12,
       17,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30
+      22
     ],
-    "guide_links": 2,
+    "guide_links": 0,
     "undated_confirmed_scan": [
       33
     ],
-    "memo_other_issues": "Published range unverified; do not infer memo count from numbering"
+    "memo_other_issues": "MEMO #01 and #05 verified. MEMO #02-#04 have unverified original links; no completeness claim."
   }
 }
