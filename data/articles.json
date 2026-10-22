@@ -1,9 +1,9 @@
 {
   "collection": "A_L_I_S_E scan",
   "source": "https://note.com/alise_s99lab",
-  "status": "verified-partial-archive",
+  "status": "verified-known-serials",
   "index_updated": "2026-10-22",
-  "note": "38 confirmed SCAN/MEMO note URLs and 2 independent guide URLs. Missing numbers are not treated as nonexistent; note remains canonical for article bodies.",
+  "note": "Known serial range verified: SCAN #01–#42, MEMO #01–#05, plus 2 independent guides. Future publication after this range needs separate verification. All full article bodies remain on note.",
   "guides": [
     {
       "key": "launch",
@@ -233,6 +233,42 @@
     },
     {
       "type": "memo",
+      "number": 4,
+      "title": "サムネイル詐欺",
+      "published": "2026-08-01",
+      "time_jst": "10:49",
+      "url": "https://note.com/alise_s99lab/n/n809b4e0f994f",
+      "topic": "短編MEMO",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
+    },
+    {
+      "type": "memo",
+      "number": 3,
+      "title": "不満は、証拠を集める",
+      "published": "2026-07-31",
+      "time_jst": "09:05",
+      "url": "https://note.com/alise_s99lab/n/n68ab58285979",
+      "topic": "短編MEMO",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
+    },
+    {
+      "type": "memo",
+      "number": 2,
+      "title": "お金の流れを追えば、真実が見える",
+      "published": "2026-07-31",
+      "time_jst": "08:25",
+      "url": "https://note.com/alise_s99lab/n/n41ec35f3c887",
+      "topic": "短編MEMO",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
+    },
+    {
+      "type": "memo",
       "number": 1,
       "title": "同じ2万円でも、未来の向きは違う",
       "published": "2026-07-28",
@@ -296,6 +332,18 @@
     },
     {
       "type": "scan",
+      "number": 22,
+      "title": "試されているのは財政ではない。日本の民主主義である",
+      "published": "2026-07-23",
+      "time_jst": "08:24",
+      "url": "https://note.com/alise_s99lab/n/n1b13a56e180a",
+      "topic": "政治・制度",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
+    },
+    {
+      "type": "scan",
       "number": 21,
       "title": "イーロン・マスクの未来には、人間の欲望がいない",
       "published": "2026-07-20",
@@ -345,6 +393,18 @@
       ],
       "type": "scan",
       "verification": "existing-pilot"
+    },
+    {
+      "type": "scan",
+      "number": 17,
+      "title": "人間は、感情のない声に耐えられるか",
+      "published": "2026-07-10",
+      "time_jst": "19:13",
+      "url": "https://note.com/alise_s99lab/n/nb258a1f52e43",
+      "topic": "AI・人間",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
     },
     {
       "number": 16,
@@ -411,6 +471,18 @@
     },
     {
       "type": "scan",
+      "number": 12,
+      "title": "ステーブルコインは、打出の小槌だった",
+      "published": "2026-07-01",
+      "time_jst": "08:46",
+      "url": "https://note.com/alise_s99lab/n/n2018f46d221b",
+      "topic": "デジタル資産・金融",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
+    },
+    {
+      "type": "scan",
       "number": 11,
       "title": "MiCAが壊したのは、USDTの価格ではない",
       "published": "2026-07-01",
@@ -447,6 +519,18 @@
     },
     {
       "type": "scan",
+      "number": 8,
+      "title": "NHKに足りないのは金か、信頼か",
+      "published": "2026-06-27",
+      "time_jst": "15:04",
+      "url": "https://note.com/alise_s99lab/n/ne72d3f2ed338",
+      "topic": "メディア・公共放送",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
+    },
+    {
+      "type": "scan",
       "number": 7,
       "title": "日本政府は、本当に円安を嫌がっているのか",
       "published": "2026-06-27",
@@ -471,6 +555,18 @@
     },
     {
       "type": "scan",
+      "number": 5,
+      "title": "中国は世界を囲みながら、内側から沈んでいるのか",
+      "published": "2026-06-25",
+      "time_jst": "09:59",
+      "url": "https://note.com/alise_s99lab/n/n31d44dbf7ad1",
+      "topic": "国際情勢・社会",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
+    },
+    {
+      "type": "scan",
       "number": 4,
       "title": "東京不動産は円から逃げる箱になるのか",
       "published": "2026-06-25",
@@ -480,6 +576,18 @@
       "summary": null,
       "tags": [],
       "verification": "note-original-opened"
+    },
+    {
+      "type": "scan",
+      "number": 3,
+      "title": "XRPはデジタルドル時代のどこに置かれるのか",
+      "published": "2026-06-25",
+      "time_jst": "09:51",
+      "url": "https://note.com/alise_s99lab/n/n8b6f43848e7d",
+      "topic": "デジタル資産・金融",
+      "summary": null,
+      "tags": [],
+      "verification": "direct-note-original-2026-10-22"
     },
     {
       "type": "scan",
@@ -512,16 +620,10 @@
     }
   ],
   "verification_pending": {
-    "scan_numbers_not_yet_matched": [
-      3,
-      5,
-      8,
-      12,
-      17,
-      22
-    ],
+    "scan_numbers_not_yet_matched": [],
+    "memo_numbers_not_yet_matched": [],
     "guide_links": 0,
     "undated_confirmed_scan": [],
-    "memo_other_issues": "MEMO #01 and #05 verified. MEMO #02-#04 have unverified original links; no completeness claim."
+    "future_new_issues": "Not auto-synced; verify later note posts independently."
   }
 }
