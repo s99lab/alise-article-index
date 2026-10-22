@@ -1,9 +1,9 @@
 {
   "collection": "A_L_I_S_E scan",
   "source": "https://note.com/alise_s99lab",
-  "status": "verified-known-serials",
-  "index_updated": "2026-10-22",
-  "note": "Known serial range verified: SCAN #01–#42, MEMO #01–#05, plus 2 independent guides. Future publication after this range needs separate verification. All full article bodies remain on note.",
+  "status": "known-serials-plus-memo6-date-pending",
+  "index_updated": "2026-10-23",
+  "note": "Known SCAN #01–#42 and MEMO #01–#06 plus 2 independent guides, total 50 distinct user-reported or confirmed source URLs. MEMO #06 URL author-supplied; title matches scan report, but original page metadata cannot be fetched so exact title/date/time remain unverified. Article bodies remain on note.",
   "guides": [
     {
       "key": "launch",
@@ -617,13 +617,28 @@
       "summary": null,
       "tags": [],
       "verification": "public-note-search"
+    },
+    {
+      "type": "memo",
+      "number": 6,
+      "title": "人類滅亡、何％ですか――その前に、人類は一緒にブレーキを踏めるのか",
+      "published": null,
+      "time_jst": null,
+      "url": "https://note.com/alise_s99lab/n/nbca460e52dd9",
+      "topic": "短編MEMO",
+      "summary": null,
+      "tags": [],
+      "verification": "author-supplied-original-url;title-from-2026-10-23-scan-report;publication-date-unverified"
     }
   ],
   "verification_pending": {
     "scan_numbers_not_yet_matched": [],
     "memo_numbers_not_yet_matched": [],
     "guide_links": 0,
-    "undated_confirmed_scan": [],
-    "future_new_issues": "Not auto-synced; verify later note posts independently."
+    "undated_memo": [
+      6
+    ],
+    "memo6_title_exactness": "Title inferred from author's latest scan report; direct original metadata retrieval currently unavailable.",
+    "future_new_issues": "Not auto-synced; verify any newer articles independently."
   }
 }
