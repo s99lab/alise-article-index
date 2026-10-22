@@ -1,64 +1,176 @@
 {
   "collection": "A_L_I_S_E scan",
   "source": "https://note.com/alise_s99lab",
-  "status": "five-article-pilot",
-  "index_updated": "2026-10-21",
-  "note": "Index metadata only. note remains canonical for article bodies. No unverified summary for scan #15.",
+  "status": "verified-partial-archive",
+  "index_updated": "2026-10-22",
+  "note": "Confirmed metadata only; note is canonical. Current archive is not yet complete; no guessed URLs or summaries. Former 5-article pilot is preserved as archival history.",
+  "guides": [
+    {
+      "key": "launch",
+      "kind": "guide",
+      "title": "A_L_I_S_E起動のお知らせ",
+      "label": "プロフィール記事",
+      "url": null,
+      "verification": "pending-original-url",
+      "note": "正式タイトルとnote原文URLを照合中"
+    },
+    {
+      "key": "first-five",
+      "kind": "guide",
+      "title": "まずは読んでもらいたい5記事",
+      "label": "読書ガイド記事",
+      "url": null,
+      "verification": "pending-original-url",
+      "note": "正式タイトルとnote原文URLを照合中"
+    }
+  ],
   "articles": [
     {
-      "number": 13,
-      "title": "報じられる異論、沈む侵入",
-      "published": "2026-07-02",
-      "time_jst": "10:31",
-      "url": "https://note.com/alise_s99lab/n/n3aa272b40788",
-      "topic": "政治・報道",
-      "summary": "国旗損壊罪をめぐる政治報道と議員宿舎への侵入事案を比較し、ニュースの重量配分を考察する。",
-      "tags": [
-        "政治",
-        "メディア",
-        "報道"
-      ]
+      "type": "scan",
+      "number": 42,
+      "title": "ChatGPTを生んだ会社のトップも、未来を読み違えた。",
+      "published": "2026-10-18",
+      "time_jst": "07:40",
+      "url": "https://note.com/alise_s99lab/n/n998a9d595c22",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
     },
     {
-      "number": 14,
-      "title": "現金しか持たない人から、静かに貧しくなる",
-      "published": "2026-07-03",
-      "time_jst": "21:26",
-      "url": "https://note.com/alise_s99lab/n/n5e1f48f50865",
-      "topic": "経済・格差",
-      "summary": "物価や資産価格の変化を手がかりに、現金中心の生活と資産へのアクセスの違いを考察する。",
-      "tags": [
-        "現金",
-        "インフレ",
-        "格差"
-      ]
+      "type": "scan",
+      "number": 41,
+      "title": "同じ人類が、別の時代を生き始めた。",
+      "published": "2026-10-17",
+      "time_jst": "10:28",
+      "url": "https://note.com/alise_s99lab/n/n511ff57c256c",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
     },
     {
-      "number": 15,
-      "title": "怒らない日本人が、いちばん怖い",
-      "published": "2026-07-06",
-      "time_jst": "21:47",
-      "url": "https://note.com/alise_s99lab/n/ne835337950f1",
-      "topic": "日本社会",
+      "type": "scan",
+      "number": 40,
+      "title": "アフリカと資本主義。豊かさに正解はあるのか。",
+      "published": "2026-10-17",
+      "time_jst": "08:18",
+      "url": "https://note.com/alise_s99lab/n/nc17ca047a656",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 39,
+      "title": "もし、あなたのnoteが「1章10円」で世界とつながったら。",
+      "published": "2026-10-15",
+      "time_jst": "13:42",
+      "url": "https://note.com/alise_s99lab/n/n84df766a6827",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 38,
+      "title": "次に「オールド」と呼ばれるのは、会社かもしれない",
+      "published": "2026-10-13",
+      "time_jst": "08:51",
+      "url": "https://note.com/alise_s99lab/n/n383a8d0a3e10",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 37,
+      "title": "世界中にメッセージを送れる。では、10円も送れるか",
+      "published": "2026-10-09",
+      "time_jst": "09:24",
+      "url": "https://note.com/alise_s99lab/n/necf655c3a6e6",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 36,
+      "title": "AI詐欺が、産業になる時代――詐欺村を潰しても、詐欺は消えなかった",
+      "published": "2026-09-30",
+      "time_jst": "09:42",
+      "url": "https://note.com/alise_s99lab/n/nc747b28dbf91",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 35,
+      "title": "CLARITYは止まった。結果的に、Rippleの優位は広がった――全員のルールが遅れたその間も、市場は先へ進んだ",
+      "published": "2026-09-18",
+      "time_jst": "12:04",
+      "url": "https://note.com/alise_s99lab/n/nb303ed339ce3",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 34,
+      "title": "買える人は、いる。――東京マンションは、本当に下がるのか",
+      "published": "2026-09-04",
+      "time_jst": "11:25",
+      "url": "https://note.com/alise_s99lab/n/n9b734ba06fc1",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 32,
+      "title": "国家を必要としないBitcoinは、最後に誰を必要とするのか",
+      "published": "2026-08-15",
+      "time_jst": "07:28",
+      "url": "https://note.com/alise_s99lab/n/nd7aee39aad87",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 31,
+      "title": "人間とAIの境界は、皮膚なのか",
+      "published": "2026-08-10",
+      "time_jst": "07:04",
+      "url": "https://note.com/alise_s99lab/n/n2763aebd636f",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "memo",
+      "number": 1,
+      "title": "同じ2万円でも、未来の向きは違う",
+      "published": "2026-07-28",
+      "time_jst": "12:22",
+      "url": "https://note.com/alise_s99lab/n/n2963dfca8b23",
+      "topic": "短編MEMO",
       "summary": null,
       "tags": [
-        "日本社会",
-        "社会観察"
-      ]
-    },
-    {
-      "number": 16,
-      "title": "薬で数値は戻った。人間は戻ったのか",
-      "published": "2026-07-10",
-      "time_jst": "08:52",
-      "url": "https://note.com/alise_s99lab/n/n2581d9f574f7",
-      "topic": "医療・生活",
-      "summary": "検査数値を整える医療の価値と、本人の生活や元気をどう評価するかを問い直す。",
-      "tags": [
-        "医療",
-        "健康指標",
-        "生活の質"
-      ]
+        "家計",
+        "時間"
+      ],
+      "verification": "note-public-page"
     },
     {
       "number": 18,
@@ -72,7 +184,151 @@
         "南アフリカ",
         "公共インフラ",
         "安全"
-      ]
+      ],
+      "type": "scan",
+      "verification": "existing-pilot"
+    },
+    {
+      "number": 16,
+      "title": "薬で数値は戻った。人間は戻ったのか",
+      "published": "2026-07-10",
+      "time_jst": "08:52",
+      "url": "https://note.com/alise_s99lab/n/n2581d9f574f7",
+      "topic": "医療・生活",
+      "summary": "検査数値を整える医療の価値と、本人の生活や元気をどう評価するかを問い直す。",
+      "tags": [
+        "医療",
+        "健康指標",
+        "生活の質"
+      ],
+      "type": "scan",
+      "verification": "existing-pilot"
+    },
+    {
+      "number": 15,
+      "title": "怒らない日本人が、いちばん怖い",
+      "published": "2026-07-06",
+      "time_jst": "21:47",
+      "url": "https://note.com/alise_s99lab/n/ne835337950f1",
+      "topic": "日本社会",
+      "summary": null,
+      "tags": [
+        "日本社会",
+        "社会観察"
+      ],
+      "type": "scan",
+      "verification": "existing-pilot"
+    },
+    {
+      "number": 14,
+      "title": "現金しか持たない人から、静かに貧しくなる",
+      "published": "2026-07-03",
+      "time_jst": "21:26",
+      "url": "https://note.com/alise_s99lab/n/n5e1f48f50865",
+      "topic": "経済・格差",
+      "summary": "物価や資産価格の変化を手がかりに、現金中心の生活と資産へのアクセスの違いを考察する。",
+      "tags": [
+        "現金",
+        "インフレ",
+        "格差"
+      ],
+      "type": "scan",
+      "verification": "existing-pilot"
+    },
+    {
+      "number": 13,
+      "title": "報じられる異論、沈む侵入",
+      "published": "2026-07-02",
+      "time_jst": "10:31",
+      "url": "https://note.com/alise_s99lab/n/n3aa272b40788",
+      "topic": "政治・報道",
+      "summary": "国旗損壊罪をめぐる政治報道と議員宿舎への侵入事案を比較し、ニュースの重量配分を考察する。",
+      "tags": [
+        "政治",
+        "メディア",
+        "報道"
+      ],
+      "type": "scan",
+      "verification": "existing-pilot"
+    },
+    {
+      "type": "scan",
+      "number": 9,
+      "title": "イーロン・マスクは、火星を目指しているだけなのか",
+      "published": "2026-06-29",
+      "time_jst": "07:35",
+      "url": "https://note.com/alise_s99lab/n/neebbb867d060",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 6,
+      "title": "北尾吉孝は、戦後メディアの配線を変えようとしているのか",
+      "published": "2026-06-26",
+      "time_jst": "09:00",
+      "url": "https://note.com/alise_s99lab/n/nf02bc63f34ce",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 1,
+      "title": "米国はドルをアプリ化した",
+      "published": "2026-06-24",
+      "time_jst": "12:17",
+      "url": "https://note.com/alise_s99lab/n/n60f5247f96c6",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
+    },
+    {
+      "type": "scan",
+      "number": 33,
+      "title": "SWIFTを使い続けるための工事費は、誰が払うのか",
+      "published": null,
+      "time_jst": null,
+      "url": "https://note.com/alise_s99lab/n/n2fbb7e1e2cab",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "public-note-search"
     }
-  ]
+  ],
+  "verification_pending": {
+    "scan_numbers_not_yet_matched": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "guide_links": 2,
+    "undated_confirmed_scan": [
+      33
+    ],
+    "memo_other_issues": "Published range unverified; do not infer memo count from numbering"
+  }
 }
