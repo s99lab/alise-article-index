@@ -82,7 +82,7 @@ GitHubのこのリポジトリの **Settings → Pages → Build and deployment 
 ## 検索エンジン・AIからの発見性
 
 - このリポジトリのGitHub Pages（上記公開サイト）が検索対象となるHTMLの正本です。
-- `sitemap.xml` は **記事索引トップと公開目的ページの2 URL** のみを示します。外部ドメインのnote記事URLはサイトマップに混入させず、HTML内のリンクと構造化データで案内します。
+- `sitemap.xml` は **記事索引トップと公開目的ページの日英各2ページ、計4 URL** のみを示します。外部ドメインのnote記事URLはサイトマップに混入させず、HTML内のリンクと構造化データで案内します。
 - `index.html` にcanonical URLとschema.orgの `CollectionPage / ItemList / Article` を設定しています。全文記事の正本はnoteに残ります。
 - サイトマップの存在は、Search Consoleへの送信やGoogle検索への登録完了を意味しません。所有者がURL検査とサイトマップ送信結果を確認する必要があります。
 - `s99lab.github.io` ホスト全体のrobots.txtは既存の研究ポータル側が管理します。プロジェクト配下にrobots.txtを置いてもホスト全体のrobots制御にはなりません。
