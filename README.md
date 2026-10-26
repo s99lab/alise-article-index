@@ -1,5 +1,7 @@
 # A_L_I_S_E scan — 公開記事索引
 
+**公開情報の分類：WRITING / note系（構造分析）**。このリポジトリはA_L_I_S_Eの独立した記事索引であり、本文の正本はnoteです。S. Meta noteの索引は引き続き[MAINのリポジトリ](https://github.com/s99lab/s99lab.github.io)にあります。[4分類の全体像](https://s99lab.github.io/index_ja.html)を参照してください。
+
 A_L_I_S_Eのnote公開記事を、記事番号・タイトル・公開日・テーマから探すための独立した索引です。本文の正本は [A_L_I_S_Eのnote](https://note.com/alise_s99lab) にあります。
 
 **公開中の索引ページ：** [https://s99lab.github.io/alise-article-index/](https://s99lab.github.io/alise-article-index/)
