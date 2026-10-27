@@ -10,11 +10,11 @@
     "scan": 43,
     "memo": 6,
     "guides": 2,
-    "checked_primary_source": 33,
-    "unavailable_primary_source": 7,
+    "checked_primary_source": 41,
+    "unavailable_primary_source": 10,
     "seeded_from_existing_pilot": 0,
-    "pending_primary_source": 11,
-    "original_note_reverified_in_this_stage": 10
+    "pending_primary_source": 0,
+    "original_note_reverified_in_this_stage": 8
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -75,9 +75,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null,
-      "review_note": "Author-shared note URL; published title and date/time were not independently confirmed in the prior indexing step."
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note URL and targeted public-web searches did not yield the article body. Older metadata and author-shared link/screenshot do not establish body content.",
+      "review_note": "Author-shared original URL retained; title derives from earlier editorial draft and note-publication title/timestamp still require direct comparison. No question or summary inferred.",
+      "summary_ja": null,
+      "summary_en": null,
+      "topics_en": []
     },
     {
       "id": "scan-42",
@@ -433,8 +436,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note URL and targeted public-web searches did not yield the article body. Older metadata and author-shared link/screenshot do not establish body content.",
+      "review_note": "Earlier author screenshot verifies headline/date/time only, not body content; no content-derived question inferred.",
+      "summary_ja": null,
+      "summary_en": null,
+      "topics_en": []
     },
     {
       "id": "scan-31",
@@ -538,12 +545,29 @@
       "number": 5,
       "title_ja": "AIは、開いていた扉から出ていった",
       "source_url": "https://note.com/alise_s99lab/n/n1953f42337c0",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "AIが与えられた目的のために現実へ作用したとき、危険の境界はモデルではなく人間が与えた接続権限にあるのか。",
+      "question_en": "When an AI agent acts beyond a test toward real systems, how much risk lies in the external access and permissions humans granted?",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "AIエージェント",
+        "外部接続",
+        "権限設計",
+        "人間の監督"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original public note article body opened successfully; title and original URL matched data/articles.json.",
+      "summary_ja": "英国AIセキュリティ研究所のエージェント試験を題材に、AIが閉じた空間を破ったのではなく、許された外部接続を通じて目的達成の手段を広げた点に着目。権限設計と人間の監督を考える。",
+      "summary_en": "Uses an AI Security Institute agent test to distinguish breaking out of an isolated system from exploiting access deliberately provided by humans; focuses on permission boundaries and oversight.",
+      "topics_en": [
+        "AI agents",
+        "external access",
+        "permission boundaries",
+        "human oversight"
+      ],
+      "review_note": "Author's structural reading of an AI test, not independent verification of the cited security incident. English is editorial wording."
     },
     {
       "id": "scan-28",
@@ -619,8 +643,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note URL and targeted public-web searches did not yield the article body. Older metadata and author-shared link/screenshot do not establish body content.",
+      "review_note": "Older index verifies title/date/URL only; no content-derived question inferred.",
+      "summary_ja": null,
+      "summary_en": null,
+      "topics_en": []
     },
     {
       "id": "memo-03",
@@ -1433,12 +1461,28 @@
       "number": null,
       "title_ja": "A_L_I_S_E（アライズ）を起動しました",
       "source_url": "https://note.com/alise_s99lab/n/n1abf7de120f8",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "A_L_I_S_Eは何を目的としたメディアで、ニュースの背後の何を読もうとしているのか。",
+      "question_en": "What is A_L_I_S_E's editorial purpose, and what structures behind current events does it seek to examine?",
+      "category_ids": [
+        "editorial_guides"
+      ],
+      "topics_ja": [
+        "媒体紹介",
+        "構造分析",
+        "人間とAIの協働",
+        "編集方針"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original public note article body opened successfully; title and original URL matched data/articles.json.",
+      "summary_ja": "A_L_I_S_Eの起動宣言。速報や未来予言ではなく、利害、制度、人間の判断と責任の動きを多分野のニュースから読み解くという媒体の役割を説明する。",
+      "summary_en": "Introduces A_L_I_S_E as structural commentary rather than breaking news or prediction, explaining its interest in incentives, institutions, judgment, and accountability.",
+      "topics_en": [
+        "publication introduction",
+        "structural analysis",
+        "human–AI collaboration",
+        "editorial mission"
+      ],
+      "review_note": "Guide classification denotes editorial orientation, not a numbered SCAN or MEMO article. English is navigational wording."
     },
     {
       "id": "guide-first-five",
@@ -1446,12 +1490,28 @@
       "number": null,
       "title_ja": "はじめてのA_L_I_S_E｜まず読んでほしい5本",
       "source_url": "https://note.com/alise_s99lab/n/n14c398e27452",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "A_L_I_S_Eの見方を知りたい読者は、どの5本から読み始めればよいか。",
+      "question_en": "Which five articles introduce new readers to A_L_I_S_E's approach?",
+      "category_ids": [
+        "editorial_guides"
+      ],
+      "topics_ja": [
+        "はじめての方へ",
+        "おすすめ記事",
+        "読書ガイド",
+        "構造分析"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original public note article body opened successfully; title and original URL matched data/articles.json.",
+      "summary_ja": "ドルのデジタル化、公共安全の私費化、東京の単身住宅、国民所属の条件、機会に備えることを扱う5本を選び、制度・利害・選択肢・判断という共通の観点を案内する読書ガイド。",
+      "summary_en": "Curates five introductions on digital dollars, privatized public safety, solo housing, conditional belonging, and readiness for opportunity to demonstrate the publication's common analytical lens.",
+      "topics_en": [
+        "start here",
+        "selected articles",
+        "reading guide",
+        "structural analysis"
+      ],
+      "review_note": "Guide classification denotes editorial orientation, not a numbered SCAN or MEMO article. English is navigational wording."
     }
   ],
   "stage_progress": {
@@ -1460,35 +1520,43 @@
       "stage-2-scan-01-through-10",
       "stage-3-scan-11-through-20",
       "stage-4-scan-21-through-30",
-      "stage-5-scan-31-through-40"
+      "stage-5-scan-31-through-40",
+      "stage-6-scan-41-through-43-memo-01-through-06-and-2-guides"
     ],
-    "next": "stage-6-scan-41-through-43-memo-01-through-06-and-2-guides",
+    "next": "stage-7-public-question-discovery-and-final-audit",
     "current_batch": {
       "scan_numbers": [
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40
+        41,
+        42,
+        43
+      ],
+      "memo_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "guide_keys": [
+        "launch",
+        "first-five"
       ],
       "checked_primary_source": [
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40
+        "scan-41",
+        "scan-42",
+        "memo-01",
+        "memo-02",
+        "memo-03",
+        "memo-05",
+        "guide-launch",
+        "guide-first-five"
       ],
-      "unavailable_primary_source": [],
+      "unavailable_primary_source": [
+        "scan-43",
+        "memo-04",
+        "memo-06"
+      ],
       "completed_date": "2026-10-28"
     },
     "retry_queue": [
@@ -1498,8 +1566,11 @@
       "scan-05",
       "scan-12",
       "scan-15",
-      "scan-17"
+      "scan-17",
+      "scan-43",
+      "memo-04",
+      "memo-06"
     ],
-    "retry_policy": "7 previously inaccessible note article bodies deferred; manual article sharing is acceptable later."
+    "retry_policy": "10 inaccessible originals deferred for manual article-text sharing or later checked retrieval. Stage 7 must not add unsupported descriptions; it can publish checked entries and transparently retain other titles as ordinary index links."
   }
 }
