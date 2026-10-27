@@ -1,9 +1,9 @@
 {
   "collection": "A_L_I_S_E scan",
   "source": "https://note.com/alise_s99lab",
-  "status": "known-serials-verified",
-  "index_updated": "2026-10-23",
-  "note": "Verified known published index range: SCAN #01–#42, MEMO #01–#06 and two independent guides; 50 unique original note URLs. MEMO #06 exact title and publication timestamp cross-checked to author's browser screenshot of its note original on 2026-10-23. No automatic note sync or later-issues coverage claim.",
+  "status": "known-serials-verified-plus-one-pending-title-date",
+  "index_updated": "2026-10-27",
+  "note": "Existing verified index range: SCAN #01–#42, MEMO #01–#06, and two independent guides (50 prior URLs). SCAN #43 URL was shared by the author on 2026-10-27; its headline is from the associated editorial draft, NOT independently matched against note's published title. Publication date/time remain unverified. Original article body remains on note; no automatic synchronization.",
   "guides": [
     {
       "key": "launch",
@@ -27,6 +27,18 @@
     }
   ],
   "articles": [
+    {
+      "type": "scan",
+      "number": 43,
+      "title": "AI犯罪に、銀行は追いつけるのか。ChatGPTトップの警告。",
+      "published": null,
+      "time_jst": null,
+      "url": "https://note.com/alise_s99lab/n/n7207f513e189",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "author-provided-note-url-2026-10-27; title-from-editorial-draft-not-matched-to-note; publication-timestamp-pending"
+    },
     {
       "type": "scan",
       "number": 42,
@@ -637,6 +649,9 @@
     "guide_links": 0,
     "undated_confirmed_scan": [],
     "undated_memo": [],
-    "future_new_issues": "Not automatically synced. Later note posts may require separate verification."
+    "future_new_issues": "Not automatically synced. Later note posts may require separate verification.",
+    "latest_scan_requires_note_original_check": [
+      43
+    ]
   }
 }
