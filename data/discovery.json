@@ -14,8 +14,9 @@
     "unavailable_primary_source": 0,
     "seeded_from_existing_pilot": 0,
     "pending_primary_source": 0,
-    "original_note_reverified_in_this_stage": 8,
-    "manual_original_text_checked": 10
+    "original_note_reverified_in_this_stage": 0,
+    "manual_original_text_checked": 10,
+    "stage_6_original_note_reverified": 8
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -1690,43 +1691,26 @@
       "stage-3-scan-11-through-20",
       "stage-4-scan-21-through-30",
       "stage-5-scan-31-through-40",
-      "stage-6-scan-41-through-43-memo-01-through-06-and-2-guides"
+      "stage-6-scan-41-through-43-memo-01-through-06-and-2-guides",
+      "stage-7-public-question-discovery-and-final-audit"
     ],
-    "next": "stage-7-public-question-discovery-and-final-audit",
+    "next": "completed-all-7-stages",
     "current_batch": {
-      "scan_numbers": [
-        41,
-        42,
-        43
-      ],
-      "memo_numbers": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "guide_keys": [
-        "launch",
-        "first-five"
-      ],
-      "checked_primary_source": [
-        "scan-41",
-        "scan-42",
-        "memo-01",
-        "memo-02",
-        "memo-03",
-        "memo-05",
-        "guide-launch",
-        "guide-first-five"
-      ],
-      "unavailable_primary_source": [
-        "scan-43",
-        "memo-04",
-        "memo-06"
-      ],
-      "completed_date": "2026-10-28"
+      "stage": 7,
+      "completed_date": "2026-10-28",
+      "published_ja": "questions.html",
+      "published_en": "questions_en.html",
+      "public_index": "data/questions.json",
+      "verified_entry_count": 51,
+      "verified_categories": 6,
+      "original_note_source_links": 51,
+      "old_archive_unchanged": {
+        "scan": 43,
+        "memo": 6,
+        "guides": 2
+      },
+      "sitemap_urls": 6,
+      "audit_errors": 0
     },
     "retry_queue": [],
     "retry_policy": "All ten previously missing note bodies have been provided by the author and checked for article-content indexing. No outstanding source-text retry cases.",
@@ -1747,6 +1731,11 @@
       "source": "Author-supplied original published note-page text in conversation for all ten missing entries; SCAN #12 provided as uploaded text file.",
       "completed_date": "2026-10-28",
       "stage_7_hold": false
+    },
+    "publication": {
+      "enabled": true,
+      "format": "Pre-rendered static bilingual HTML question index with on-page filtering; machine-readable JSON of 51 items.",
+      "display_scope": "51 verified article-content-based questions, English editorial navigation, note remains canonical full text."
     }
   }
 }
