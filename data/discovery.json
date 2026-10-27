@@ -10,11 +10,12 @@
     "scan": 43,
     "memo": 6,
     "guides": 2,
-    "checked_primary_source": 41,
-    "unavailable_primary_source": 10,
+    "checked_primary_source": 42,
+    "unavailable_primary_source": 9,
     "seeded_from_existing_pilot": 0,
     "pending_primary_source": 0,
-    "original_note_reverified_in_this_stage": 8
+    "original_note_reverified_in_this_stage": 8,
+    "manual_original_text_checked": 1
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -1414,16 +1415,33 @@
       "number": 2,
       "title_ja": "円安は金利差だけで終わらない",
       "source_url": "https://note.com/alise_s99lab/n/n2bac8073fdfe",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note article URL and public note API URL unavailable to the web retrieval tool; exact-URL search did not yield the original body.",
-      "summary_ja": null,
-      "summary_en": null,
-      "topics_en": [],
-      "review_note": "The article URL and title remain indexed, but the body was not verified in Stage 2. Recheck original/author-supplied text in Stage 7; do not derive question/categories from the headline alone."
+      "question_ja": "ドルのデジタル決済網が広がると、円安を金利差だけで説明できなくなるのはなぜか。",
+      "question_en": "Why might expanding digital-dollar payment networks make interest-rate differentials an incomplete explanation of yen weakness?",
+      "category_ids": [
+        "money_economy",
+        "ai_technology"
+      ],
+      "topics_ja": [
+        "円安",
+        "金利差",
+        "ドル建てステーブルコイン",
+        "デジタルドル",
+        "通貨の利用需要",
+        "資産保有の選択"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author manually pasted the full publicly displayed note article text (including note page title and timestamp) into ChatGPT; title and timestamp matched the prior article-index metadata. The text itself was user-provided and the live note page remained unavailable via automated retrieval.",
+      "summary_ja": "金利差による短期的な為替需要と、ステーブルコインなどを通じたドルの決済・利用基盤の拡大を区別。円が国内で使われ続けても、国際資産として積極的に保有される需要は別の方向へ動き得るという仮説を検討する。規制・発行体信用・詐欺などのリスクや、金利差縮小による円高の可能性も認めている。",
+      "summary_en": "Distinguishes short-term FX demand driven by interest-rate gaps from the expansion of dollar-denominated payment and wallet infrastructure. Explores the possibility that the yen stays essential for domestic transactions while weakening as a chosen international store of value, acknowledging stablecoin risks and possible rate-driven yen rallies.",
+      "topics_en": [
+        "yen depreciation",
+        "interest-rate differentials",
+        "dollar stablecoins",
+        "digital dollar",
+        "currency usage demand",
+        "asset allocation"
+      ],
+      "review_note": "Author-supplied note-page transcript, not an independent live-page fetch. Describes an editorial thesis, not proof that digital-dollar usage causes or sustains FX depreciation. Note title appears with the public issue suffix '｜A_L_I_S_E scan #02'; the index intentionally uses a shorter headline. Published 2026-06-25 06:47 JST (already present in articles.json)."
     },
     {
       "id": "scan-01",
@@ -1523,7 +1541,7 @@
       "stage-5-scan-31-through-40",
       "stage-6-scan-41-through-43-memo-01-through-06-and-2-guides"
     ],
-    "next": "stage-7-public-question-discovery-and-final-audit",
+    "next": "manual-backfill-missing-originals-before-stage-7",
     "current_batch": {
       "scan_numbers": [
         41,
@@ -1560,7 +1578,6 @@
       "completed_date": "2026-10-28"
     },
     "retry_queue": [
-      "scan-02",
       "scan-03",
       "scan-04",
       "scan-05",
@@ -1571,6 +1588,25 @@
       "memo-04",
       "memo-06"
     ],
-    "retry_policy": "10 inaccessible originals deferred for manual article-text sharing or later checked retrieval. Stage 7 must not add unsupported descriptions; it can publish checked entries and transparently retain other titles as ordinary index links."
+    "retry_policy": "9 missing note bodies remain deferred for author manual sharing; SCAN #02 completed through author-supplied note-page transcript. Keep Stage 7 held until all 51 are content-checked, per author.",
+    "manual_backfill": {
+      "completed": [
+        "scan-02"
+      ],
+      "pending": [
+        "scan-03",
+        "scan-04",
+        "scan-05",
+        "scan-12",
+        "scan-15",
+        "scan-17",
+        "scan-43",
+        "memo-04",
+        "memo-06"
+      ],
+      "source": "author-supplied rendered note article body",
+      "completed_date": "2026-10-28",
+      "stage_7_hold": true
+    }
   }
 }
