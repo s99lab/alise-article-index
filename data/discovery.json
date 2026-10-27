@@ -10,12 +10,12 @@
     "scan": 43,
     "memo": 6,
     "guides": 2,
-    "checked_primary_source": 45,
-    "unavailable_primary_source": 6,
+    "checked_primary_source": 48,
+    "unavailable_primary_source": 3,
     "seeded_from_existing_pilot": 0,
     "pending_primary_source": 0,
     "original_note_reverified_in_this_stage": 8,
-    "manual_original_text_checked": 4
+    "manual_original_text_checked": 7
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -1036,16 +1036,33 @@
       "number": 17,
       "title_ja": "人間は、感情のない声に耐えられるか",
       "source_url": "https://note.com/alise_s99lab/n/nb258a1f52e43",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note URL retrieval and exact-URL/title web searches did not provide the article body.",
-      "review_note": "Keep question, summary and categories blank until original article text or an author-provided copy is available. Manual sharing is acceptable later.",
-      "topics_en": [],
-      "summary_ja": null,
-      "summary_en": null
+      "question_ja": "人間ではないと知るAIの声に人格や親密さを感じるとき、人間はどう境界を保てるのか。",
+      "question_en": "How can people keep boundaries when they feel personhood or intimacy in an AI voice they know is not human?",
+      "category_ids": [
+        "ai_technology",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "GPTライブ",
+        "AI音声対話",
+        "人格の知覚",
+        "擬人化",
+        "親密さ",
+        "人間関係の摩擦"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author provided complete text transcribed from the rendered note article in this conversation; issue headline and publish timestamp were checked against index; no automated live-page fetch claimed.",
+      "review_note": "Anthropomorphism is the topic; claims about AI emotion/consciousness are not independently established by this content. English is editorial.",
+      "topics_en": [
+        "GPT Live",
+        "AI voice dialogue",
+        "perceived personhood",
+        "anthropomorphism",
+        "intimacy",
+        "friction in relationships"
+      ],
+      "summary_ja": "GPTライブの自然な音声対話への『凄い、しかし怖い』という反応から、人間が声や間や応答で人格・心を推測する仕組みを考察。摩擦の少ないAIとの会話が人間関係の重みや不完全さとの比較を生み得るとし、感じた親密さと実在する相互的関係を区別する必要を問う。",
+      "summary_en": "Reflects on a response of amazement and unease to natural AI voice dialogue. It examines how people infer personhood from tone, timing and responsiveness, and why effortless AI conversation may blur the distinction between felt intimacy and mutual relationships with other people."
     },
     {
       "id": "scan-16",
@@ -1084,16 +1101,34 @@
       "number": 15,
       "title_ja": "怒らない日本人が、いちばん怖い",
       "source_url": "https://note.com/alise_s99lab/n/ne835337950f1",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note URL retrieval and exact-URL/title web searches did not provide the article body.",
-      "review_note": "Keep question, summary and categories blank until original article text or an author-provided copy is available. Manual sharing is acceptable later.",
-      "topics_en": [],
-      "summary_ja": null,
-      "summary_en": null
+      "question_ja": "その場で怒りが見えないとき、礼節の裏側で信用の離脱はどう積み重なるのか。",
+      "question_en": "When anger remains unspoken, how might silent loss of trust accumulate beneath social courtesy?",
+      "category_ids": [
+        "human_life_health",
+        "society_governance",
+        "media_information"
+      ],
+      "topics_ja": [
+        "怒りの表現",
+        "日本の礼節",
+        "信用の離脱",
+        "SNS",
+        "オーバーツーリズム",
+        "沈黙と同意"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author provided complete text transcribed from the rendered note article in this conversation; issue headline and publish timestamp were checked against index; no automated live-page fetch claimed.",
+      "review_note": "This is an author's cultural interpretation, not a proven statement about every Japanese person's emotions or behaviors. English is navigational.",
+      "topics_en": [
+        "expressing anger",
+        "Japanese social courtesy",
+        "withdrawal of trust",
+        "social media",
+        "overtourism",
+        "silence versus consent"
+      ],
+      "summary_ja": "日本社会に見られると筆者が考える『怒りを畳む』態度を、礼節による衝突回避と、声に出さない信用低下の両面から描く。SNSでの不満の共有、観光の受益者と生活負担者の違い、苦情が出ないことと同意を混同する危険を論じる。国民全体を実証的に一般化した研究ではない。",
+      "summary_en": "Portrays the author's reading of Japanese courtesy as sometimes containing unspoken grievances and quiet withdrawal of trust. Connects this to social-media discussion and uneven tourism burdens, while not presenting a proven generalization about all Japanese people."
     },
     {
       "id": "scan-14",
@@ -1165,16 +1200,32 @@
       "number": 12,
       "title_ja": "ステーブルコインは、打出の小槌だった",
       "source_url": "https://note.com/alise_s99lab/n/n2018f46d221b",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note URL retrieval and exact-URL/title web searches did not provide the article body.",
-      "review_note": "Keep question, summary and categories blank until original article text or an author-provided copy is available. Manual sharing is acceptable later.",
-      "topics_en": [],
-      "summary_ja": null,
-      "summary_en": null
+      "question_ja": "ステーブルコイン市場の競争は、コインの発行数ではなく準備金利息の分配と接続網をどう変えるのか。",
+      "question_en": "How might stablecoin competition reshape reserve-yield sharing and financial connectivity rather than merely add new coins?",
+      "category_ids": [
+        "money_economy"
+      ],
+      "topics_ja": [
+        "ステーブルコイン",
+        "準備金利回り",
+        "Open USD",
+        "Circle・USDC",
+        "Ripple・RLUSD",
+        "XRPの需要検証"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author supplied an uploaded full text copy of the rendered note page (including issue headline, timestamp and article body), which was read in this conversation; date/title agree with the index.",
+      "review_note": "Open USD article describes a proposed competitive structure and does not demonstrate XRP adoption or sustained holdings. Claims in cited source material were not independently checked; English is editorial.",
+      "topics_en": [
+        "stablecoins",
+        "reserve yield",
+        "Open USD",
+        "Circle and USDC",
+        "Ripple and RLUSD",
+        "testing XRP demand"
+      ],
+      "summary_ja": "Open USD構想を機に、準備金が生む利息を発行体と配布・決済パートナーの誰が受け取るかを検討。CircleのUSDCとRippleのRLUSD・決済／流動性サービスを『水槽と配管』にたとえ、利回り分配から相互接続へ注目を移す。Open USDはXRPの保有需要を直接証明しないと明記する。",
+      "summary_en": "Uses the proposed Open USD model to examine how interest earned on stablecoin reserves might be shared among issuers and distribution partners. Contrasts Circle's USDC reserve model with Ripple's potential connectivity services, while explicitly saying Open USD does not demonstrate XRP demand."
     },
     {
       "id": "scan-11",
@@ -1628,9 +1679,6 @@
       "completed_date": "2026-10-28"
     },
     "retry_queue": [
-      "scan-12",
-      "scan-15",
-      "scan-17",
       "scan-43",
       "memo-04",
       "memo-06"
@@ -1641,12 +1689,12 @@
         "scan-02",
         "scan-03",
         "scan-04",
-        "scan-05"
-      ],
-      "pending": [
+        "scan-05",
         "scan-12",
         "scan-15",
-        "scan-17",
+        "scan-17"
+      ],
+      "pending": [
         "scan-43",
         "memo-04",
         "memo-06"
