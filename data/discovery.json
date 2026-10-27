@@ -11,8 +11,10 @@
     "memo": 6,
     "guides": 2,
     "seeded_from_existing_pilot": 4,
-    "pending_primary_source": 47,
-    "original_note_reverified_in_this_stage": 0
+    "pending_primary_source": 37,
+    "original_note_reverified_in_this_stage": 6,
+    "checked_primary_source": 6,
+    "unavailable_primary_source": 4
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -21,7 +23,7 @@
       "pending_primary_source": "Only index metadata is present; no question assigned yet.",
       "seeded_existing_pilot_summary": "Preliminary navigation phrasing derived from existing pilot summary, not independently re-read in stage 1.",
       "checked_primary_source": "Original note body or author-supplied article content inspected and question verified.",
-      "unavailable_primary_source": "Primary article text could not be inspected; leave unverifiable fields blank."
+      "unavailable_primary_source": "Primary article text could not be inspected via this retrieval path. Never infer question/categories from title; retry when a verifiable source is available."
     }
   },
   "categories": [
@@ -601,12 +603,29 @@
       "number": 10,
       "title_ja": "AI開発は、なぜ止まらないのか",
       "source_url": "https://note.com/alise_s99lab/n/n90fbb0f49f61",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "企業と国家は、なぜAI開発競争から簡単に降りることができないのか。",
+      "question_en": "Why is it difficult for companies and states to step away from the AI development race?",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "AI開発競争",
+        "技術標準",
+        "国家競争",
+        "敗北回避"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "Original note article body inspected via public web retrieval on 2026-10-28; source_url is the note original.",
+      "summary_ja": "AI開発競争を利益追求だけでなく、技術標準・安全保障・産業の主導権を失うことへの恐れが加速させるという仮説から検討する。",
+      "summary_en": "Explores the hypothesis that fear of losing technological standards, security advantages, and industrial influence—beyond profit alone—drives the AI race.",
+      "topics_en": [
+        "AI race",
+        "technology standards",
+        "geopolitical competition",
+        "loss aversion"
+      ],
+      "review_note": "Editorial question, theme, and summary, not factual verification of the article's substantive claims; English fields are navigation translations."
     },
     {
       "id": "scan-09",
@@ -614,12 +633,29 @@
       "number": 9,
       "title_ja": "イーロン・マスクは、火星を目指しているだけなのか",
       "source_url": "https://note.com/alise_s99lab/n/neebbb867d060",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "マスク氏の宇宙・通信・AI事業は、火星移住を超える文明インフラの構築として読めるか。",
+      "question_en": "Can Musk's space, connectivity, and AI ventures be interpreted as infrastructure for extending civilization beyond Earth?",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "イーロン・マスク",
+        "SpaceX",
+        "Starlink",
+        "文明インフラ"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "Original note article body inspected via public web retrieval on 2026-10-28; source_url is the note original.",
+      "summary_ja": "SpaceX、Starlink、Tesla、xAIなどの事業を、単なる火星旅行ではなく輸送・通信・知能・エネルギーの基盤をつなぐ構想として読む仮説的論考。",
+      "summary_en": "Offers an interpretive reading of SpaceX, Starlink, Tesla, and xAI as interconnected transport, connectivity, intelligence, and energy infrastructure rather than only a Mars travel project.",
+      "topics_en": [
+        "Elon Musk",
+        "SpaceX",
+        "Starlink",
+        "civilizational infrastructure"
+      ],
+      "review_note": "Editorial question, theme, and summary, not factual verification of the article's substantive claims; English fields are navigation translations."
     },
     {
       "id": "scan-08",
@@ -627,12 +663,29 @@
       "number": 8,
       "title_ja": "NHKに足りないのは金か、信頼か",
       "source_url": "https://note.com/alise_s99lab/n/ne72d3f2ed338",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "NHKの問題は赤字だけなのか。それとも、受信料制度の信頼と説明責任なのか。",
+      "question_en": "Is NHK's central problem its deficit, or trust and accountability surrounding its license-fee system?",
+      "category_ids": [
+        "media_information",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "NHK",
+        "受信料",
+        "公共放送",
+        "説明責任"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "Original note article body inspected via public web retrieval on 2026-10-28; source_url is the note original.",
+      "summary_ja": "NHKの赤字、関連団体との資金の流れ、ネット配信への展開、報道への信頼を並べ、公共放送への負担が受け入れられる条件を問う。",
+      "summary_en": "Examines NHK's deficit, affiliated organizations, online expansion, and perceived reporting trust as questions of accountability and public acceptance.",
+      "topics_en": [
+        "NHK",
+        "license fee",
+        "public broadcasting",
+        "accountability"
+      ],
+      "review_note": "Editorial question, theme, and summary, not factual verification of the article's substantive claims; English fields are navigation translations."
     },
     {
       "id": "scan-07",
@@ -640,12 +693,29 @@
       "number": 7,
       "title_ja": "日本政府は、本当に円安を嫌がっているのか",
       "source_url": "https://note.com/alise_s99lab/n/n9e77f4beb1d7",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "政府が円安を警戒する発言をしながら、政策上は弱い円に一定の利点を見いだしうるのはなぜか。",
+      "question_en": "Why might a government publicly warn against yen depreciation while facing policy incentives that could favor a weaker yen?",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "円安",
+        "政府の政策",
+        "国民生活",
+        "為替"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "Original note article body inspected via public web retrieval on 2026-10-28; source_url is the note original.",
+      "summary_ja": "円安の家計負担と、名目税収・輸出・産業投資などへの影響を対比し、政府の発言と政策上の誘因のズレを論じる。",
+      "summary_en": "Contrasts the household costs of yen weakness with potential incentives relating to nominal tax revenue, exports, and industrial investment.",
+      "topics_en": [
+        "Yen depreciation",
+        "government policy",
+        "household costs",
+        "foreign exchange"
+      ],
+      "review_note": "Editorial question, theme, and summary, not factual verification of the article's substantive claims; English fields are navigation translations."
     },
     {
       "id": "scan-06",
@@ -653,12 +723,29 @@
       "number": 6,
       "title_ja": "北尾吉孝は、戦後メディアの配線を変えようとしているのか",
       "source_url": "https://note.com/alise_s99lab/n/nf02bc63f34ce",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "金融資本とテレビメディアが結びつくと、日本の情報空間や世論形成はどう変わりうるか。",
+      "question_en": "How could closer ties between finance and television reshape Japan's information landscape and public opinion?",
+      "category_ids": [
+        "media_information",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "SBI",
+        "テレビメディア",
+        "情報空間",
+        "世論形成"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "Original note article body inspected via public web retrieval on 2026-10-28; source_url is the note original.",
+      "summary_ja": "SBIとフジ・メディア・ホールディングスの接近を、コンテンツ投資にとどまらず金融・情報・世論形成の接続として考察する評論。人物の意図を確定事実とはしない。",
+      "summary_en": "Interprets SBI's relationship with Fuji Media Holdings as a potential intersection of finance, content, and opinion formation, without treating inferred motives as verified facts.",
+      "topics_en": [
+        "SBI",
+        "television media",
+        "information landscape",
+        "public opinion"
+      ],
+      "review_note": "Editorial question, theme, and summary, not factual verification of the article's substantive claims; English fields are navigation translations."
     },
     {
       "id": "scan-05",
@@ -670,8 +757,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note article URL and public note API URL unavailable to the web retrieval tool; exact-URL search did not yield the original body.",
+      "summary_ja": null,
+      "summary_en": null,
+      "topics_en": [],
+      "review_note": "The article URL and title remain indexed, but the body was not verified in Stage 2. Recheck original/author-supplied text in Stage 7; do not derive question/categories from the headline alone."
     },
     {
       "id": "scan-04",
@@ -683,8 +774,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note article URL and public note API URL unavailable to the web retrieval tool; exact-URL search did not yield the original body.",
+      "summary_ja": null,
+      "summary_en": null,
+      "topics_en": [],
+      "review_note": "The article URL and title remain indexed, but the body was not verified in Stage 2. Recheck original/author-supplied text in Stage 7; do not derive question/categories from the headline alone."
     },
     {
       "id": "scan-03",
@@ -696,8 +791,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note article URL and public note API URL unavailable to the web retrieval tool; exact-URL search did not yield the original body.",
+      "summary_ja": null,
+      "summary_en": null,
+      "topics_en": [],
+      "review_note": "The article URL and title remain indexed, but the body was not verified in Stage 2. Recheck original/author-supplied text in Stage 7; do not derive question/categories from the headline alone."
     },
     {
       "id": "scan-02",
@@ -709,8 +808,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note article URL and public note API URL unavailable to the web retrieval tool; exact-URL search did not yield the original body.",
+      "summary_ja": null,
+      "summary_en": null,
+      "topics_en": [],
+      "review_note": "The article URL and title remain indexed, but the body was not verified in Stage 2. Recheck original/author-supplied text in Stage 7; do not derive question/categories from the headline alone."
     },
     {
       "id": "scan-01",
@@ -718,12 +821,29 @@
       "number": 1,
       "title_ja": "米国はドルをアプリ化した",
       "source_url": "https://note.com/alise_s99lab/n/n60f5247f96c6",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "米国のドル建てステーブルコイン政策は、暗号資産の決済網をドル資産への需要にどう結びつけうるか。",
+      "question_en": "How might US dollar stablecoins connect crypto payment networks to demand for dollar-denominated assets?",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "ドル建てステーブルコイン",
+        "米国債",
+        "暗号資産政策",
+        "ドル覇権"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "Original note article body inspected via public web retrieval on 2026-10-28; source_url is the note original.",
+      "summary_ja": "ドル建てステーブルコインを、利便性だけでなく米国債などの準備資産需要とドル圏の拡張につながりうる仕組みとして読み、円への影響も考察する。",
+      "summary_en": "Explores the thesis that dollar stablecoins may extend the dollar's financial reach through reserve-asset demand and digital payments, with implications for the yen.",
+      "topics_en": [
+        "Dollar stablecoins",
+        "US Treasuries",
+        "crypto policy",
+        "dollar dominance"
+      ],
+      "review_note": "Editorial question, theme, and summary, not factual verification of the article's substantive claims; English fields are navigation translations."
     },
     {
       "id": "guide-launch",
@@ -751,5 +871,47 @@
       "review_state": "pending_primary_source",
       "review_basis": null
     }
-  ]
+  ],
+  "stage_progress": {
+    "completed": [
+      "stage-1-foundation",
+      "stage-2-scan-01-through-10"
+    ],
+    "next": "stage-3-scan-11-through-20",
+    "current_batch": {
+      "scan_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "checked_primary_source": [
+        1,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "unavailable_primary_source": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "completed_date": "2026-10-28"
+    },
+    "retry_queue": [
+      "scan-02",
+      "scan-03",
+      "scan-04",
+      "scan-05"
+    ]
+  }
 }
