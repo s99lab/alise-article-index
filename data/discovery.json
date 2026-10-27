@@ -85,12 +85,31 @@
       "number": 42,
       "title_ja": "ChatGPTを生んだ会社のトップも、未来を読み違えた。",
       "source_url": "https://note.com/alise_s99lab/n/n998a9d595c22",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "AIを導入しても古い仕事をやめられない組織は、なぜ本当の業務変革が進まないのか。",
+      "question_en": "Why does introducing AI fail to transform organizations that retain their old workflows?",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "生成AI",
+        "業務変革",
+        "組織の慣性",
+        "人手不足",
+        "サム・アルトマン"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note text obtained via public indexed article or original page; original URL and title matched the existing index.",
+      "summary_ja": "AIによる個々の作業の効率化と、仕事・承認・役割の再設計を区別する。アルトマン氏自身の習慣を例に、組織の慣性と人手不足が導入と変革の速度にどう作用するかを論じる。",
+      "summary_en": "Distinguishes faster individual tasks from redesigning workflows, approvals, and roles, using Altman's habits to explore organizational inertia and labor shortages.",
+      "topics_en": [
+        "generative AI",
+        "workflow redesign",
+        "organizational inertia",
+        "labor shortages",
+        "Sam Altman"
+      ],
+      "review_note": "Questions and summaries represent the article's analysis, not independent fact verification; English text is an editorial navigation aid."
     },
     {
       "id": "scan-41",
@@ -98,12 +117,32 @@
       "number": 41,
       "title_ja": "同じ人類が、別の時代を生き始めた。",
       "source_url": "https://note.com/alise_s99lab/n/n511ff57c256c",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "技術進歩が加速しても、人類が共有する未来や現実認識の距離はむしろ広がるのか。",
+      "question_en": "As technological progress accelerates, could the gap in people's lived futures and sense of reality widen?",
+      "category_ids": [
+        "ai_technology",
+        "society_governance",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "技術格差",
+        "未来の分岐",
+        "AIへの接続",
+        "人間の進歩",
+        "共通社会"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note text obtained via public indexed article or original page; original URL and title matched the existing index.",
+      "summary_ja": "AI・資本・教育への接続差により、同じ社会の人々が異なる未来を生き始める可能性を考察。世界全体の生活改善と、進歩の先端との距離が縮むことを区別する。",
+      "summary_en": "Explores how unequal access to AI, capital, and education can divide lived futures, distinguishing global improvements in living standards from convergence with the technological frontier.",
+      "topics_en": [
+        "technology inequality",
+        "diverging futures",
+        "AI access",
+        "human progress",
+        "shared society"
+      ],
+      "review_note": "Questions and summaries represent the article's analysis, not independent fact verification; English text is an editorial navigation aid."
     },
     {
       "id": "scan-40",
@@ -589,12 +628,29 @@
       "number": 3,
       "title_ja": "不満は、証拠を集める",
       "source_url": "https://note.com/alise_s99lab/n/n68ab58285979",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "他人への不満を持つと、なぜ合致する出来事だけを証拠として積み重ねやすいのか。",
+      "question_en": "Why can dissatisfaction with someone make confirming incidents feel like accumulating proof?",
+      "category_ids": [
+        "human_life_health",
+        "media_information"
+      ],
+      "topics_ja": [
+        "確証バイアス",
+        "人間関係",
+        "不満",
+        "選択的証拠"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note text obtained via public indexed article or original page; original URL and title matched the existing index.",
+      "summary_ja": "相手への不満が先にあると曖昧な行動が次々に裏付けに見え、反例が数えられにくくなる日常の確証バイアスを描く。",
+      "summary_en": "Uses everyday relationship judgments to explain how prior grievances can make ambiguous behavior seem confirmatory while contrary examples receive less attention.",
+      "topics_en": [
+        "confirmation bias",
+        "relationships",
+        "grievances",
+        "selective evidence"
+      ],
+      "review_note": "Questions and summaries represent the article's analysis, not independent fact verification; English text is an editorial navigation aid."
     },
     {
       "id": "memo-02",
@@ -602,12 +658,29 @@
       "number": 2,
       "title_ja": "お金の流れを追えば、真実が見える",
       "source_url": "https://note.com/alise_s99lab/n/n41ec35f3c887",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "歴史や政策の理想を理解するには、誰が資金を出し、受け取り、負担したかも追うべきではないか。",
+      "question_en": "To understand political and historical ideals, should we also track who funded, benefited from, and bore the costs of events?",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "資金の流れ",
+        "歴史",
+        "利害",
+        "制度の継続"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note text obtained via public indexed article or original page; original URL and title matched the existing index.",
+      "summary_ja": "正義・自由など表向きの目的を否定せず、その政策や出来事を動かし維持した資金の流れと受益・負担の構造を見る重要性を論じる。金銭だけで全動機を説明する立場ではない。",
+      "summary_en": "Argues that funding, beneficiaries, and costs matter alongside ideals such as justice and freedom, without reducing all human motivation to money.",
+      "topics_en": [
+        "money flows",
+        "history",
+        "incentives",
+        "institutional persistence"
+      ],
+      "review_note": "Questions and summaries represent the article's analysis, not independent fact verification; English text is an editorial navigation aid."
     },
     {
       "id": "memo-01",
@@ -615,12 +688,29 @@
       "number": 1,
       "title_ja": "同じ2万円でも、未来の向きは違う",
       "source_url": "https://note.com/alise_s99lab/n/n2963dfca8b23",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "同じ毎月2万円でも、リボ払いと積立では将来の選択肢にどう違いが生まれるのか。",
+      "question_en": "How can the same monthly amount create different future choices through revolving debt versus saving and investing?",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "家計",
+        "リボ払い",
+        "積立",
+        "未来の選択肢"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note text obtained via public indexed article or original page; original URL and title matched the existing index.",
+      "summary_ja": "月2万円をリボ払いの返済に使う場合と積立に回す仮定を比較し、今日の支払額が同じでも将来の収支と選択肢は変わると問いかける。利率・運用益の数字は例示的な試算であり保証ではない。",
+      "summary_en": "Contrasts a hypothetical monthly revolving-credit repayment with investing the same sum, examining future obligations versus options; financial return figures are illustrative, not guaranteed.",
+      "topics_en": [
+        "personal finance",
+        "revolving credit",
+        "regular investing",
+        "future choices"
+      ],
+      "review_note": "Questions and summaries represent the article's analysis, not independent fact verification; English text is an editorial navigation aid."
     },
     {
       "id": "scan-26",
