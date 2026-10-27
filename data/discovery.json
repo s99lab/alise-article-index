@@ -10,12 +10,12 @@
     "scan": 43,
     "memo": 6,
     "guides": 2,
-    "checked_primary_source": 42,
-    "unavailable_primary_source": 9,
+    "checked_primary_source": 45,
+    "unavailable_primary_source": 6,
     "seeded_from_existing_pilot": 0,
     "pending_primary_source": 0,
     "original_note_reverified_in_this_stage": 8,
-    "manual_original_text_checked": 1
+    "manual_original_text_checked": 4
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -1364,16 +1364,33 @@
       "number": 5,
       "title_ja": "中国は世界を囲みながら、内側から沈んでいるのか",
       "source_url": "https://note.com/alise_s99lab/n/n31d44dbf7ad1",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note article URL and public note API URL unavailable to the web retrieval tool; exact-URL search did not yield the original body.",
-      "summary_ja": null,
-      "summary_en": null,
-      "topics_en": [],
-      "review_note": "The article URL and title remain indexed, but the body was not verified in Stage 2. Recheck original/author-supplied text in Stage 7; do not derive question/categories from the headline alone."
+      "question_ja": "中国の国内不動産不振と、世界の製造供給網への影響力はなぜ同時に存在するのか。",
+      "question_en": "How can China's domestic property distress coexist with powerful leverage over global manufacturing supply chains?",
+      "category_ids": [
+        "society_governance",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "中国",
+        "不動産危機",
+        "レアアース加工",
+        "サプライチェーン",
+        "台湾",
+        "米中関係"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author supplied complete rendered note article page text directly in this conversation; issue headline and published date/time matched the existing index. Automated live-page fetch not claimed.",
+      "summary_ja": "中国を『崩壊か覇権か』の二択にせず、海花島などの不動産・地方財政・国内信用の弱さと、重要鉱物の加工、電池、太陽光、EV、供給網の国際的な強みを併置。台湾半導体、日本の米国安全保障と中国製造網への二重依存を含め、筆者の構造仮説として論じる。",
+      "summary_en": "Rejects a simple China-is-collapsing versus China-is-dominating choice. It contrasts real-estate and local-government strains with global strengths in processing and manufacturing, and examines Taiwan semiconductor risk and Japan's dependence on both US security and Chinese supply chains as an editorial interpretation.",
+      "topics_en": [
+        "China",
+        "property downturn",
+        "rare-earth processing",
+        "supply chains",
+        "Taiwan",
+        "US–China relations"
+      ],
+      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid."
     },
     {
       "id": "scan-04",
@@ -1381,16 +1398,33 @@
       "number": 4,
       "title_ja": "東京不動産は円から逃げる箱になるのか",
       "source_url": "https://note.com/alise_s99lab/n/n65be3304adb5",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note article URL and public note API URL unavailable to the web retrieval tool; exact-URL search did not yield the original body.",
-      "summary_ja": null,
-      "summary_en": null,
-      "topics_en": [],
-      "review_note": "The article URL and title remain indexed, but the body was not verified in Stage 2. Recheck original/author-supplied text in Stage 7; do not derive question/categories from the headline alone."
+      "question_ja": "東京不動産が円の不安を受け止める資産となるには、どんな立地・需要・管理・出口が必要か。",
+      "question_en": "What location, demand, management and exit conditions would let Tokyo property act as a refuge from yen-related uncertainty?",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "東京不動産",
+        "資産防衛",
+        "円安",
+        "住宅実需",
+        "維持費",
+        "売却出口"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author supplied complete rendered note article page text directly in this conversation; issue headline and published date/time matched the existing index. Automated live-page fetch not claimed.",
+      "summary_ja": "東京不動産は円建てでも、生活実需・都市の国際的魅力・海外需要によって円だけでは評価されない可能性を論じる。同時に、全物件が安全な避難先ではなく、立地、賃貸・購入需要、管理修繕費、災害リスク、売却出口と金利の選別が不可欠と強調する。",
+      "summary_en": "Explores why yen-denominated Tokyo property might attract real household demand and global capital, while warning that only select properties can function as a refuge. Location, occupancy demand, upkeep, disaster exposure, financing costs and resale exit matter more than the city's name.",
+      "topics_en": [
+        "Tokyo real estate",
+        "wealth preservation",
+        "yen weakness",
+        "housing demand",
+        "ownership costs",
+        "exit liquidity"
+      ],
+      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid."
     },
     {
       "id": "scan-03",
@@ -1398,16 +1432,32 @@
       "number": 3,
       "title_ja": "XRPはデジタルドル時代のどこに置かれるのか",
       "source_url": "https://note.com/alise_s99lab/n/n8b6f43848e7d",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note article URL and public note API URL unavailable to the web retrieval tool; exact-URL search did not yield the original body.",
-      "summary_ja": null,
-      "summary_en": null,
-      "topics_en": [],
-      "review_note": "The article URL and title remain indexed, but the body was not verified in Stage 2. Recheck original/author-supplied text in Stage 7; do not derive question/categories from the headline alone."
+      "question_ja": "デジタルドルの仕組みが増える世界で、XRPはどの接続摩擦を減らせるのか。",
+      "question_en": "As digital-dollar systems multiply, which real frictions could XRP help reduce between them?",
+      "category_ids": [
+        "money_economy"
+      ],
+      "topics_ja": [
+        "XRP",
+        "RLUSD",
+        "デジタルドル",
+        "台帳間接続",
+        "流動性",
+        "実需と採用"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author supplied complete rendered note article page text directly in this conversation; issue headline and published date/time matched the existing index. Automated live-page fetch not claimed.",
+      "summary_ja": "ドルを中心とするステーブルコイン・銀行・証券・台帳・法域は一体ではない。XRPを『変換プラグ』や橋にたとえ、RLUSDとXRPLの接続、実際の利用主体、流量、コストや摩擦の削減を評価軸とする。橋になれる可能性と実需の成立を明確に区別する。",
+      "summary_en": "The digital-dollar world spans different ledgers, banks, markets and jurisdictions. The article treats XRP as a potential bridge rather than a rival to the dollar, asking whether RLUSD/XRPL connectivity yields measurable users, flows and friction reduction, not merely announced adoption.",
+      "topics_en": [
+        "XRP",
+        "RLUSD",
+        "digital dollar",
+        "ledger interoperability",
+        "liquidity",
+        "actual use versus announced adoption"
+      ],
+      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid."
     },
     {
       "id": "scan-02",
@@ -1578,9 +1628,6 @@
       "completed_date": "2026-10-28"
     },
     "retry_queue": [
-      "scan-03",
-      "scan-04",
-      "scan-05",
       "scan-12",
       "scan-15",
       "scan-17",
@@ -1591,12 +1638,12 @@
     "retry_policy": "9 missing note bodies remain deferred for author manual sharing; SCAN #02 completed through author-supplied note-page transcript. Keep Stage 7 held until all 51 are content-checked, per author.",
     "manual_backfill": {
       "completed": [
-        "scan-02"
-      ],
-      "pending": [
+        "scan-02",
         "scan-03",
         "scan-04",
-        "scan-05",
+        "scan-05"
+      ],
+      "pending": [
         "scan-12",
         "scan-15",
         "scan-17",
