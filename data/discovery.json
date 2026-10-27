@@ -176,12 +176,29 @@
       "number": 35,
       "title_ja": "CLARITYは止まった。結果的に、Rippleの優位は広がった――全員のルールが遅れたその間も、市場は先へ進んだ",
       "source_url": "https://note.com/alise_s99lab/n/nb303ed339ce3",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "共通のデジタル資産規制が遅れると、先に法的明確性を得た企業にはどんな相対的優位が残るのか。",
+      "question_en": "When digital-asset rules are delayed, what advantage remains for firms with existing legal clarity?",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "CLARITY",
+        "Ripple",
+        "法的明確性",
+        "XRP保持需要"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: public note article text retrieved via title-specific search; same original URL and SCAN number.",
+      "summary_ja": "CLARITY法案の遅延によるRippleの既存の制度的地位の相対的価値という著者の仮説を説明。Rippleの立場、XRPL採用、XRPの継続保有需要は区別する。",
+      "summary_en": "Interprets the CLARITY delay as potentially preserving Ripple's institutional lead, without inferring XRPL adoption or sustained XRP demand.",
+      "topics_en": [
+        "CLARITY",
+        "Ripple",
+        "legal clarity",
+        "XRP demand"
+      ],
+      "review_note": "Editorial interpretation of author argument, not independent validation. English fields are navigation aids."
     },
     {
       "id": "scan-34",
@@ -189,12 +206,29 @@
       "number": 34,
       "title_ja": "買える人は、いる。――東京マンションは、本当に下がるのか",
       "source_url": "https://note.com/alise_s99lab/n/n9b734ba06fc1",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "東京の高額マンション市場では、買える人が購入を待つ理由と、金利・物件の希少性が調整をどう変えるのか。",
+      "question_en": "Why might wealthy Tokyo condo buyers wait, and how do interest rates and scarcity affect prices?",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "東京マンション",
+        "買い控え",
+        "住宅ローン",
+        "希少性"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: public note article text retrieved via title-specific search; same original URL and SCAN number.",
+      "summary_ja": "平均所得と実際の購入層の資産を分け、買い控え心理と住宅ローン金利、代替しにくい物件の希少性を検討。一律の下落を予測しない。",
+      "summary_en": "Distinguishes broad affordability from actual buyer resources, considering waiting behavior, loan costs, and scarce property attributes.",
+      "topics_en": [
+        "Tokyo condos",
+        "buyers",
+        "mortgage rates",
+        "scarcity"
+      ],
+      "review_note": "Editorial interpretation of author argument, not independent validation. English fields are navigation aids."
     },
     {
       "id": "scan-33",
@@ -202,12 +236,31 @@
       "number": 33,
       "title_ja": "SWIFTを使い続けるための工事費は、誰が払うのか",
       "source_url": "https://note.com/alise_s99lab/n/n2fbb7e1e2cab",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "金融ネットワークの規格変更に伴う外部の改修費は誰が負い、その負担を吸収する力は競争力になるのか。",
+      "question_en": "Who bears external migration costs when a financial network changes its standards?",
+      "category_ids": [
+        "money_economy",
+        "ai_technology"
+      ],
+      "topics_ja": [
+        "SWIFT",
+        "ISO 20022",
+        "ERP",
+        "データ改修",
+        "移行コスト"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: public note article text retrieved via title-specific search; same original URL and SCAN number.",
+      "summary_ja": "SWIFTのISO 20022住所構造化を例に、規格を決める主体と銀行・企業が負うデータ改修負担を区別し、ネットワーク境界の吸収力を問う。",
+      "summary_en": "Uses SWIFT ISO 20022 address migration to examine the cost imposed on enterprise systems and the value of interoperability.",
+      "topics_en": [
+        "SWIFT",
+        "ISO 20022",
+        "ERP",
+        "data migration",
+        "integration costs"
+      ],
+      "review_note": "Editorial interpretation of author argument, not independent validation. English fields are navigation aids."
     },
     {
       "id": "scan-32",
@@ -215,12 +268,30 @@
       "number": 32,
       "title_ja": "国家を必要としないBitcoinは、最後に誰を必要とするのか",
       "source_url": "https://note.com/alise_s99lab/n/nd7aee39aad87",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "国家の保証を必要としないBitcoinを準備資産とするとき、誰が最後までネットワークの安全性を支えるのか。",
+      "question_en": "Who ultimately sustains Bitcoin network security if states depend on it as a reserve asset?",
+      "category_ids": [
+        "money_economy",
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "Bitcoin",
+        "マイニング",
+        "ネットワーク安全性",
+        "準備資産"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: public note article text retrieved via title-specific search; same original URL and SCAN number.",
+      "summary_ja": "フォーク時に何をBitcoinと呼ぶか、民間マイナーの採算、電力設備のAI用途への転換を考察し、安全性を支える経済的誘因を問う。",
+      "summary_en": "Examines fork governance, private mining incentives, and competition for electricity and data-center infrastructure from AI.",
+      "topics_en": [
+        "Bitcoin",
+        "mining",
+        "network security",
+        "reserve assets"
+      ],
+      "review_note": "Editorial interpretation of author argument, not independent validation. English fields are navigation aids."
     },
     {
       "id": "memo-06",
@@ -241,12 +312,29 @@
       "number": 31,
       "title_ja": "人間とAIの境界は、皮膚なのか",
       "source_url": "https://note.com/alise_s99lab/n/n2763aebd636f",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "人間とAIの境界は身体の内外ではなく、誰が選び・止め・判断し・責任を持つかで決まるのか。",
+      "question_en": "Is the human–AI boundary defined by control and accountability rather than physical location?",
+      "category_ids": [
+        "ai_technology",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "BCI",
+        "判断権",
+        "停止権",
+        "責任の所在"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: public note article text retrieved via title-specific search; same original URL and SCAN number.",
+      "summary_ja": "スマートフォンと脳・機械の接続を比較し、判断権・停止権・変更権・責任の切り替わる場所を問う。",
+      "summary_en": "Contrasts smartphones with brain–computer interfaces and locates the boundary in decision rights, shutdown authority, and responsibility.",
+      "topics_en": [
+        "BCI",
+        "decision rights",
+        "shutdown rights",
+        "accountability"
+      ],
+      "review_note": "Editorial interpretation of author argument, not independent validation. English fields are navigation aids."
     },
     {
       "id": "scan-30",
