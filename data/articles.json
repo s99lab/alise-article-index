@@ -1,9 +1,9 @@
 {
   "collection": "A_L_I_S_E scan",
   "source": "https://note.com/alise_s99lab",
-  "status": "known-serials-verified-plus-one-pending-title-date",
-  "index_updated": "2026-10-27",
-  "note": "Existing verified index range: SCAN #01–#42, MEMO #01–#06, and two independent guides (50 prior URLs). SCAN #43 URL was shared by the author on 2026-10-27; its headline is from the associated editorial draft, NOT independently matched against note's published title. Publication date/time remain unverified. Original article body remains on note; no automatic synchronization.",
+  "status": "all-51-article-source-metadata-checked-2026-10-28",
+  "index_updated": "2026-10-28",
+  "note": "Original note articles stay on note. This index records 43 SCAN, 6 MEMO and two guide links. Titles, dates, and source URLs were checked from note originals or author-provided note page copies; SCAN #43 publication timestamp confirmed from the author's displayed page (2026-10-27 16:21 JST). This does not independently fact-check article claims or automatically sync future issues. See data/questions.json for bilingual editorial prompts and summaries.",
   "guides": [
     {
       "key": "launch",
@@ -650,8 +650,6 @@
     "undated_confirmed_scan": [],
     "undated_memo": [],
     "future_new_issues": "Not automatically synced. Later note posts may require separate verification.",
-    "latest_scan_requires_note_original_check": [
-      43
-    ]
+    "latest_scan_requires_note_original_check": []
   }
 }
