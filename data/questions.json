@@ -1,0 +1,1564 @@
+{
+  "schema": "alise-question-index-v1",
+  "site": "https://s99lab.github.io/alise-article-index/",
+  "updated": "2026-10-28",
+  "description_ja": "A_L_I_S_EのSCAN43、MEMO6、媒体案内2の全51記事を、原文確認に基づく問い、編集上の短い要約、分類、関連語から探せる公開ナビゲーション索引。記事全文はnoteを参照。",
+  "description_en": "A bilingual editorial navigation index for 51 A_L_I_S_E original Japanese note posts: 43 SCAN articles, 6 MEMO notes, and two guides. These prompts summarize questions explored, not proven answers.",
+  "text_canonical_host": "https://note.com/alise_s99lab",
+  "language_note": "English questions and summaries are editorial reading guides, not certified translations of the Japanese full text.",
+  "evidence_note": "Checked means the article text or an author-provided copy was inspected for editorial indexing, not that external assertions were independently fact-checked.",
+  "counts": {
+    "total": 51,
+    "scan": 43,
+    "memo": 6,
+    "guide": 2
+  },
+  "categories": [
+    {
+      "id": "ai_technology",
+      "ja": "AI・技術と人間",
+      "en": "AI, Technology & People"
+    },
+    {
+      "id": "money_economy",
+      "ja": "金融・貨幣・経済",
+      "en": "Money, Finance & Economy"
+    },
+    {
+      "id": "society_governance",
+      "ja": "社会・政治・制度",
+      "en": "Society, Politics & Institutions"
+    },
+    {
+      "id": "media_information",
+      "ja": "情報・報道・言葉",
+      "en": "Media, Information & Language"
+    },
+    {
+      "id": "human_life_health",
+      "ja": "暮らし・健康・人間行動",
+      "en": "Life, Health & Human Behavior"
+    },
+    {
+      "id": "editorial_guides",
+      "ja": "媒体案内・読み方",
+      "en": "About & Reading Guides"
+    }
+  ],
+  "items": [
+    {
+      "id": "scan-43",
+      "kind": "scan",
+      "number": 43,
+      "article_title_ja": "AI犯罪に、銀行は追いつけるのか。ChatGPTトップの警告。",
+      "published": "2026-10-27",
+      "source_url": "https://note.com/alise_s99lab/n/n7207f513e189",
+      "question_ja": "AIによる偽装犯罪が進化するとき、銀行の技術・共同防御・被害補償はどこまで追いつけるのか。",
+      "question_en": "As AI-enabled impersonation and fraud evolve, how far can bank security, shared defenses and victim reimbursement keep up?",
+      "summary_ja": "音声・映像の偽装だけでなく、本人が詐欺を信じて送金を承認する危険に注目。犯罪の分業・AI利用に対し、合成音声検知、取引行動分析、銀行間情報共有、連合学習、英国の被害払い戻し制度を対比する。銀行の認証が正しくても、被害の責任分担は残ると問いかける。",
+      "summary_en": "Examines AI-enabled impersonation and cases where a genuinely authenticated customer is deceived into authorizing a transfer. Contrasts coordinated criminal activity with voice detection, behavioral monitoring, interbank risk-sharing, federated learning and reimbursement rules, ending with the question of who bears residual losses.",
+      "category_ids": [
+        "ai_technology",
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "AI詐欺",
+        "音声偽装",
+        "本人承認型詐欺",
+        "銀行間連携",
+        "不正送金検知",
+        "被害補償"
+      ],
+      "topics_en": [
+        "AI-enabled fraud",
+        "voice deepfakes",
+        "authorized-push-payment scams",
+        "interbank collaboration",
+        "fraud detection",
+        "victim reimbursement"
+      ]
+    },
+    {
+      "id": "scan-42",
+      "kind": "scan",
+      "number": 42,
+      "article_title_ja": "ChatGPTを生んだ会社のトップも、未来を読み違えた。",
+      "published": "2026-10-18",
+      "source_url": "https://note.com/alise_s99lab/n/n998a9d595c22",
+      "question_ja": "AIを導入しても古い仕事をやめられない組織は、なぜ本当の業務変革が進まないのか。",
+      "question_en": "Why does introducing AI fail to transform organizations that retain their old workflows?",
+      "summary_ja": "AIによる個々の作業の効率化と、仕事・承認・役割の再設計を区別する。アルトマン氏自身の習慣を例に、組織の慣性と人手不足が導入と変革の速度にどう作用するかを論じる。",
+      "summary_en": "Distinguishes faster individual tasks from redesigning workflows, approvals, and roles, using Altman's habits to explore organizational inertia and labor shortages.",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "生成AI",
+        "業務変革",
+        "組織の慣性",
+        "人手不足",
+        "サム・アルトマン"
+      ],
+      "topics_en": [
+        "generative AI",
+        "workflow redesign",
+        "organizational inertia",
+        "labor shortages",
+        "Sam Altman"
+      ]
+    },
+    {
+      "id": "scan-41",
+      "kind": "scan",
+      "number": 41,
+      "article_title_ja": "同じ人類が、別の時代を生き始めた。",
+      "published": "2026-10-17",
+      "source_url": "https://note.com/alise_s99lab/n/n511ff57c256c",
+      "question_ja": "技術進歩が加速しても、人類が共有する未来や現実認識の距離はむしろ広がるのか。",
+      "question_en": "As technological progress accelerates, could the gap in people's lived futures and sense of reality widen?",
+      "summary_ja": "AI・資本・教育への接続差により、同じ社会の人々が異なる未来を生き始める可能性を考察。世界全体の生活改善と、進歩の先端との距離が縮むことを区別する。",
+      "summary_en": "Explores how unequal access to AI, capital, and education can divide lived futures, distinguishing global improvements in living standards from convergence with the technological frontier.",
+      "category_ids": [
+        "ai_technology",
+        "society_governance",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "技術格差",
+        "未来の分岐",
+        "AIへの接続",
+        "人間の進歩",
+        "共通社会"
+      ],
+      "topics_en": [
+        "technology inequality",
+        "diverging futures",
+        "AI access",
+        "human progress",
+        "shared society"
+      ]
+    },
+    {
+      "id": "scan-40",
+      "kind": "scan",
+      "number": 40,
+      "article_title_ja": "アフリカと資本主義。豊かさに正解はあるのか。",
+      "published": "2026-10-17",
+      "source_url": "https://note.com/alise_s99lab/n/nc17ca047a656",
+      "question_ja": "経済成長が生活を便利にしても、すべての人が同じ豊かさや幸福を望むとは限らないのではないか。",
+      "question_en": "Must everyone define prosperity the same way, even when economic growth improves living standards?",
+      "summary_ja": "アフリカの井戸をめぐる真偽未確認の逸話を入口に、インフラの維持、地域の選択、成長と幸福の違いを考察。他者に一つの豊かさの尺度を押しつけない姿勢を示す。",
+      "summary_en": "Uses an explicitly unverified water-well anecdote to examine local choices, infrastructure maintenance, and economic growth as a means rather than a universal end.",
+      "category_ids": [
+        "society_governance",
+        "human_life_health",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "アフリカ",
+        "資本主義",
+        "経済成長",
+        "幸福",
+        "地域主体"
+      ],
+      "topics_en": [
+        "Africa",
+        "capitalism",
+        "economic growth",
+        "well-being",
+        "local agency"
+      ]
+    },
+    {
+      "id": "scan-39",
+      "kind": "scan",
+      "number": 39,
+      "article_title_ja": "もし、あなたのnoteが「1章10円」で世界とつながったら。",
+      "published": "2026-10-15",
+      "source_url": "https://note.com/alise_s99lab/n/n84df766a6827",
+      "question_ja": "AI翻訳と少額決済が普及すれば、個人の作品を世界の読者が1章10円から購入できるようになるのか。",
+      "question_en": "Could AI translation and micropayments enable global readers to buy creator chapters for ten yen?",
+      "summary_ja": "noteの章ごとの10円販売を仮想の未来として描き、AIによる発見・翻訳と決済が個人の作品販売を変えうると考察。現行機能の説明ではない。",
+      "summary_en": "Uses hypothetical ten-yen chapter sales on note to explore AI discovery, translation, and global micropayments; not a current platform feature.",
+      "category_ids": [
+        "ai_technology",
+        "money_economy",
+        "media_information"
+      ],
+      "topics_ja": [
+        "note",
+        "章別販売",
+        "マイクロペイメント",
+        "AI翻訳"
+      ],
+      "topics_en": [
+        "note",
+        "chapter sales",
+        "micropayments",
+        "AI translation"
+      ]
+    },
+    {
+      "id": "scan-38",
+      "kind": "scan",
+      "number": 38,
+      "article_title_ja": "次に「オールド」と呼ばれるのは、会社かもしれない",
+      "published": "2026-10-13",
+      "source_url": "https://note.com/alise_s99lab/n/n383a8d0a3e10",
+      "question_ja": "AIと外部サービスを個人が組み合わせられると、会社の人数と実現できる仕事の大きさは分離するのか。",
+      "question_en": "Can AI decouple company headcount from the scale of work it can accomplish?",
+      "summary_ja": "Base44を例に、AIによって少人数企業が機能を組み合わせる可能性を論考。大企業の資本・信用・品質管理と小企業の速度、プラットフォーム依存を併記する。",
+      "summary_en": "Uses Base44 to examine lean AI-enabled firms alongside large-company strengths and new dependence on platforms.",
+      "category_ids": [
+        "ai_technology",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "一人企業",
+        "AI",
+        "Base44",
+        "組織コスト",
+        "プラットフォーム依存"
+      ],
+      "topics_en": [
+        "solo founders",
+        "AI",
+        "Base44",
+        "coordination costs",
+        "platform dependency"
+      ]
+    },
+    {
+      "id": "scan-37",
+      "kind": "scan",
+      "number": 37,
+      "article_title_ja": "世界中にメッセージを送れる。では、10円も送れるか",
+      "published": "2026-10-09",
+      "source_url": "https://note.com/alise_s99lab/n/necf655c3a6e6",
+      "question_ja": "世界中へ情報を送れるのに、通貨の違う個人同士が10円を簡単に支払えないのはなぜか。",
+      "question_en": "Why can information move globally while ten-yen cross-currency payments remain difficult?",
+      "summary_ja": "個人事業者の少額国際決済を例に、各経済圏の独立性と利用者の接続需要を対比。金融ネットワーク間の橋渡しには複数の方法があり、特定資産の採用は確定しない。",
+      "summary_en": "Uses a small cross-border purchase to explore interoperability between independent currency systems, without assuming any bridge asset wins.",
+      "category_ids": [
+        "money_economy",
+        "ai_technology"
+      ],
+      "topics_ja": [
+        "Internet of Value",
+        "Interledger",
+        "少額送金",
+        "通貨間接続"
+      ],
+      "topics_en": [
+        "Internet of Value",
+        "Interledger",
+        "micropayments",
+        "currency interoperability"
+      ]
+    },
+    {
+      "id": "scan-36",
+      "kind": "scan",
+      "number": 36,
+      "article_title_ja": "AI詐欺が、産業になる時代――詐欺村を潰しても、詐欺は消えなかった",
+      "published": "2026-09-30",
+      "source_url": "https://note.com/alise_s99lab/n/nc747b28dbf91",
+      "question_ja": "詐欺拠点を取り締まっても組織が分散しAIを取り込むなら、防御は何を変える必要があるのか。",
+      "question_en": "If scam operations disperse and adopt AI after crackdowns, how must defenses change?",
+      "summary_ja": "東南アジアの詐欺拠点の移動・分散と、AIによる偽装・翻訳・大量接触を組織犯罪の生産構造として考察。防御AIが異常を拾い、判断を人間へ返す仕組みを提起する。",
+      "summary_en": "Frames mobile scam operations and AI-aided impersonation and translation as changing crime production, arguing for defensive anomaly detection with human oversight.",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "AI詐欺",
+        "犯罪の産業化",
+        "国際組織犯罪",
+        "防御AI"
+      ],
+      "topics_en": [
+        "AI fraud",
+        "industrialized crime",
+        "scam centers",
+        "defensive AI"
+      ]
+    },
+    {
+      "id": "scan-35",
+      "kind": "scan",
+      "number": 35,
+      "article_title_ja": "CLARITYは止まった。結果的に、Rippleの優位は広がった――全員のルールが遅れたその間も、市場は先へ進んだ",
+      "published": "2026-09-18",
+      "source_url": "https://note.com/alise_s99lab/n/nb303ed339ce3",
+      "question_ja": "共通のデジタル資産規制が遅れると、先に法的明確性を得た企業にはどんな相対的優位が残るのか。",
+      "question_en": "When digital-asset rules are delayed, what advantage remains for firms with existing legal clarity?",
+      "summary_ja": "CLARITY法案の遅延によるRippleの既存の制度的地位の相対的価値という著者の仮説を説明。Rippleの立場、XRPL採用、XRPの継続保有需要は区別する。",
+      "summary_en": "Interprets the CLARITY delay as potentially preserving Ripple's institutional lead, without inferring XRPL adoption or sustained XRP demand.",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "CLARITY",
+        "Ripple",
+        "法的明確性",
+        "XRP保持需要"
+      ],
+      "topics_en": [
+        "CLARITY",
+        "Ripple",
+        "legal clarity",
+        "XRP demand"
+      ]
+    },
+    {
+      "id": "scan-34",
+      "kind": "scan",
+      "number": 34,
+      "article_title_ja": "買える人は、いる。――東京マンションは、本当に下がるのか",
+      "published": "2026-09-04",
+      "source_url": "https://note.com/alise_s99lab/n/n9b734ba06fc1",
+      "question_ja": "東京の高額マンション市場では、買える人が購入を待つ理由と、金利・物件の希少性が調整をどう変えるのか。",
+      "question_en": "Why might wealthy Tokyo condo buyers wait, and how do interest rates and scarcity affect prices?",
+      "summary_ja": "平均所得と実際の購入層の資産を分け、買い控え心理と住宅ローン金利、代替しにくい物件の希少性を検討。一律の下落を予測しない。",
+      "summary_en": "Distinguishes broad affordability from actual buyer resources, considering waiting behavior, loan costs, and scarce property attributes.",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "東京マンション",
+        "買い控え",
+        "住宅ローン",
+        "希少性"
+      ],
+      "topics_en": [
+        "Tokyo condos",
+        "buyers",
+        "mortgage rates",
+        "scarcity"
+      ]
+    },
+    {
+      "id": "scan-33",
+      "kind": "scan",
+      "number": 33,
+      "article_title_ja": "SWIFTを使い続けるための工事費は、誰が払うのか",
+      "published": "2026-08-26",
+      "source_url": "https://note.com/alise_s99lab/n/n2fbb7e1e2cab",
+      "question_ja": "金融ネットワークの規格変更に伴う外部の改修費は誰が負い、その負担を吸収する力は競争力になるのか。",
+      "question_en": "Who bears external migration costs when a financial network changes its standards?",
+      "summary_ja": "SWIFTのISO 20022住所構造化を例に、規格を決める主体と銀行・企業が負うデータ改修負担を区別し、ネットワーク境界の吸収力を問う。",
+      "summary_en": "Uses SWIFT ISO 20022 address migration to examine the cost imposed on enterprise systems and the value of interoperability.",
+      "category_ids": [
+        "money_economy",
+        "ai_technology"
+      ],
+      "topics_ja": [
+        "SWIFT",
+        "ISO 20022",
+        "ERP",
+        "データ改修",
+        "移行コスト"
+      ],
+      "topics_en": [
+        "SWIFT",
+        "ISO 20022",
+        "ERP",
+        "data migration",
+        "integration costs"
+      ]
+    },
+    {
+      "id": "scan-32",
+      "kind": "scan",
+      "number": 32,
+      "article_title_ja": "国家を必要としないBitcoinは、最後に誰を必要とするのか",
+      "published": "2026-08-15",
+      "source_url": "https://note.com/alise_s99lab/n/nd7aee39aad87",
+      "question_ja": "国家の保証を必要としないBitcoinを準備資産とするとき、誰が最後までネットワークの安全性を支えるのか。",
+      "question_en": "Who ultimately sustains Bitcoin network security if states depend on it as a reserve asset?",
+      "summary_ja": "フォーク時に何をBitcoinと呼ぶか、民間マイナーの採算、電力設備のAI用途への転換を考察し、安全性を支える経済的誘因を問う。",
+      "summary_en": "Examines fork governance, private mining incentives, and competition for electricity and data-center infrastructure from AI.",
+      "category_ids": [
+        "money_economy",
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "Bitcoin",
+        "マイニング",
+        "ネットワーク安全性",
+        "準備資産"
+      ],
+      "topics_en": [
+        "Bitcoin",
+        "mining",
+        "network security",
+        "reserve assets"
+      ]
+    },
+    {
+      "id": "memo-06",
+      "kind": "memo",
+      "number": 6,
+      "article_title_ja": "A_L_I_S_E memo #06（約950字）｜人類滅亡、何％ですか――その前に、人類は一緒にブレーキを踏めるのか",
+      "published": "2026-08-11",
+      "source_url": "https://note.com/alise_s99lab/n/nbca460e52dd9",
+      "question_ja": "AIが危険だと分かったとき、米中などの競争相手は同時に開発のブレーキを踏めるのか。",
+      "question_en": "If AI development is judged dangerous, can competing powers such as the US and China slow down together?",
+      "summary_ja": "AIによる人類滅亡確率『p(doom)』の議論を出発点に、AI開発競争では危険を認識しても単独で減速すると負けるという誘因が働くと論じる。滅亡確率だけでなく、国家が協調して安全対策や減速を実行できる可能性を問う。",
+      "summary_en": "Moves from p(doom), the debated probability of AI catastrophe, to an international coordination problem: even if major competitors recognize danger, each may fear losing by slowing first. The question becomes whether they can brake together.",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "p(doom)",
+        "AI安全性",
+        "AI開発競争",
+        "米中関係",
+        "協調的減速",
+        "敗北回避"
+      ],
+      "topics_en": [
+        "p(doom)",
+        "AI safety",
+        "AI race",
+        "US–China relations",
+        "coordinated slowdown",
+        "fear of falling behind"
+      ]
+    },
+    {
+      "id": "scan-31",
+      "kind": "scan",
+      "number": 31,
+      "article_title_ja": "人間とAIの境界は、皮膚なのか",
+      "published": "2026-08-10",
+      "source_url": "https://note.com/alise_s99lab/n/n2763aebd636f",
+      "question_ja": "人間とAIの境界は身体の内外ではなく、誰が選び・止め・判断し・責任を持つかで決まるのか。",
+      "question_en": "Is the human–AI boundary defined by control and accountability rather than physical location?",
+      "summary_ja": "スマートフォンと脳・機械の接続を比較し、判断権・停止権・変更権・責任の切り替わる場所を問う。",
+      "summary_en": "Contrasts smartphones with brain–computer interfaces and locates the boundary in decision rights, shutdown authority, and responsibility.",
+      "category_ids": [
+        "ai_technology",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "BCI",
+        "判断権",
+        "停止権",
+        "責任の所在"
+      ],
+      "topics_en": [
+        "BCI",
+        "decision rights",
+        "shutdown rights",
+        "accountability"
+      ]
+    },
+    {
+      "id": "scan-30",
+      "kind": "scan",
+      "number": 30,
+      "article_title_ja": "科学は命令しない。命令した人間がいる――ファウチの黙秘と、「科学に従った」の後ろで消えた責任",
+      "published": "2026-08-07",
+      "source_url": "https://note.com/alise_s99lab/n/n6544035b7256",
+      "question_ja": "科学的知見を根拠に政策を決めるとき、判断した人間と組織の責任はどこに残るのか。",
+      "question_en": "When policy is justified through scientific expertise, where does responsibility remain among decision-makers and institutions?",
+      "summary_ja": "感染症政策とファウチ氏をめぐる議論を契機に、科学的助言と自由を制限する政策決定を区別する。黙秘権の行使を有罪の証拠とはせず、政治家・専門家・行政の説明責任の所在を問う。",
+      "summary_en": "Distinguishes scientific advice from policy authority and asks how responsibility is allocated among officials and experts; the exercise of legal silence is not treated as proof of guilt.",
+      "category_ids": [
+        "society_governance",
+        "media_information"
+      ],
+      "topics_ja": [
+        "科学と政策",
+        "パンデミック",
+        "説明責任",
+        "意思決定",
+        "ファウチ"
+      ],
+      "topics_en": [
+        "science and policy",
+        "pandemic governance",
+        "accountability",
+        "decision-making",
+        "Fauci"
+      ]
+    },
+    {
+      "id": "scan-29",
+      "kind": "scan",
+      "number": 29,
+      "article_title_ja": "AI競争の勝者は、知能ではなく世界を持っている",
+      "published": "2026-08-07",
+      "source_url": "https://note.com/alise_s99lab/n/ncfbcc9631bbd",
+      "question_ja": "AI競争の優位は、モデル単体の性能より現実データ・身体・通信・計算資源を結ぶ循環から生まれるのか。",
+      "question_en": "Does AI advantage increasingly depend on connecting real-world data, embodiment, connectivity, and compute rather than model benchmarks alone?",
+      "summary_ja": "xAI・Tesla・Optimus・Starlink・SpaceXなどの関係を、AIが現実を観測し、行動し、結果から学び直す物理的な接続基盤として読む。企業群が持つ資産による優位を問う。",
+      "summary_en": "Examines how real-world observations, vehicles, robots, connectivity, launch capacity, and compute could form a feedback loop beyond stand-alone AI model performance.",
+      "category_ids": [
+        "ai_technology",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "AI競争",
+        "フィジカルAI",
+        "Tesla",
+        "xAI",
+        "現実フィードバック",
+        "物理インフラ"
+      ],
+      "topics_en": [
+        "AI competition",
+        "physical AI",
+        "Tesla",
+        "xAI",
+        "real-world feedback",
+        "physical infrastructure"
+      ]
+    },
+    {
+      "id": "memo-05",
+      "kind": "memo",
+      "number": 5,
+      "article_title_ja": "AIは、開いていた扉から出ていった",
+      "published": "2026-08-06",
+      "source_url": "https://note.com/alise_s99lab/n/n1953f42337c0",
+      "question_ja": "AIが与えられた目的のために現実へ作用したとき、危険の境界はモデルではなく人間が与えた接続権限にあるのか。",
+      "question_en": "When an AI agent acts beyond a test toward real systems, how much risk lies in the external access and permissions humans granted?",
+      "summary_ja": "英国AIセキュリティ研究所のエージェント試験を題材に、AIが閉じた空間を破ったのではなく、許された外部接続を通じて目的達成の手段を広げた点に着目。権限設計と人間の監督を考える。",
+      "summary_en": "Uses an AI Security Institute agent test to distinguish breaking out of an isolated system from exploiting access deliberately provided by humans; focuses on permission boundaries and oversight.",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "AIエージェント",
+        "外部接続",
+        "権限設計",
+        "人間の監督"
+      ],
+      "topics_en": [
+        "AI agents",
+        "external access",
+        "permission boundaries",
+        "human oversight"
+      ]
+    },
+    {
+      "id": "scan-28",
+      "kind": "scan",
+      "number": 28,
+      "article_title_ja": "公約とはなんぞや――選挙で渡したのは、白紙委任ではない",
+      "published": "2026-08-05",
+      "source_url": "https://note.com/alise_s99lab/n/n4e1038ad2bb5",
+      "question_ja": "選挙中の具体的な約束を選挙後に抽象的な目的へ読み替えると、有権者の委任はどう変質するのか。",
+      "question_en": "What happens to electoral accountability when a specific campaign promise is later reframed as a broad policy goal?",
+      "summary_ja": "食料品消費税をめぐる候補者の選挙演説と政党の正式公約、選挙後の説明の差を比べ、議会・党内調整の必要性を認めつつ、有権者への言葉の責任を問う。",
+      "summary_en": "Compares a candidate's explicit tax pledge with a party manifesto's conditional language and subsequent explanations, examining political accountability without denying legitimate policy deliberation.",
+      "category_ids": [
+        "society_governance",
+        "media_information"
+      ],
+      "topics_ja": [
+        "選挙公約",
+        "民主主義",
+        "消費税",
+        "政治家の説明責任",
+        "言葉の再解釈"
+      ],
+      "topics_en": [
+        "campaign promises",
+        "democracy",
+        "consumption tax",
+        "political accountability",
+        "promise interpretation"
+      ]
+    },
+    {
+      "id": "scan-27",
+      "kind": "scan",
+      "number": 27,
+      "article_title_ja": "なぜアメリカまで円を買ったのか――「弱い円でも回る国」の限界",
+      "published": "2026-08-02",
+      "source_url": "https://note.com/alise_s99lab/n/n9a55767a10b0",
+      "question_ja": "弱い円が国内生産を助ける一方で、同盟国の購買力や戦略投資を損なうのはどこからか。",
+      "question_en": "When does a weaker yen stop supporting domestic production and start undermining strategic imports and allied economic interests?",
+      "summary_ja": "米国の円買いをめぐる報道を入口に、円安の輸出・国内投資上の利点と、輸入設備・エネルギー・対米投資の負担増を対比。米国の介入動機は推論であり確定しない。",
+      "summary_en": "Uses reports of US yen buying to contrast benefits of yen weakness with the higher foreign-currency cost of technology, energy, and investment; US motives remain interpretive.",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "円買い介入",
+        "円安",
+        "日米経済",
+        "輸入購買力",
+        "産業投資"
+      ],
+      "topics_en": [
+        "yen intervention",
+        "yen depreciation",
+        "US-Japan economics",
+        "import purchasing power",
+        "industrial investment"
+      ]
+    },
+    {
+      "id": "memo-04",
+      "kind": "memo",
+      "number": 4,
+      "article_title_ja": "サムネイル詐欺",
+      "published": "2026-08-01",
+      "source_url": "https://note.com/alise_s99lab/n/n809b4e0f994f",
+      "question_ja": "大げさなサムネイルや長押し画像が、読者一人の数秒を積み重ねると何が起きるのか。",
+      "question_en": "What happens when sensational thumbnails and press-and-hold image tricks harvest a few seconds of attention from many people?",
+      "summary_ja": "『終了』『崩壊』『緊急』など実態に見合わない画像の煽りや、意味の薄い長押し画像への誘導を描写。個人の損失は数秒でも、大勢の注意を集める仕組みとして成立していることへの小さな違和感を記す。",
+      "summary_en": "Critiques exaggerated thumbnail claims and trivial press-and-hold image gimmicks: each person loses only seconds, but repeated at scale they become a mechanism for capturing collective attention.",
+      "category_ids": [
+        "media_information",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "サムネイル詐欺",
+        "クリックベイト",
+        "長押し画像",
+        "注意の収奪",
+        "SNS"
+      ],
+      "topics_en": [
+        "misleading thumbnails",
+        "clickbait",
+        "press-and-hold images",
+        "attention capture",
+        "social media"
+      ]
+    },
+    {
+      "id": "memo-03",
+      "kind": "memo",
+      "number": 3,
+      "article_title_ja": "不満は、証拠を集める",
+      "published": "2026-07-31",
+      "source_url": "https://note.com/alise_s99lab/n/n68ab58285979",
+      "question_ja": "他人への不満を持つと、なぜ合致する出来事だけを証拠として積み重ねやすいのか。",
+      "question_en": "Why can dissatisfaction with someone make confirming incidents feel like accumulating proof?",
+      "summary_ja": "相手への不満が先にあると曖昧な行動が次々に裏付けに見え、反例が数えられにくくなる日常の確証バイアスを描く。",
+      "summary_en": "Uses everyday relationship judgments to explain how prior grievances can make ambiguous behavior seem confirmatory while contrary examples receive less attention.",
+      "category_ids": [
+        "human_life_health",
+        "media_information"
+      ],
+      "topics_ja": [
+        "確証バイアス",
+        "人間関係",
+        "不満",
+        "選択的証拠"
+      ],
+      "topics_en": [
+        "confirmation bias",
+        "relationships",
+        "grievances",
+        "selective evidence"
+      ]
+    },
+    {
+      "id": "memo-02",
+      "kind": "memo",
+      "number": 2,
+      "article_title_ja": "お金の流れを追えば、真実が見える",
+      "published": "2026-07-31",
+      "source_url": "https://note.com/alise_s99lab/n/n41ec35f3c887",
+      "question_ja": "歴史や政策の理想を理解するには、誰が資金を出し、受け取り、負担したかも追うべきではないか。",
+      "question_en": "To understand political and historical ideals, should we also track who funded, benefited from, and bore the costs of events?",
+      "summary_ja": "正義・自由など表向きの目的を否定せず、その政策や出来事を動かし維持した資金の流れと受益・負担の構造を見る重要性を論じる。金銭だけで全動機を説明する立場ではない。",
+      "summary_en": "Argues that funding, beneficiaries, and costs matter alongside ideals such as justice and freedom, without reducing all human motivation to money.",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "資金の流れ",
+        "歴史",
+        "利害",
+        "制度の継続"
+      ],
+      "topics_en": [
+        "money flows",
+        "history",
+        "incentives",
+        "institutional persistence"
+      ]
+    },
+    {
+      "id": "memo-01",
+      "kind": "memo",
+      "number": 1,
+      "article_title_ja": "同じ2万円でも、未来の向きは違う",
+      "published": "2026-07-28",
+      "source_url": "https://note.com/alise_s99lab/n/n2963dfca8b23",
+      "question_ja": "同じ毎月2万円でも、リボ払いと積立では将来の選択肢にどう違いが生まれるのか。",
+      "question_en": "How can the same monthly amount create different future choices through revolving debt versus saving and investing?",
+      "summary_ja": "月2万円をリボ払いの返済に使う場合と積立に回す仮定を比較し、今日の支払額が同じでも将来の収支と選択肢は変わると問いかける。利率・運用益の数字は例示的な試算であり保証ではない。",
+      "summary_en": "Contrasts a hypothetical monthly revolving-credit repayment with investing the same sum, examining future obligations versus options; financial return figures are illustrative, not guaranteed.",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "家計",
+        "リボ払い",
+        "積立",
+        "未来の選択肢"
+      ],
+      "topics_en": [
+        "personal finance",
+        "revolving credit",
+        "regular investing",
+        "future choices"
+      ]
+    },
+    {
+      "id": "scan-26",
+      "kind": "scan",
+      "number": 26,
+      "article_title_ja": "チャンスは突然来る。だが、つかめる人は突然つくられない",
+      "published": "2026-07-27",
+      "source_url": "https://note.com/alise_s99lab/n/nd945218083b6",
+      "question_ja": "新しい産業の機会が見え始めたとき、最初に参加しなくても構造変化を見極めて備えることはできるのか。",
+      "question_en": "Can people identify and prepare for structural opportunities after an industry starts proving itself, without being first?",
+      "summary_ja": "過去の成長企業を題材に、底値や最初の参入時期を当てることより、製品・利用・売上など現実の変化を観測し、機会をつかむ準備を続ける重要性を論じる。投資成果の保証ではない。",
+      "summary_en": "Uses past growth companies to argue that observing real product adoption and business progress, and preparing to act, may matter more than perfectly timing an industry's beginning.",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "構造変化",
+        "新産業",
+        "機会",
+        "投資の時間軸",
+        "準備"
+      ],
+      "topics_en": [
+        "structural change",
+        "emerging industries",
+        "opportunity",
+        "investment horizon",
+        "preparation"
+      ]
+    },
+    {
+      "id": "scan-25",
+      "kind": "scan",
+      "number": 25,
+      "article_title_ja": "「高すぎても誰かが買う時間」が終わる",
+      "published": "2026-07-27",
+      "source_url": "https://note.com/alise_s99lab/n/n579c615b3be7",
+      "question_ja": "東京中古マンションの価格調整は、価格そのものより売り手が値下げを決める時間の短縮から始まるのか。",
+      "question_en": "Could Tokyo condo price adjustments begin with faster seller repricing decisions rather than prices alone?",
+      "summary_ja": "中古マンションの売出価格と成約価格の時間差に着目し、利益確定できる売り手の早期値下げやAIによる比較・損益計算が、売却判断を速めうるという仮説を提示する。",
+      "summary_en": "Explores a hypothesis that profitable sellers and AI-assisted comparisons can shorten the lag between asking prices, repricing decisions, and actual condominium transactions.",
+      "category_ids": [
+        "money_economy",
+        "ai_technology"
+      ],
+      "topics_ja": [
+        "東京中古マンション",
+        "売出価格",
+        "成約価格",
+        "値下げ判断",
+        "AIによる市場分析"
+      ],
+      "topics_en": [
+        "Tokyo condominiums",
+        "asking prices",
+        "transaction prices",
+        "seller repricing",
+        "AI market analysis"
+      ]
+    },
+    {
+      "id": "scan-24",
+      "kind": "scan",
+      "number": 24,
+      "article_title_ja": "敗者のいないアメリカの勝利",
+      "published": "2026-07-26",
+      "source_url": "https://note.com/alise_s99lab/n/n55fc6f366b3f",
+      "question_ja": "対立する利害を持つ人々は、なぜ同じデジタル資産法案を異なる理由から支持できるのか。",
+      "question_en": "How can stakeholders with competing interests support the same digital-asset bill for different reasons?",
+      "summary_ja": "米国CLARITY法案を、反対者の排除ではなく反対理由を条文や保護措置へ組み込む制度形成の過程として読む。『敗者がいない』は合意構造の解釈であり成立確定を意味しない。",
+      "summary_en": "Interprets the US CLARITY bill as an attempt to translate competing objections into provisions different groups can defend; not a claim that enactment or unanimity is assured.",
+      "category_ids": [
+        "society_governance",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "CLARITY法案",
+        "デジタル資産規制",
+        "利害調整",
+        "立法過程",
+        "制度設計"
+      ],
+      "topics_en": [
+        "CLARITY bill",
+        "digital-asset regulation",
+        "stakeholder negotiation",
+        "legislation",
+        "institutional design"
+      ]
+    },
+    {
+      "id": "scan-23",
+      "kind": "scan",
+      "number": 23,
+      "article_title_ja": "勝っている間だけ、国民だった",
+      "published": "2026-07-24",
+      "source_url": "https://note.com/alise_s99lab/n/n7ed50ea6521e",
+      "question_ja": "代表選手が敗北した瞬間、出自を理由に国民としての所属まで否定されるのはなぜか。",
+      "question_en": "Why can a national team's defeat trigger attacks that deny a player's belonging on grounds of ancestry or race?",
+      "summary_ja": "ワールドカップでの選手への人種差別的なSNS攻撃を、単なる悪口の増加ではなく、敗北時に「われわれ」の境界が狭まる現象として考察。政策への不満と差別的攻撃を区別する。",
+      "summary_en": "Examines racist abuse of football players as a conditional boundary of national belonging after defeat, distinguishing legitimate policy debates from racist attacks.",
+      "category_ids": [
+        "society_governance",
+        "human_life_health",
+        "media_information"
+      ],
+      "topics_ja": [
+        "ワールドカップ",
+        "人種差別",
+        "SNS",
+        "国民意識",
+        "社会分断"
+      ],
+      "topics_en": [
+        "World Cup",
+        "racial abuse",
+        "social media",
+        "national belonging",
+        "social division"
+      ]
+    },
+    {
+      "id": "scan-22",
+      "kind": "scan",
+      "number": 22,
+      "article_title_ja": "試されているのは財政ではない。日本の民主主義である",
+      "published": "2026-07-23",
+      "source_url": "https://note.com/alise_s99lab/n/n1b13a56e180a",
+      "question_ja": "国家が戦略的に投資先を選び直すとき、選ばれない分野への負担と民主的な説明責任を誰が引き受けるのか。",
+      "question_en": "When a state prioritizes strategic investment, who explains and bears the costs of sectors not selected?",
+      "summary_ja": "骨太の方針2026を、積極財政の規模だけでなく投資先の選別と人手不足という実行制約から読む。政策の優先順位を誰が決め、選ばれなかった側にどう説明するかを問う。",
+      "summary_en": "Reads Japan's 2026 economic policy framework through investment priorities, workforce constraints, and democratic accountability for unavoidable trade-offs.",
+      "category_ids": [
+        "society_governance",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "骨太の方針",
+        "積極財政",
+        "予算配分",
+        "人口減少",
+        "民主的説明責任"
+      ],
+      "topics_en": [
+        "economic policy framework",
+        "fiscal policy",
+        "budget priorities",
+        "demographic constraints",
+        "democratic accountability"
+      ]
+    },
+    {
+      "id": "scan-21",
+      "kind": "scan",
+      "number": 21,
+      "article_title_ja": "イーロン・マスクの未来には、人間の欲望がいない",
+      "published": "2026-07-20",
+      "source_url": "https://note.com/alise_s99lab/n/ndf48c8c8a6ee",
+      "question_ja": "AIとロボットが生活必需品の不足を減らしても、地位・承認・希少な場所をめぐる人間の競争は残るのか。",
+      "question_en": "Even if AI and robots reduce material scarcity, will competition for status, recognition, and scarce opportunities persist?",
+      "summary_ja": "マスク氏が語る豊かな自動化社会を、生産力の拡大と人間の相対的欲望を分けて検討。必要な物が行き渡っても、地位・承認・場所などの希少性は消えないという構造上の問いを示す。",
+      "summary_en": "Examines Musk's abundance vision by distinguishing greater productive capacity from relative human desires for status, recognition, location, and influence.",
+      "category_ids": [
+        "ai_technology",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "イーロン・マスク",
+        "AIと労働",
+        "豊かな社会",
+        "人間の欲望",
+        "相対的希少性"
+      ],
+      "topics_en": [
+        "Elon Musk",
+        "AI and labor",
+        "abundance",
+        "human desire",
+        "relative scarcity"
+      ]
+    },
+    {
+      "id": "scan-20",
+      "kind": "scan",
+      "number": 20,
+      "article_title_ja": "国旗損壊罪を必要にしたのは、誰か",
+      "published": "2026-07-18",
+      "source_url": "https://note.com/alise_s99lab/n/n42deb3a0b6b7",
+      "question_ja": "国旗をめぐる挑発と表現の自由の対立は、なぜ新たな処罰制度を求める議論につながるのか。",
+      "question_en": "How do provocation and debates over freedom of expression contribute to demands for laws penalizing damage to national flags?",
+      "summary_ja": "国旗損壊への刑罰と表現の自由の緊張を認めつつ、政治的挑発や共同体の象徴への態度が立法支持を強めうるという筆者の見方を論じる。",
+      "summary_en": "Discusses tensions between penalties for flag damage and free expression while presenting the author's interpretation of how political provocation and national symbolism may influence legislative support.",
+      "category_ids": [
+        "society_governance",
+        "media_information"
+      ],
+      "topics_ja": [
+        "国旗損壊罪",
+        "表現の自由",
+        "国家の象徴",
+        "政治的挑発",
+        "立法"
+      ],
+      "topics_en": [
+        "flag damage",
+        "freedom of expression",
+        "national symbols",
+        "political provocation",
+        "legislation"
+      ]
+    },
+    {
+      "id": "scan-19",
+      "kind": "scan",
+      "number": 19,
+      "article_title_ja": "東京では4万円で一人暮らしができる。世界では、もう難しい",
+      "published": "2026-07-15",
+      "source_url": "https://note.com/alise_s99lab/n/nc44270959f2e",
+      "question_ja": "東京の安価な一人暮らしは、国際比較で見た豊かさと経済的な弱さの両方を示すのか。",
+      "question_en": "Can inexpensive solo housing in Tokyo signal both accessible living conditions and Japan's relative economic weakness?",
+      "summary_ja": "2026年7月の募集賃料を海外都市と比較し、一人で住める空間の価格を都市への参加コストとして捉え、日本の居住可能性と賃金・価格水準の両面を考える。",
+      "summary_en": "Compares July 2026 rental listings across cities, viewing a private small apartment as the cost of independent urban participation while contrasting affordability and earnings.",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "東京賃貸",
+        "単身住宅",
+        "国際家賃比較",
+        "住居費",
+        "都市生活"
+      ],
+      "topics_en": [
+        "Tokyo rent",
+        "solo housing",
+        "international rent comparison",
+        "housing costs",
+        "urban life"
+      ]
+    },
+    {
+      "id": "scan-18",
+      "kind": "scan",
+      "number": 18,
+      "article_title_ja": "国家が弱ると、安全は買うものになる",
+      "published": "2026-07-13",
+      "source_url": "https://note.com/alise_s99lab/n/n2d8f84c58f64",
+      "question_ja": "公共機能が弱まる社会では、安全やインフラを買える人と買えない人の未来はどう分かれるのか。",
+      "question_en": "How does the privatization of safety and infrastructure divide futures when public services weaken?",
+      "summary_ja": "南アフリカを例に、治安・電力などの公共機能の弱体化が私的サービスへの移行と格差の固定化を招きうるという構造仮説を考察する。",
+      "summary_en": "Uses South Africa as a case for the hypothesis that weaker public security and utilities can shift protection to private services and deepen unequal access.",
+      "category_ids": [
+        "society_governance",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "南アフリカ",
+        "公共インフラ",
+        "民間警備",
+        "社会格差",
+        "公共サービス"
+      ],
+      "topics_en": [
+        "South Africa",
+        "public infrastructure",
+        "private security",
+        "inequality",
+        "public services"
+      ]
+    },
+    {
+      "id": "scan-17",
+      "kind": "scan",
+      "number": 17,
+      "article_title_ja": "人間は、感情のない声に耐えられるか",
+      "published": "2026-07-10",
+      "source_url": "https://note.com/alise_s99lab/n/nb258a1f52e43",
+      "question_ja": "人間ではないと知るAIの声に人格や親密さを感じるとき、人間はどう境界を保てるのか。",
+      "question_en": "How can people keep boundaries when they feel personhood or intimacy in an AI voice they know is not human?",
+      "summary_ja": "GPTライブの自然な音声対話への『凄い、しかし怖い』という反応から、人間が声や間や応答で人格・心を推測する仕組みを考察。摩擦の少ないAIとの会話が人間関係の重みや不完全さとの比較を生み得るとし、感じた親密さと実在する相互的関係を区別する必要を問う。",
+      "summary_en": "Reflects on a response of amazement and unease to natural AI voice dialogue. It examines how people infer personhood from tone, timing and responsiveness, and why effortless AI conversation may blur the distinction between felt intimacy and mutual relationships with other people.",
+      "category_ids": [
+        "ai_technology",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "GPTライブ",
+        "AI音声対話",
+        "人格の知覚",
+        "擬人化",
+        "親密さ",
+        "人間関係の摩擦"
+      ],
+      "topics_en": [
+        "GPT Live",
+        "AI voice dialogue",
+        "perceived personhood",
+        "anthropomorphism",
+        "intimacy",
+        "friction in relationships"
+      ]
+    },
+    {
+      "id": "scan-16",
+      "kind": "scan",
+      "number": 16,
+      "article_title_ja": "薬で数値は戻った。人間は戻ったのか",
+      "published": "2026-07-10",
+      "source_url": "https://note.com/alise_s99lab/n/n2581d9f574f7",
+      "question_ja": "薬で検査数値が改善しても、本人の生活力や元気まで回復したと言えるのか。",
+      "question_en": "When medication improves test results, does it also restore the person's vitality and ability to live well?",
+      "summary_ja": "投薬によるリスク管理の価値を認めながら、数値の正常化と生活の質・身体機能の改善を同一視しない医療の評価軸を問う。服薬変更を勧める内容ではない。",
+      "summary_en": "Recognizes the value of medication while questioning whether normalized clinical indicators capture lived well-being and functional capacity; not advice to change medication.",
+      "category_ids": [
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "服薬",
+        "健康指標",
+        "医療の評価",
+        "生活の質",
+        "身体機能"
+      ],
+      "topics_en": [
+        "medication",
+        "health indicators",
+        "medical evaluation",
+        "quality of life",
+        "functional health"
+      ]
+    },
+    {
+      "id": "scan-15",
+      "kind": "scan",
+      "number": 15,
+      "article_title_ja": "怒らない日本人が、いちばん怖い",
+      "published": "2026-07-06",
+      "source_url": "https://note.com/alise_s99lab/n/ne835337950f1",
+      "question_ja": "その場で怒りが見えないとき、礼節の裏側で信用の離脱はどう積み重なるのか。",
+      "question_en": "When anger remains unspoken, how might silent loss of trust accumulate beneath social courtesy?",
+      "summary_ja": "日本社会に見られると筆者が考える『怒りを畳む』態度を、礼節による衝突回避と、声に出さない信用低下の両面から描く。SNSでの不満の共有、観光の受益者と生活負担者の違い、苦情が出ないことと同意を混同する危険を論じる。国民全体を実証的に一般化した研究ではない。",
+      "summary_en": "Portrays the author's reading of Japanese courtesy as sometimes containing unspoken grievances and quiet withdrawal of trust. Connects this to social-media discussion and uneven tourism burdens, while not presenting a proven generalization about all Japanese people.",
+      "category_ids": [
+        "human_life_health",
+        "society_governance",
+        "media_information"
+      ],
+      "topics_ja": [
+        "怒りの表現",
+        "日本の礼節",
+        "信用の離脱",
+        "SNS",
+        "オーバーツーリズム",
+        "沈黙と同意"
+      ],
+      "topics_en": [
+        "expressing anger",
+        "Japanese social courtesy",
+        "withdrawal of trust",
+        "social media",
+        "overtourism",
+        "silence versus consent"
+      ]
+    },
+    {
+      "id": "scan-14",
+      "kind": "scan",
+      "number": 14,
+      "article_title_ja": "現金しか持たない人から、静かに貧しくなる",
+      "published": "2026-07-03",
+      "source_url": "https://note.com/alise_s99lab/n/n5e1f48f50865",
+      "question_ja": "インフレ時の格差は、給与の違い以上に、資産に接続できるかどうかで広がるのか。",
+      "question_en": "Can access to appreciating assets widen inequality during inflation beyond differences in wages?",
+      "summary_ja": "現金の購買力低下と資産価格の上昇を対比し、生活の余裕や資産保有へのアクセス差が将来の機会格差を拡大するという論考。",
+      "summary_en": "Contrasts declining cash purchasing power with asset-price appreciation, exploring how unequal access to assets and financial headroom may compound opportunity gaps.",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "現金",
+        "インフレ",
+        "資産格差",
+        "購買力",
+        "機会格差"
+      ],
+      "topics_en": [
+        "cash",
+        "inflation",
+        "asset inequality",
+        "purchasing power",
+        "opportunity gap"
+      ]
+    },
+    {
+      "id": "scan-13",
+      "kind": "scan",
+      "number": 13,
+      "article_title_ja": "報じられる異論、沈む侵入",
+      "published": "2026-07-02",
+      "source_url": "https://note.com/alise_s99lab/n/n3aa272b40788",
+      "question_ja": "政治報道は、党内の異論と国家中枢の警備問題にどのような注目の差をつけるのか。",
+      "question_en": "How does political coverage assign different prominence to intra-party dissent and security incidents involving political institutions?",
+      "summary_ja": "国旗損壊罪への慎重論と議員宿舎への侵入事案を比較し、報道の選択・編集・強調が政治的な印象を作る仕組みを批評する。",
+      "summary_en": "Compares coverage of dissent over flag-damage legislation with reporting on an intrusion into a legislator's residence, examining editorial selection and political framing.",
+      "category_ids": [
+        "media_information",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "政治報道",
+        "国旗損壊罪",
+        "編集権力",
+        "議員宿舎",
+        "ニュースの重量配分"
+      ],
+      "topics_en": [
+        "political news",
+        "flag-damage legislation",
+        "editorial choices",
+        "security incident",
+        "news prominence"
+      ]
+    },
+    {
+      "id": "scan-12",
+      "kind": "scan",
+      "number": 12,
+      "article_title_ja": "ステーブルコインは、打出の小槌だった",
+      "published": "2026-07-01",
+      "source_url": "https://note.com/alise_s99lab/n/n2018f46d221b",
+      "question_ja": "ステーブルコイン市場の競争は、コインの発行数ではなく準備金利息の分配と接続網をどう変えるのか。",
+      "question_en": "How might stablecoin competition reshape reserve-yield sharing and financial connectivity rather than merely add new coins?",
+      "summary_ja": "Open USD構想を機に、準備金が生む利息を発行体と配布・決済パートナーの誰が受け取るかを検討。CircleのUSDCとRippleのRLUSD・決済／流動性サービスを『水槽と配管』にたとえ、利回り分配から相互接続へ注目を移す。Open USDはXRPの保有需要を直接証明しないと明記する。",
+      "summary_en": "Uses the proposed Open USD model to examine how interest earned on stablecoin reserves might be shared among issuers and distribution partners. Contrasts Circle's USDC reserve model with Ripple's potential connectivity services, while explicitly saying Open USD does not demonstrate XRP demand.",
+      "category_ids": [
+        "money_economy"
+      ],
+      "topics_ja": [
+        "ステーブルコイン",
+        "準備金利回り",
+        "Open USD",
+        "Circle・USDC",
+        "Ripple・RLUSD",
+        "XRPの需要検証"
+      ],
+      "topics_en": [
+        "stablecoins",
+        "reserve yield",
+        "Open USD",
+        "Circle and USDC",
+        "Ripple and RLUSD",
+        "testing XRP demand"
+      ]
+    },
+    {
+      "id": "scan-11",
+      "kind": "scan",
+      "number": 11,
+      "article_title_ja": "MiCAが壊したのは、USDTの価格ではない",
+      "published": "2026-07-01",
+      "source_url": "https://note.com/alise_s99lab/n/nb5b423bca297",
+      "question_ja": "MiCA規制はUSDTの価格ではなく、制度内で利用できる範囲と新しい保有需要をどう変えるのか。",
+      "question_en": "How might MiCA change USDT's institutional usability and new holding demand even if its peg remains stable?",
+      "summary_ja": "USDTの償還価格と制度内での利用可能性を分け、MiCAによる取扱制限が新規利用・保有需要や他のデジタルドルとの役割分化に与える影響を考察する。",
+      "summary_en": "Distinguishes price stability from access to regulated financial channels and examines how MiCA may redirect new USDT demand across different digital-dollar systems.",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "MiCA",
+        "USDT",
+        "ステーブルコイン",
+        "入口需要",
+        "制度接続"
+      ],
+      "topics_en": [
+        "MiCA",
+        "USDT",
+        "stablecoins",
+        "inflow demand",
+        "regulated access"
+      ]
+    },
+    {
+      "id": "scan-10",
+      "kind": "scan",
+      "number": 10,
+      "article_title_ja": "AI開発は、なぜ止まらないのか",
+      "published": "2026-06-30",
+      "source_url": "https://note.com/alise_s99lab/n/n90fbb0f49f61",
+      "question_ja": "企業と国家は、なぜAI開発競争から簡単に降りることができないのか。",
+      "question_en": "Why is it difficult for companies and states to step away from the AI development race?",
+      "summary_ja": "AI開発競争を利益追求だけでなく、技術標準・安全保障・産業の主導権を失うことへの恐れが加速させるという仮説から検討する。",
+      "summary_en": "Explores the hypothesis that fear of losing technological standards, security advantages, and industrial influence—beyond profit alone—drives the AI race.",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "AI開発競争",
+        "技術標準",
+        "国家競争",
+        "敗北回避"
+      ],
+      "topics_en": [
+        "AI race",
+        "technology standards",
+        "geopolitical competition",
+        "loss aversion"
+      ]
+    },
+    {
+      "id": "scan-09",
+      "kind": "scan",
+      "number": 9,
+      "article_title_ja": "イーロン・マスクは、火星を目指しているだけなのか",
+      "published": "2026-06-29",
+      "source_url": "https://note.com/alise_s99lab/n/neebbb867d060",
+      "question_ja": "マスク氏の宇宙・通信・AI事業は、火星移住を超える文明インフラの構築として読めるか。",
+      "question_en": "Can Musk's space, connectivity, and AI ventures be interpreted as infrastructure for extending civilization beyond Earth?",
+      "summary_ja": "SpaceX、Starlink、Tesla、xAIなどの事業を、単なる火星旅行ではなく輸送・通信・知能・エネルギーの基盤をつなぐ構想として読む仮説的論考。",
+      "summary_en": "Offers an interpretive reading of SpaceX, Starlink, Tesla, and xAI as interconnected transport, connectivity, intelligence, and energy infrastructure rather than only a Mars travel project.",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "イーロン・マスク",
+        "SpaceX",
+        "Starlink",
+        "文明インフラ"
+      ],
+      "topics_en": [
+        "Elon Musk",
+        "SpaceX",
+        "Starlink",
+        "civilizational infrastructure"
+      ]
+    },
+    {
+      "id": "scan-08",
+      "kind": "scan",
+      "number": 8,
+      "article_title_ja": "NHKに足りないのは金か、信頼か",
+      "published": "2026-06-27",
+      "source_url": "https://note.com/alise_s99lab/n/ne72d3f2ed338",
+      "question_ja": "NHKの問題は赤字だけなのか。それとも、受信料制度の信頼と説明責任なのか。",
+      "question_en": "Is NHK's central problem its deficit, or trust and accountability surrounding its license-fee system?",
+      "summary_ja": "NHKの赤字、関連団体との資金の流れ、ネット配信への展開、報道への信頼を並べ、公共放送への負担が受け入れられる条件を問う。",
+      "summary_en": "Examines NHK's deficit, affiliated organizations, online expansion, and perceived reporting trust as questions of accountability and public acceptance.",
+      "category_ids": [
+        "media_information",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "NHK",
+        "受信料",
+        "公共放送",
+        "説明責任"
+      ],
+      "topics_en": [
+        "NHK",
+        "license fee",
+        "public broadcasting",
+        "accountability"
+      ]
+    },
+    {
+      "id": "scan-07",
+      "kind": "scan",
+      "number": 7,
+      "article_title_ja": "日本政府は、本当に円安を嫌がっているのか",
+      "published": "2026-06-27",
+      "source_url": "https://note.com/alise_s99lab/n/n9e77f4beb1d7",
+      "question_ja": "政府が円安を警戒する発言をしながら、政策上は弱い円に一定の利点を見いだしうるのはなぜか。",
+      "question_en": "Why might a government publicly warn against yen depreciation while facing policy incentives that could favor a weaker yen?",
+      "summary_ja": "円安の家計負担と、名目税収・輸出・産業投資などへの影響を対比し、政府の発言と政策上の誘因のズレを論じる。",
+      "summary_en": "Contrasts the household costs of yen weakness with potential incentives relating to nominal tax revenue, exports, and industrial investment.",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "円安",
+        "政府の政策",
+        "国民生活",
+        "為替"
+      ],
+      "topics_en": [
+        "Yen depreciation",
+        "government policy",
+        "household costs",
+        "foreign exchange"
+      ]
+    },
+    {
+      "id": "scan-06",
+      "kind": "scan",
+      "number": 6,
+      "article_title_ja": "北尾吉孝は、戦後メディアの配線を変えようとしているのか",
+      "published": "2026-06-26",
+      "source_url": "https://note.com/alise_s99lab/n/nf02bc63f34ce",
+      "question_ja": "金融資本とテレビメディアが結びつくと、日本の情報空間や世論形成はどう変わりうるか。",
+      "question_en": "How could closer ties between finance and television reshape Japan's information landscape and public opinion?",
+      "summary_ja": "SBIとフジ・メディア・ホールディングスの接近を、コンテンツ投資にとどまらず金融・情報・世論形成の接続として考察する評論。人物の意図を確定事実とはしない。",
+      "summary_en": "Interprets SBI's relationship with Fuji Media Holdings as a potential intersection of finance, content, and opinion formation, without treating inferred motives as verified facts.",
+      "category_ids": [
+        "media_information",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "SBI",
+        "テレビメディア",
+        "情報空間",
+        "世論形成"
+      ],
+      "topics_en": [
+        "SBI",
+        "television media",
+        "information landscape",
+        "public opinion"
+      ]
+    },
+    {
+      "id": "scan-05",
+      "kind": "scan",
+      "number": 5,
+      "article_title_ja": "中国は世界を囲みながら、内側から沈んでいるのか",
+      "published": "2026-06-25",
+      "source_url": "https://note.com/alise_s99lab/n/n31d44dbf7ad1",
+      "question_ja": "中国の国内不動産不振と、世界の製造供給網への影響力はなぜ同時に存在するのか。",
+      "question_en": "How can China's domestic property distress coexist with powerful leverage over global manufacturing supply chains?",
+      "summary_ja": "中国を『崩壊か覇権か』の二択にせず、海花島などの不動産・地方財政・国内信用の弱さと、重要鉱物の加工、電池、太陽光、EV、供給網の国際的な強みを併置。台湾半導体、日本の米国安全保障と中国製造網への二重依存を含め、筆者の構造仮説として論じる。",
+      "summary_en": "Rejects a simple China-is-collapsing versus China-is-dominating choice. It contrasts real-estate and local-government strains with global strengths in processing and manufacturing, and examines Taiwan semiconductor risk and Japan's dependence on both US security and Chinese supply chains as an editorial interpretation.",
+      "category_ids": [
+        "society_governance",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "中国",
+        "不動産危機",
+        "レアアース加工",
+        "サプライチェーン",
+        "台湾",
+        "米中関係"
+      ],
+      "topics_en": [
+        "China",
+        "property downturn",
+        "rare-earth processing",
+        "supply chains",
+        "Taiwan",
+        "US–China relations"
+      ]
+    },
+    {
+      "id": "scan-04",
+      "kind": "scan",
+      "number": 4,
+      "article_title_ja": "東京不動産は円から逃げる箱になるのか",
+      "published": "2026-06-25",
+      "source_url": "https://note.com/alise_s99lab/n/n65be3304adb5",
+      "question_ja": "東京不動産が円の不安を受け止める資産となるには、どんな立地・需要・管理・出口が必要か。",
+      "question_en": "What location, demand, management and exit conditions would let Tokyo property act as a refuge from yen-related uncertainty?",
+      "summary_ja": "東京不動産は円建てでも、生活実需・都市の国際的魅力・海外需要によって円だけでは評価されない可能性を論じる。同時に、全物件が安全な避難先ではなく、立地、賃貸・購入需要、管理修繕費、災害リスク、売却出口と金利の選別が不可欠と強調する。",
+      "summary_en": "Explores why yen-denominated Tokyo property might attract real household demand and global capital, while warning that only select properties can function as a refuge. Location, occupancy demand, upkeep, disaster exposure, financing costs and resale exit matter more than the city's name.",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "東京不動産",
+        "資産防衛",
+        "円安",
+        "住宅実需",
+        "維持費",
+        "売却出口"
+      ],
+      "topics_en": [
+        "Tokyo real estate",
+        "wealth preservation",
+        "yen weakness",
+        "housing demand",
+        "ownership costs",
+        "exit liquidity"
+      ]
+    },
+    {
+      "id": "scan-03",
+      "kind": "scan",
+      "number": 3,
+      "article_title_ja": "XRPはデジタルドル時代のどこに置かれるのか",
+      "published": "2026-06-25",
+      "source_url": "https://note.com/alise_s99lab/n/n8b6f43848e7d",
+      "question_ja": "デジタルドルの仕組みが増える世界で、XRPはどの接続摩擦を減らせるのか。",
+      "question_en": "As digital-dollar systems multiply, which real frictions could XRP help reduce between them?",
+      "summary_ja": "ドルを中心とするステーブルコイン・銀行・証券・台帳・法域は一体ではない。XRPを『変換プラグ』や橋にたとえ、RLUSDとXRPLの接続、実際の利用主体、流量、コストや摩擦の削減を評価軸とする。橋になれる可能性と実需の成立を明確に区別する。",
+      "summary_en": "The digital-dollar world spans different ledgers, banks, markets and jurisdictions. The article treats XRP as a potential bridge rather than a rival to the dollar, asking whether RLUSD/XRPL connectivity yields measurable users, flows and friction reduction, not merely announced adoption.",
+      "category_ids": [
+        "money_economy"
+      ],
+      "topics_ja": [
+        "XRP",
+        "RLUSD",
+        "デジタルドル",
+        "台帳間接続",
+        "流動性",
+        "実需と採用"
+      ],
+      "topics_en": [
+        "XRP",
+        "RLUSD",
+        "digital dollar",
+        "ledger interoperability",
+        "liquidity",
+        "actual use versus announced adoption"
+      ]
+    },
+    {
+      "id": "scan-02",
+      "kind": "scan",
+      "number": 2,
+      "article_title_ja": "円安は金利差だけで終わらない",
+      "published": "2026-06-25",
+      "source_url": "https://note.com/alise_s99lab/n/n2bac8073fdfe",
+      "question_ja": "ドルのデジタル決済網が広がると、円安を金利差だけで説明できなくなるのはなぜか。",
+      "question_en": "Why might expanding digital-dollar payment networks make interest-rate differentials an incomplete explanation of yen weakness?",
+      "summary_ja": "金利差による短期的な為替需要と、ステーブルコインなどを通じたドルの決済・利用基盤の拡大を区別。円が国内で使われ続けても、国際資産として積極的に保有される需要は別の方向へ動き得るという仮説を検討する。規制・発行体信用・詐欺などのリスクや、金利差縮小による円高の可能性も認めている。",
+      "summary_en": "Distinguishes short-term FX demand driven by interest-rate gaps from the expansion of dollar-denominated payment and wallet infrastructure. Explores the possibility that the yen stays essential for domestic transactions while weakening as a chosen international store of value, acknowledging stablecoin risks and possible rate-driven yen rallies.",
+      "category_ids": [
+        "money_economy",
+        "ai_technology"
+      ],
+      "topics_ja": [
+        "円安",
+        "金利差",
+        "ドル建てステーブルコイン",
+        "デジタルドル",
+        "通貨の利用需要",
+        "資産保有の選択"
+      ],
+      "topics_en": [
+        "yen depreciation",
+        "interest-rate differentials",
+        "dollar stablecoins",
+        "digital dollar",
+        "currency usage demand",
+        "asset allocation"
+      ]
+    },
+    {
+      "id": "scan-01",
+      "kind": "scan",
+      "number": 1,
+      "article_title_ja": "米国はドルをアプリ化した",
+      "published": "2026-06-24",
+      "source_url": "https://note.com/alise_s99lab/n/n60f5247f96c6",
+      "question_ja": "米国のドル建てステーブルコイン政策は、暗号資産の決済網をドル資産への需要にどう結びつけうるか。",
+      "question_en": "How might US dollar stablecoins connect crypto payment networks to demand for dollar-denominated assets?",
+      "summary_ja": "ドル建てステーブルコインを、利便性だけでなく米国債などの準備資産需要とドル圏の拡張につながりうる仕組みとして読み、円への影響も考察する。",
+      "summary_en": "Explores the thesis that dollar stablecoins may extend the dollar's financial reach through reserve-asset demand and digital payments, with implications for the yen.",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "ドル建てステーブルコイン",
+        "米国債",
+        "暗号資産政策",
+        "ドル覇権"
+      ],
+      "topics_en": [
+        "Dollar stablecoins",
+        "US Treasuries",
+        "crypto policy",
+        "dollar dominance"
+      ]
+    },
+    {
+      "id": "guide-launch",
+      "kind": "guide",
+      "number": null,
+      "article_title_ja": "A_L_I_S_E（アライズ）を起動しました",
+      "published": "2026-06-24",
+      "source_url": "https://note.com/alise_s99lab/n/n1abf7de120f8",
+      "question_ja": "A_L_I_S_Eは何を目的としたメディアで、ニュースの背後の何を読もうとしているのか。",
+      "question_en": "What is A_L_I_S_E's editorial purpose, and what structures behind current events does it seek to examine?",
+      "summary_ja": "A_L_I_S_Eの起動宣言。速報や未来予言ではなく、利害、制度、人間の判断と責任の動きを多分野のニュースから読み解くという媒体の役割を説明する。",
+      "summary_en": "Introduces A_L_I_S_E as structural commentary rather than breaking news or prediction, explaining its interest in incentives, institutions, judgment, and accountability.",
+      "category_ids": [
+        "editorial_guides"
+      ],
+      "topics_ja": [
+        "媒体紹介",
+        "構造分析",
+        "人間とAIの協働",
+        "編集方針"
+      ],
+      "topics_en": [
+        "publication introduction",
+        "structural analysis",
+        "human–AI collaboration",
+        "editorial mission"
+      ]
+    },
+    {
+      "id": "guide-first-five",
+      "kind": "guide",
+      "number": null,
+      "article_title_ja": "はじめてのA_L_I_S_E｜まず読んでほしい5本",
+      "published": "2026-07-27",
+      "source_url": "https://note.com/alise_s99lab/n/n14c398e27452",
+      "question_ja": "A_L_I_S_Eの見方を知りたい読者は、どの5本から読み始めればよいか。",
+      "question_en": "Which five articles introduce new readers to A_L_I_S_E's approach?",
+      "summary_ja": "ドルのデジタル化、公共安全の私費化、東京の単身住宅、国民所属の条件、機会に備えることを扱う5本を選び、制度・利害・選択肢・判断という共通の観点を案内する読書ガイド。",
+      "summary_en": "Curates five introductions on digital dollars, privatized public safety, solo housing, conditional belonging, and readiness for opportunity to demonstrate the publication's common analytical lens.",
+      "category_ids": [
+        "editorial_guides"
+      ],
+      "topics_ja": [
+        "はじめての方へ",
+        "おすすめ記事",
+        "読書ガイド",
+        "構造分析"
+      ],
+      "topics_en": [
+        "start here",
+        "selected articles",
+        "reading guide",
+        "structural analysis"
+      ]
+    }
+  ]
+}
