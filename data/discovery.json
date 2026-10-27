@@ -10,10 +10,10 @@
     "scan": 43,
     "memo": 6,
     "guides": 2,
-    "checked_primary_source": 23,
+    "checked_primary_source": 33,
     "unavailable_primary_source": 7,
     "seeded_from_existing_pilot": 0,
-    "pending_primary_source": 21,
+    "pending_primary_source": 11,
     "original_note_reverified_in_this_stage": 10
   },
   "rules": {
@@ -111,12 +111,32 @@
       "number": 40,
       "title_ja": "アフリカと資本主義。豊かさに正解はあるのか。",
       "source_url": "https://note.com/alise_s99lab/n/nc17ca047a656",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "経済成長が生活を便利にしても、すべての人が同じ豊かさや幸福を望むとは限らないのではないか。",
+      "question_en": "Must everyone define prosperity the same way, even when economic growth improves living standards?",
+      "category_ids": [
+        "society_governance",
+        "human_life_health",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "アフリカ",
+        "資本主義",
+        "経済成長",
+        "幸福",
+        "地域主体"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body via exact-title public web search; article URL and number matched index.",
+      "summary_ja": "アフリカの井戸をめぐる真偽未確認の逸話を入口に、インフラの維持、地域の選択、成長と幸福の違いを考察。他者に一つの豊かさの尺度を押しつけない姿勢を示す。",
+      "summary_en": "Uses an explicitly unverified water-well anecdote to examine local choices, infrastructure maintenance, and economic growth as a means rather than a universal end.",
+      "topics_en": [
+        "Africa",
+        "capitalism",
+        "economic growth",
+        "well-being",
+        "local agency"
+      ],
+      "review_note": "Editorial question summarizes author argument only, not independent verification; speculative/unverified claims kept explicit. English is navigation aid."
     },
     {
       "id": "scan-39",
@@ -124,12 +144,30 @@
       "number": 39,
       "title_ja": "もし、あなたのnoteが「1章10円」で世界とつながったら。",
       "source_url": "https://note.com/alise_s99lab/n/n84df766a6827",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "AI翻訳と少額決済が普及すれば、個人の作品を世界の読者が1章10円から購入できるようになるのか。",
+      "question_en": "Could AI translation and micropayments enable global readers to buy creator chapters for ten yen?",
+      "category_ids": [
+        "ai_technology",
+        "money_economy",
+        "media_information"
+      ],
+      "topics_ja": [
+        "note",
+        "章別販売",
+        "マイクロペイメント",
+        "AI翻訳"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body via exact-title public web search; article URL and number matched index.",
+      "summary_ja": "noteの章ごとの10円販売を仮想の未来として描き、AIによる発見・翻訳と決済が個人の作品販売を変えうると考察。現行機能の説明ではない。",
+      "summary_en": "Uses hypothetical ten-yen chapter sales on note to explore AI discovery, translation, and global micropayments; not a current platform feature.",
+      "topics_en": [
+        "note",
+        "chapter sales",
+        "micropayments",
+        "AI translation"
+      ],
+      "review_note": "Editorial question summarizes author argument only, not independent verification; speculative/unverified claims kept explicit. English is navigation aid."
     },
     {
       "id": "scan-38",
@@ -137,12 +175,31 @@
       "number": 38,
       "title_ja": "次に「オールド」と呼ばれるのは、会社かもしれない",
       "source_url": "https://note.com/alise_s99lab/n/n383a8d0a3e10",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "AIと外部サービスを個人が組み合わせられると、会社の人数と実現できる仕事の大きさは分離するのか。",
+      "question_en": "Can AI decouple company headcount from the scale of work it can accomplish?",
+      "category_ids": [
+        "ai_technology",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "一人企業",
+        "AI",
+        "Base44",
+        "組織コスト",
+        "プラットフォーム依存"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body via exact-title public web search; article URL and number matched index.",
+      "summary_ja": "Base44を例に、AIによって少人数企業が機能を組み合わせる可能性を論考。大企業の資本・信用・品質管理と小企業の速度、プラットフォーム依存を併記する。",
+      "summary_en": "Uses Base44 to examine lean AI-enabled firms alongside large-company strengths and new dependence on platforms.",
+      "topics_en": [
+        "solo founders",
+        "AI",
+        "Base44",
+        "coordination costs",
+        "platform dependency"
+      ],
+      "review_note": "Editorial question summarizes author argument only, not independent verification; speculative/unverified claims kept explicit. English is navigation aid."
     },
     {
       "id": "scan-37",
@@ -150,12 +207,29 @@
       "number": 37,
       "title_ja": "世界中にメッセージを送れる。では、10円も送れるか",
       "source_url": "https://note.com/alise_s99lab/n/necf655c3a6e6",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "世界中へ情報を送れるのに、通貨の違う個人同士が10円を簡単に支払えないのはなぜか。",
+      "question_en": "Why can information move globally while ten-yen cross-currency payments remain difficult?",
+      "category_ids": [
+        "money_economy",
+        "ai_technology"
+      ],
+      "topics_ja": [
+        "Internet of Value",
+        "Interledger",
+        "少額送金",
+        "通貨間接続"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body via exact-title public web search; article URL and number matched index.",
+      "summary_ja": "個人事業者の少額国際決済を例に、各経済圏の独立性と利用者の接続需要を対比。金融ネットワーク間の橋渡しには複数の方法があり、特定資産の採用は確定しない。",
+      "summary_en": "Uses a small cross-border purchase to explore interoperability between independent currency systems, without assuming any bridge asset wins.",
+      "topics_en": [
+        "Internet of Value",
+        "Interledger",
+        "micropayments",
+        "currency interoperability"
+      ],
+      "review_note": "Editorial question summarizes author argument only, not independent verification; speculative/unverified claims kept explicit. English is navigation aid."
     },
     {
       "id": "scan-36",
@@ -163,12 +237,29 @@
       "number": 36,
       "title_ja": "AI詐欺が、産業になる時代――詐欺村を潰しても、詐欺は消えなかった",
       "source_url": "https://note.com/alise_s99lab/n/nc747b28dbf91",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "詐欺拠点を取り締まっても組織が分散しAIを取り込むなら、防御は何を変える必要があるのか。",
+      "question_en": "If scam operations disperse and adopt AI after crackdowns, how must defenses change?",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "AI詐欺",
+        "犯罪の産業化",
+        "国際組織犯罪",
+        "防御AI"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body via exact-title public web search; article URL and number matched index.",
+      "summary_ja": "東南アジアの詐欺拠点の移動・分散と、AIによる偽装・翻訳・大量接触を組織犯罪の生産構造として考察。防御AIが異常を拾い、判断を人間へ返す仕組みを提起する。",
+      "summary_en": "Frames mobile scam operations and AI-aided impersonation and translation as changing crime production, arguing for defensive anomaly detection with human oversight.",
+      "topics_en": [
+        "AI fraud",
+        "industrialized crime",
+        "scam centers",
+        "defensive AI"
+      ],
+      "review_note": "Editorial question summarizes author argument only, not independent verification; speculative/unverified claims kept explicit. English is navigation aid."
     },
     {
       "id": "scan-35",
@@ -1278,33 +1369,34 @@
       "stage-1-foundation",
       "stage-2-scan-01-through-10",
       "stage-3-scan-11-through-20",
-      "stage-4-scan-21-through-30"
+      "stage-4-scan-21-through-30",
+      "stage-5-scan-31-through-40"
     ],
-    "next": "stage-5-scan-31-through-40",
+    "next": "stage-6-scan-41-through-43-memo-01-through-06-and-2-guides",
     "current_batch": {
       "scan_numbers": [
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ],
       "checked_primary_source": [
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ],
       "unavailable_primary_source": [],
       "completed_date": "2026-10-28"
@@ -1318,6 +1410,6 @@
       "scan-15",
       "scan-17"
     ],
-    "retry_policy": "Existing 7 inaccessible originals deferred to final audit or optional author-provided manual text; no automated retry in this stage."
+    "retry_policy": "7 previously inaccessible note article bodies deferred; manual article sharing is acceptable later."
   }
 }
