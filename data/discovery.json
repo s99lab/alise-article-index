@@ -10,11 +10,11 @@
     "scan": 43,
     "memo": 6,
     "guides": 2,
-    "checked_primary_source": 13,
+    "checked_primary_source": 23,
     "unavailable_primary_source": 7,
     "seeded_from_existing_pilot": 0,
-    "pending_primary_source": 31,
-    "original_note_reverified_in_this_stage": 7
+    "pending_primary_source": 21,
+    "original_note_reverified_in_this_stage": 10
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -254,12 +254,31 @@
       "number": 30,
       "title_ja": "科学は命令しない。命令した人間がいる――ファウチの黙秘と、「科学に従った」の後ろで消えた責任",
       "source_url": "https://note.com/alise_s99lab/n/n6544035b7256",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "科学的知見を根拠に政策を決めるとき、判断した人間と組織の責任はどこに残るのか。",
+      "question_en": "When policy is justified through scientific expertise, where does responsibility remain among decision-makers and institutions?",
+      "category_ids": [
+        "society_governance",
+        "media_information"
+      ],
+      "topics_ja": [
+        "科学と政策",
+        "パンデミック",
+        "説明責任",
+        "意思決定",
+        "ファウチ"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "感染症政策とファウチ氏をめぐる議論を契機に、科学的助言と自由を制限する政策決定を区別する。黙秘権の行使を有罪の証拠とはせず、政治家・専門家・行政の説明責任の所在を問う。",
+      "summary_en": "Distinguishes scientific advice from policy authority and asks how responsibility is allocated among officials and experts; the exercise of legal silence is not treated as proof of guilt.",
+      "topics_en": [
+        "science and policy",
+        "pandemic governance",
+        "accountability",
+        "decision-making",
+        "Fauci"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "scan-29",
@@ -267,12 +286,33 @@
       "number": 29,
       "title_ja": "AI競争の勝者は、知能ではなく世界を持っている",
       "source_url": "https://note.com/alise_s99lab/n/ncfbcc9631bbd",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "AI競争の優位は、モデル単体の性能より現実データ・身体・通信・計算資源を結ぶ循環から生まれるのか。",
+      "question_en": "Does AI advantage increasingly depend on connecting real-world data, embodiment, connectivity, and compute rather than model benchmarks alone?",
+      "category_ids": [
+        "ai_technology",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "AI競争",
+        "フィジカルAI",
+        "Tesla",
+        "xAI",
+        "現実フィードバック",
+        "物理インフラ"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "xAI・Tesla・Optimus・Starlink・SpaceXなどの関係を、AIが現実を観測し、行動し、結果から学び直す物理的な接続基盤として読む。企業群が持つ資産による優位を問う。",
+      "summary_en": "Examines how real-world observations, vehicles, robots, connectivity, launch capacity, and compute could form a feedback loop beyond stand-alone AI model performance.",
+      "topics_en": [
+        "AI competition",
+        "physical AI",
+        "Tesla",
+        "xAI",
+        "real-world feedback",
+        "physical infrastructure"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "memo-05",
@@ -293,12 +333,31 @@
       "number": 28,
       "title_ja": "公約とはなんぞや――選挙で渡したのは、白紙委任ではない",
       "source_url": "https://note.com/alise_s99lab/n/n4e1038ad2bb5",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "選挙中の具体的な約束を選挙後に抽象的な目的へ読み替えると、有権者の委任はどう変質するのか。",
+      "question_en": "What happens to electoral accountability when a specific campaign promise is later reframed as a broad policy goal?",
+      "category_ids": [
+        "society_governance",
+        "media_information"
+      ],
+      "topics_ja": [
+        "選挙公約",
+        "民主主義",
+        "消費税",
+        "政治家の説明責任",
+        "言葉の再解釈"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "食料品消費税をめぐる候補者の選挙演説と政党の正式公約、選挙後の説明の差を比べ、議会・党内調整の必要性を認めつつ、有権者への言葉の責任を問う。",
+      "summary_en": "Compares a candidate's explicit tax pledge with a party manifesto's conditional language and subsequent explanations, examining political accountability without denying legitimate policy deliberation.",
+      "topics_en": [
+        "campaign promises",
+        "democracy",
+        "consumption tax",
+        "political accountability",
+        "promise interpretation"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "scan-27",
@@ -306,12 +365,31 @@
       "number": 27,
       "title_ja": "なぜアメリカまで円を買ったのか――「弱い円でも回る国」の限界",
       "source_url": "https://note.com/alise_s99lab/n/n9a55767a10b0",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "弱い円が国内生産を助ける一方で、同盟国の購買力や戦略投資を損なうのはどこからか。",
+      "question_en": "When does a weaker yen stop supporting domestic production and start undermining strategic imports and allied economic interests?",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "円買い介入",
+        "円安",
+        "日米経済",
+        "輸入購買力",
+        "産業投資"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "米国の円買いをめぐる報道を入口に、円安の輸出・国内投資上の利点と、輸入設備・エネルギー・対米投資の負担増を対比。米国の介入動機は推論であり確定しない。",
+      "summary_en": "Uses reports of US yen buying to contrast benefits of yen weakness with the higher foreign-currency cost of technology, energy, and investment; US motives remain interpretive.",
+      "topics_en": [
+        "yen intervention",
+        "yen depreciation",
+        "US-Japan economics",
+        "import purchasing power",
+        "industrial investment"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "memo-04",
@@ -371,12 +449,31 @@
       "number": 26,
       "title_ja": "チャンスは突然来る。だが、つかめる人は突然つくられない",
       "source_url": "https://note.com/alise_s99lab/n/nd945218083b6",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "新しい産業の機会が見え始めたとき、最初に参加しなくても構造変化を見極めて備えることはできるのか。",
+      "question_en": "Can people identify and prepare for structural opportunities after an industry starts proving itself, without being first?",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "構造変化",
+        "新産業",
+        "機会",
+        "投資の時間軸",
+        "準備"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "過去の成長企業を題材に、底値や最初の参入時期を当てることより、製品・利用・売上など現実の変化を観測し、機会をつかむ準備を続ける重要性を論じる。投資成果の保証ではない。",
+      "summary_en": "Uses past growth companies to argue that observing real product adoption and business progress, and preparing to act, may matter more than perfectly timing an industry's beginning.",
+      "topics_en": [
+        "structural change",
+        "emerging industries",
+        "opportunity",
+        "investment horizon",
+        "preparation"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "scan-25",
@@ -384,12 +481,31 @@
       "number": 25,
       "title_ja": "「高すぎても誰かが買う時間」が終わる",
       "source_url": "https://note.com/alise_s99lab/n/n579c615b3be7",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "東京中古マンションの価格調整は、価格そのものより売り手が値下げを決める時間の短縮から始まるのか。",
+      "question_en": "Could Tokyo condo price adjustments begin with faster seller repricing decisions rather than prices alone?",
+      "category_ids": [
+        "money_economy",
+        "ai_technology"
+      ],
+      "topics_ja": [
+        "東京中古マンション",
+        "売出価格",
+        "成約価格",
+        "値下げ判断",
+        "AIによる市場分析"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "中古マンションの売出価格と成約価格の時間差に着目し、利益確定できる売り手の早期値下げやAIによる比較・損益計算が、売却判断を速めうるという仮説を提示する。",
+      "summary_en": "Explores a hypothesis that profitable sellers and AI-assisted comparisons can shorten the lag between asking prices, repricing decisions, and actual condominium transactions.",
+      "topics_en": [
+        "Tokyo condominiums",
+        "asking prices",
+        "transaction prices",
+        "seller repricing",
+        "AI market analysis"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "scan-24",
@@ -397,12 +513,31 @@
       "number": 24,
       "title_ja": "敗者のいないアメリカの勝利",
       "source_url": "https://note.com/alise_s99lab/n/n55fc6f366b3f",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "対立する利害を持つ人々は、なぜ同じデジタル資産法案を異なる理由から支持できるのか。",
+      "question_en": "How can stakeholders with competing interests support the same digital-asset bill for different reasons?",
+      "category_ids": [
+        "society_governance",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "CLARITY法案",
+        "デジタル資産規制",
+        "利害調整",
+        "立法過程",
+        "制度設計"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "米国CLARITY法案を、反対者の排除ではなく反対理由を条文や保護措置へ組み込む制度形成の過程として読む。『敗者がいない』は合意構造の解釈であり成立確定を意味しない。",
+      "summary_en": "Interprets the US CLARITY bill as an attempt to translate competing objections into provisions different groups can defend; not a claim that enactment or unanimity is assured.",
+      "topics_en": [
+        "CLARITY bill",
+        "digital-asset regulation",
+        "stakeholder negotiation",
+        "legislation",
+        "institutional design"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "scan-23",
@@ -410,12 +545,32 @@
       "number": 23,
       "title_ja": "勝っている間だけ、国民だった",
       "source_url": "https://note.com/alise_s99lab/n/n7ed50ea6521e",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "代表選手が敗北した瞬間、出自を理由に国民としての所属まで否定されるのはなぜか。",
+      "question_en": "Why can a national team's defeat trigger attacks that deny a player's belonging on grounds of ancestry or race?",
+      "category_ids": [
+        "society_governance",
+        "human_life_health",
+        "media_information"
+      ],
+      "topics_ja": [
+        "ワールドカップ",
+        "人種差別",
+        "SNS",
+        "国民意識",
+        "社会分断"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "ワールドカップでの選手への人種差別的なSNS攻撃を、単なる悪口の増加ではなく、敗北時に「われわれ」の境界が狭まる現象として考察。政策への不満と差別的攻撃を区別する。",
+      "summary_en": "Examines racist abuse of football players as a conditional boundary of national belonging after defeat, distinguishing legitimate policy debates from racist attacks.",
+      "topics_en": [
+        "World Cup",
+        "racial abuse",
+        "social media",
+        "national belonging",
+        "social division"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "scan-22",
@@ -423,12 +578,31 @@
       "number": 22,
       "title_ja": "試されているのは財政ではない。日本の民主主義である",
       "source_url": "https://note.com/alise_s99lab/n/n1b13a56e180a",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "国家が戦略的に投資先を選び直すとき、選ばれない分野への負担と民主的な説明責任を誰が引き受けるのか。",
+      "question_en": "When a state prioritizes strategic investment, who explains and bears the costs of sectors not selected?",
+      "category_ids": [
+        "society_governance",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "骨太の方針",
+        "積極財政",
+        "予算配分",
+        "人口減少",
+        "民主的説明責任"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "骨太の方針2026を、積極財政の規模だけでなく投資先の選別と人手不足という実行制約から読む。政策の優先順位を誰が決め、選ばれなかった側にどう説明するかを問う。",
+      "summary_en": "Reads Japan's 2026 economic policy framework through investment priorities, workforce constraints, and democratic accountability for unavoidable trade-offs.",
+      "topics_en": [
+        "economic policy framework",
+        "fiscal policy",
+        "budget priorities",
+        "demographic constraints",
+        "democratic accountability"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "scan-21",
@@ -436,12 +610,31 @@
       "number": 21,
       "title_ja": "イーロン・マスクの未来には、人間の欲望がいない",
       "source_url": "https://note.com/alise_s99lab/n/ndf48c8c8a6ee",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "AIとロボットが生活必需品の不足を減らしても、地位・承認・希少な場所をめぐる人間の競争は残るのか。",
+      "question_en": "Even if AI and robots reduce material scarcity, will competition for status, recognition, and scarce opportunities persist?",
+      "category_ids": [
+        "ai_technology",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "イーロン・マスク",
+        "AIと労働",
+        "豊かな社会",
+        "人間の欲望",
+        "相対的希少性"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body inspected via direct public web URL; matched title and SCAN number to data/articles.json.",
+      "summary_ja": "マスク氏が語る豊かな自動化社会を、生産力の拡大と人間の相対的欲望を分けて検討。必要な物が行き渡っても、地位・承認・場所などの希少性は消えないという構造上の問いを示す。",
+      "summary_en": "Examines Musk's abundance vision by distinguishing greater productive capacity from relative human desires for status, recognition, location, and influence.",
+      "topics_en": [
+        "Elon Musk",
+        "AI and labor",
+        "abundance",
+        "human desire",
+        "relative scarcity"
+      ],
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
     },
     {
       "id": "scan-20",
@@ -996,36 +1189,36 @@
     "completed": [
       "stage-1-foundation",
       "stage-2-scan-01-through-10",
-      "stage-3-scan-11-through-20"
+      "stage-3-scan-11-through-20",
+      "stage-4-scan-21-through-30"
     ],
-    "next": "stage-4-scan-21-through-30",
+    "next": "stage-5-scan-31-through-40",
     "current_batch": {
       "scan_numbers": [
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "checked_primary_source": [
-        11,
-        13,
-        14,
-        16,
-        18,
-        19,
-        20
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
-      "unavailable_primary_source": [
-        12,
-        15,
-        17
-      ],
+      "unavailable_primary_source": [],
       "completed_date": "2026-10-28"
     },
     "retry_queue": [
@@ -1037,6 +1230,6 @@
       "scan-15",
       "scan-17"
     ],
-    "retry_policy": "Deferred until final audit; author may provide original article text manually. Do not infer from titles."
+    "retry_policy": "Existing 7 inaccessible originals deferred to final audit or optional author-provided manual text; no automated retry in this stage."
   }
 }
