@@ -10,11 +10,11 @@
     "scan": 43,
     "memo": 6,
     "guides": 2,
-    "seeded_from_existing_pilot": 4,
-    "pending_primary_source": 37,
-    "original_note_reverified_in_this_stage": 6,
-    "checked_primary_source": 6,
-    "unavailable_primary_source": 4
+    "checked_primary_source": 13,
+    "unavailable_primary_source": 7,
+    "seeded_from_existing_pilot": 0,
+    "pending_primary_source": 31,
+    "original_note_reverified_in_this_stage": 7
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -449,12 +449,31 @@
       "number": 20,
       "title_ja": "国旗損壊罪を必要にしたのは、誰か",
       "source_url": "https://note.com/alise_s99lab/n/n42deb3a0b6b7",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "国旗をめぐる挑発と表現の自由の対立は、なぜ新たな処罰制度を求める議論につながるのか。",
+      "question_en": "How do provocation and debates over freedom of expression contribute to demands for laws penalizing damage to national flags?",
+      "category_ids": [
+        "society_governance",
+        "media_information"
+      ],
+      "topics_ja": [
+        "国旗損壊罪",
+        "表現の自由",
+        "国家の象徴",
+        "政治的挑発",
+        "立法"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body retrieved through direct public web open.",
+      "summary_ja": "国旗損壊への刑罰と表現の自由の緊張を認めつつ、政治的挑発や共同体の象徴への態度が立法支持を強めうるという筆者の見方を論じる。",
+      "summary_en": "Discusses tensions between penalties for flag damage and free expression while presenting the author's interpretation of how political provocation and national symbolism may influence legislative support.",
+      "topics_en": [
+        "flag damage",
+        "freedom of expression",
+        "national symbols",
+        "political provocation",
+        "legislation"
+      ],
+      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids."
     },
     {
       "id": "scan-19",
@@ -462,12 +481,31 @@
       "number": 19,
       "title_ja": "東京では4万円で一人暮らしができる。世界では、もう難しい",
       "source_url": "https://note.com/alise_s99lab/n/nc44270959f2e",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "東京の安価な一人暮らしは、国際比較で見た豊かさと経済的な弱さの両方を示すのか。",
+      "question_en": "Can inexpensive solo housing in Tokyo signal both accessible living conditions and Japan's relative economic weakness?",
+      "category_ids": [
+        "money_economy",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "東京賃貸",
+        "単身住宅",
+        "国際家賃比較",
+        "住居費",
+        "都市生活"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body retrieved through direct public web open.",
+      "summary_ja": "2026年7月の募集賃料を海外都市と比較し、一人で住める空間の価格を都市への参加コストとして捉え、日本の居住可能性と賃金・価格水準の両面を考える。",
+      "summary_en": "Compares July 2026 rental listings across cities, viewing a private small apartment as the cost of independent urban participation while contrasting affordability and earnings.",
+      "topics_en": [
+        "Tokyo rent",
+        "solo housing",
+        "international rent comparison",
+        "housing costs",
+        "urban life"
+      ],
+      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids."
     },
     {
       "id": "scan-18",
@@ -475,18 +513,31 @@
       "number": 18,
       "title_ja": "国家が弱ると、安全は買うものになる",
       "source_url": "https://note.com/alise_s99lab/n/n2d8f84c58f64",
-      "question_ja": "公共機能が弱まると、安全やインフラを買える人と買えない人に何が起こるのか。",
-      "question_en": "When public services weaken, what happens to those who can and cannot privately obtain safety and infrastructure?",
+      "question_ja": "公共機能が弱まる社会では、安全やインフラを買える人と買えない人の未来はどう分かれるのか。",
+      "question_en": "How does the privatization of safety and infrastructure divide futures when public services weaken?",
       "category_ids": [
-        "society_governance"
+        "society_governance",
+        "money_economy"
       ],
       "topics_ja": [
         "南アフリカ",
         "公共インフラ",
-        "安全"
+        "民間警備",
+        "社会格差",
+        "公共サービス"
       ],
-      "review_state": "seeded_existing_pilot_summary",
-      "review_basis": "existing_index_pilot_summary_not_rechecked_this_stage"
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body retrieved through direct public web open.",
+      "summary_ja": "南アフリカを例に、治安・電力などの公共機能の弱体化が私的サービスへの移行と格差の固定化を招きうるという構造仮説を考察する。",
+      "summary_en": "Uses South Africa as a case for the hypothesis that weaker public security and utilities can shift protection to private services and deepen unequal access.",
+      "topics_en": [
+        "South Africa",
+        "public infrastructure",
+        "private security",
+        "inequality",
+        "public services"
+      ],
+      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids."
     },
     {
       "id": "scan-17",
@@ -498,8 +549,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note URL retrieval and exact-URL/title web searches did not provide the article body.",
+      "review_note": "Keep question, summary and categories blank until original article text or an author-provided copy is available. Manual sharing is acceptable later.",
+      "topics_en": [],
+      "summary_ja": null,
+      "summary_en": null
     },
     {
       "id": "scan-16",
@@ -507,18 +562,30 @@
       "number": 16,
       "title_ja": "薬で数値は戻った。人間は戻ったのか",
       "source_url": "https://note.com/alise_s99lab/n/n2581d9f574f7",
-      "question_ja": "検査数値が改善したとき、本人の生活の質まで改善したと言えるのか。",
-      "question_en": "When clinical indicators improve, does that mean quality of life has improved too?",
+      "question_ja": "薬で検査数値が改善しても、本人の生活力や元気まで回復したと言えるのか。",
+      "question_en": "When medication improves test results, does it also restore the person's vitality and ability to live well?",
       "category_ids": [
         "human_life_health"
       ],
       "topics_ja": [
-        "医療",
+        "服薬",
         "健康指標",
-        "生活の質"
+        "医療の評価",
+        "生活の質",
+        "身体機能"
       ],
-      "review_state": "seeded_existing_pilot_summary",
-      "review_basis": "existing_index_pilot_summary_not_rechecked_this_stage"
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body retrieved through direct public web open.",
+      "summary_ja": "投薬によるリスク管理の価値を認めながら、数値の正常化と生活の質・身体機能の改善を同一視しない医療の評価軸を問う。服薬変更を勧める内容ではない。",
+      "summary_en": "Recognizes the value of medication while questioning whether normalized clinical indicators capture lived well-being and functional capacity; not advice to change medication.",
+      "topics_en": [
+        "medication",
+        "health indicators",
+        "medical evaluation",
+        "quality of life",
+        "functional health"
+      ],
+      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids."
     },
     {
       "id": "scan-15",
@@ -530,8 +597,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note URL retrieval and exact-URL/title web searches did not provide the article body.",
+      "review_note": "Keep question, summary and categories blank until original article text or an author-provided copy is available. Manual sharing is acceptable later.",
+      "topics_en": [],
+      "summary_ja": null,
+      "summary_en": null
     },
     {
       "id": "scan-14",
@@ -539,18 +610,31 @@
       "number": 14,
       "title_ja": "現金しか持たない人から、静かに貧しくなる",
       "source_url": "https://note.com/alise_s99lab/n/n5e1f48f50865",
-      "question_ja": "物価や資産価格が変わるとき、現金中心の生活と資産保有の差はどう現れるのか。",
-      "question_en": "How do price changes affect people holding mainly cash versus other assets?",
+      "question_ja": "インフレ時の格差は、給与の違い以上に、資産に接続できるかどうかで広がるのか。",
+      "question_en": "Can access to appreciating assets widen inequality during inflation beyond differences in wages?",
       "category_ids": [
-        "money_economy"
+        "money_economy",
+        "society_governance"
       ],
       "topics_ja": [
         "現金",
         "インフレ",
-        "格差"
+        "資産格差",
+        "購買力",
+        "機会格差"
       ],
-      "review_state": "seeded_existing_pilot_summary",
-      "review_basis": "existing_index_pilot_summary_not_rechecked_this_stage"
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body retrieved through direct public web open.",
+      "summary_ja": "現金の購買力低下と資産価格の上昇を対比し、生活の余裕や資産保有へのアクセス差が将来の機会格差を拡大するという論考。",
+      "summary_en": "Contrasts declining cash purchasing power with asset-price appreciation, exploring how unequal access to assets and financial headroom may compound opportunity gaps.",
+      "topics_en": [
+        "cash",
+        "inflation",
+        "asset inequality",
+        "purchasing power",
+        "opportunity gap"
+      ],
+      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids."
     },
     {
       "id": "scan-13",
@@ -558,18 +642,31 @@
       "number": 13,
       "title_ja": "報じられる異論、沈む侵入",
       "source_url": "https://note.com/alise_s99lab/n/n3aa272b40788",
-      "question_ja": "報道の注目は、異なる政治的出来事にどのように配分されるのか。",
-      "question_en": "How is news attention distributed across different political events?",
+      "question_ja": "政治報道は、党内の異論と国家中枢の警備問題にどのような注目の差をつけるのか。",
+      "question_en": "How does political coverage assign different prominence to intra-party dissent and security incidents involving political institutions?",
       "category_ids": [
-        "media_information"
+        "media_information",
+        "society_governance"
       ],
       "topics_ja": [
-        "政治",
-        "メディア",
-        "報道"
+        "政治報道",
+        "国旗損壊罪",
+        "編集権力",
+        "議員宿舎",
+        "ニュースの重量配分"
       ],
-      "review_state": "seeded_existing_pilot_summary",
-      "review_basis": "existing_index_pilot_summary_not_rechecked_this_stage"
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: original note article body retrieved through direct public web open.",
+      "summary_ja": "国旗損壊罪への慎重論と議員宿舎への侵入事案を比較し、報道の選択・編集・強調が政治的な印象を作る仕組みを批評する。",
+      "summary_en": "Compares coverage of dissent over flag-damage legislation with reporting on an intrusion into a legislator's residence, examining editorial selection and political framing.",
+      "topics_en": [
+        "political news",
+        "flag-damage legislation",
+        "editorial choices",
+        "security incident",
+        "news prominence"
+      ],
+      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids."
     },
     {
       "id": "scan-12",
@@ -581,8 +678,12 @@
       "question_en": null,
       "category_ids": [],
       "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "review_state": "unavailable_primary_source",
+      "review_basis": "2026-10-28: direct note URL retrieval and exact-URL/title web searches did not provide the article body.",
+      "review_note": "Keep question, summary and categories blank until original article text or an author-provided copy is available. Manual sharing is acceptable later.",
+      "topics_en": [],
+      "summary_ja": null,
+      "summary_en": null
     },
     {
       "id": "scan-11",
@@ -590,12 +691,31 @@
       "number": 11,
       "title_ja": "MiCAが壊したのは、USDTの価格ではない",
       "source_url": "https://note.com/alise_s99lab/n/nb5b423bca297",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "pending_primary_source",
-      "review_basis": null
+      "question_ja": "MiCA規制はUSDTの価格ではなく、制度内で利用できる範囲と新しい保有需要をどう変えるのか。",
+      "question_en": "How might MiCA change USDT's institutional usability and new holding demand even if its peg remains stable?",
+      "category_ids": [
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "MiCA",
+        "USDT",
+        "ステーブルコイン",
+        "入口需要",
+        "制度接続"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: full original note body retrieved through exact-URL web search result, despite direct URL open failure.",
+      "summary_ja": "USDTの償還価格と制度内での利用可能性を分け、MiCAによる取扱制限が新規利用・保有需要や他のデジタルドルとの役割分化に与える影響を考察する。",
+      "summary_en": "Distinguishes price stability from access to regulated financial channels and examines how MiCA may redirect new USDT demand across different digital-dollar systems.",
+      "topics_en": [
+        "MiCA",
+        "USDT",
+        "stablecoins",
+        "inflow demand",
+        "regulated access"
+      ],
+      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids."
     },
     {
       "id": "scan-10",
@@ -875,35 +995,36 @@
   "stage_progress": {
     "completed": [
       "stage-1-foundation",
-      "stage-2-scan-01-through-10"
+      "stage-2-scan-01-through-10",
+      "stage-3-scan-11-through-20"
     ],
-    "next": "stage-3-scan-11-through-20",
+    "next": "stage-4-scan-21-through-30",
     "current_batch": {
       "scan_numbers": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
       ],
       "checked_primary_source": [
-        1,
-        6,
-        7,
-        8,
-        9,
-        10
+        11,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20
       ],
       "unavailable_primary_source": [
-        2,
-        3,
-        4,
-        5
+        12,
+        15,
+        17
       ],
       "completed_date": "2026-10-28"
     },
@@ -911,7 +1032,11 @@
       "scan-02",
       "scan-03",
       "scan-04",
-      "scan-05"
-    ]
+      "scan-05",
+      "scan-12",
+      "scan-15",
+      "scan-17"
+    ],
+    "retry_policy": "Deferred until final audit; author may provide original article text manually. Do not infer from titles."
   }
 }
