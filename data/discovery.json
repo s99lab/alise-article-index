@@ -10,12 +10,12 @@
     "scan": 43,
     "memo": 6,
     "guides": 2,
-    "checked_primary_source": 48,
-    "unavailable_primary_source": 3,
+    "checked_primary_source": 51,
+    "unavailable_primary_source": 0,
     "seeded_from_existing_pilot": 0,
     "pending_primary_source": 0,
     "original_note_reverified_in_this_stage": 8,
-    "manual_original_text_checked": 7
+    "manual_original_text_checked": 10
   },
   "rules": {
     "ja": "問い・英語補助訳は原文または既存の根拠付き要約に忠実に作成する。原文を確認できない場合、問い・分類を推測で埋めない。本文はnoteを正本とし、GitHubは索引に限定する。記事番号・タイトル・原文URLはdata/articles.jsonと一致させる。編集上の分類は記事の正しさの証明ではない。",
@@ -72,16 +72,34 @@
       "number": 43,
       "title_ja": "AI犯罪に、銀行は追いつけるのか。ChatGPTトップの警告。",
       "source_url": "https://note.com/alise_s99lab/n/n7207f513e189",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note URL and targeted public-web searches did not yield the article body. Older metadata and author-shared link/screenshot do not establish body content.",
-      "review_note": "Author-shared original URL retained; title derives from earlier editorial draft and note-publication title/timestamp still require direct comparison. No question or summary inferred.",
-      "summary_ja": null,
-      "summary_en": null,
-      "topics_en": []
+      "question_ja": "AIによる偽装犯罪が進化するとき、銀行の技術・共同防御・被害補償はどこまで追いつけるのか。",
+      "question_en": "As AI-enabled impersonation and fraud evolve, how far can bank security, shared defenses and victim reimbursement keep up?",
+      "category_ids": [
+        "ai_technology",
+        "money_economy",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "AI詐欺",
+        "音声偽装",
+        "本人承認型詐欺",
+        "銀行間連携",
+        "不正送金検知",
+        "被害補償"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author supplied the complete text visible on the published note page in this conversation, including headline and publication timestamp (2026-10-27 16:21 JST); not an independently retrieved live note page.",
+      "review_note": "Published note page text resolves previously unverified headline/date: 2026-10-27 16:21 JST. Fraud incidents, vendor claims and published metrics are conveyed as the article's cited assertions, not independently fact-checked.",
+      "summary_ja": "音声・映像の偽装だけでなく、本人が詐欺を信じて送金を承認する危険に注目。犯罪の分業・AI利用に対し、合成音声検知、取引行動分析、銀行間情報共有、連合学習、英国の被害払い戻し制度を対比する。銀行の認証が正しくても、被害の責任分担は残ると問いかける。",
+      "summary_en": "Examines AI-enabled impersonation and cases where a genuinely authenticated customer is deceived into authorizing a transfer. Contrasts coordinated criminal activity with voice detection, behavioral monitoring, interbank risk-sharing, federated learning and reimbursement rules, ending with the question of who bears residual losses.",
+      "topics_en": [
+        "AI-enabled fraud",
+        "voice deepfakes",
+        "authorized-push-payment scams",
+        "interbank collaboration",
+        "fraud detection",
+        "victim reimbursement"
+      ]
     },
     {
       "id": "scan-42",
@@ -433,16 +451,33 @@
       "number": 6,
       "title_ja": "A_L_I_S_E memo #06（約950字）｜人類滅亡、何％ですか――その前に、人類は一緒にブレーキを踏めるのか",
       "source_url": "https://note.com/alise_s99lab/n/nbca460e52dd9",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note URL and targeted public-web searches did not yield the article body. Older metadata and author-shared link/screenshot do not establish body content.",
-      "review_note": "Earlier author screenshot verifies headline/date/time only, not body content; no content-derived question inferred.",
-      "summary_ja": null,
-      "summary_en": null,
-      "topics_en": []
+      "question_ja": "AIが危険だと分かったとき、米中などの競争相手は同時に開発のブレーキを踏めるのか。",
+      "question_en": "If AI development is judged dangerous, can competing powers such as the US and China slow down together?",
+      "category_ids": [
+        "ai_technology",
+        "society_governance"
+      ],
+      "topics_ja": [
+        "p(doom)",
+        "AI安全性",
+        "AI開発競争",
+        "米中関係",
+        "協調的減速",
+        "敗北回避"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author supplied the complete text visible on the published note page in this conversation, including headline and publication timestamp (2026-08-11 09:20 JST); not an independently retrieved live note page.",
+      "review_note": "Author asks a coordination question; p(doom) probabilities and US/China behavior are not validated predictions. English translation is navigational.",
+      "summary_ja": "AIによる人類滅亡確率『p(doom)』の議論を出発点に、AI開発競争では危険を認識しても単独で減速すると負けるという誘因が働くと論じる。滅亡確率だけでなく、国家が協調して安全対策や減速を実行できる可能性を問う。",
+      "summary_en": "Moves from p(doom), the debated probability of AI catastrophe, to an international coordination problem: even if major competitors recognize danger, each may fear losing by slowing first. The question becomes whether they can brake together.",
+      "topics_en": [
+        "p(doom)",
+        "AI safety",
+        "AI race",
+        "US–China relations",
+        "coordinated slowdown",
+        "fear of falling behind"
+      ]
     },
     {
       "id": "scan-31",
@@ -640,16 +675,31 @@
       "number": 4,
       "title_ja": "サムネイル詐欺",
       "source_url": "https://note.com/alise_s99lab/n/n809b4e0f994f",
-      "question_ja": null,
-      "question_en": null,
-      "category_ids": [],
-      "topics_ja": [],
-      "review_state": "unavailable_primary_source",
-      "review_basis": "2026-10-28: direct note URL and targeted public-web searches did not yield the article body. Older metadata and author-shared link/screenshot do not establish body content.",
-      "review_note": "Older index verifies title/date/URL only; no content-derived question inferred.",
-      "summary_ja": null,
-      "summary_en": null,
-      "topics_en": []
+      "question_ja": "大げさなサムネイルや長押し画像が、読者一人の数秒を積み重ねると何が起きるのか。",
+      "question_en": "What happens when sensational thumbnails and press-and-hold image tricks harvest a few seconds of attention from many people?",
+      "category_ids": [
+        "media_information",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "サムネイル詐欺",
+        "クリックベイト",
+        "長押し画像",
+        "注意の収奪",
+        "SNS"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author supplied the complete text visible on the published note page in this conversation, including headline and publication timestamp (2026-08-01 10:49 JST); not an independently retrieved live note page.",
+      "review_note": "Canonical public headline includes 'A_L_I_S_E memo #04（約230字）｜' prefix; internal index stores shortened title. The note text critiques attention capture, not legal fraud adjudication.",
+      "summary_ja": "『終了』『崩壊』『緊急』など実態に見合わない画像の煽りや、意味の薄い長押し画像への誘導を描写。個人の損失は数秒でも、大勢の注意を集める仕組みとして成立していることへの小さな違和感を記す。",
+      "summary_en": "Critiques exaggerated thumbnail claims and trivial press-and-hold image gimmicks: each person loses only seconds, but repeated at scale they become a mechanism for capturing collective attention.",
+      "topics_en": [
+        "misleading thumbnails",
+        "clickbait",
+        "press-and-hold images",
+        "attention capture",
+        "social media"
+      ]
     },
     {
       "id": "memo-03",
@@ -1642,7 +1692,7 @@
       "stage-5-scan-31-through-40",
       "stage-6-scan-41-through-43-memo-01-through-06-and-2-guides"
     ],
-    "next": "manual-backfill-missing-originals-before-stage-7",
+    "next": "stage-7-public-question-discovery-and-final-audit",
     "current_batch": {
       "scan_numbers": [
         41,
@@ -1678,12 +1728,8 @@
       ],
       "completed_date": "2026-10-28"
     },
-    "retry_queue": [
-      "scan-43",
-      "memo-04",
-      "memo-06"
-    ],
-    "retry_policy": "9 missing note bodies remain deferred for author manual sharing; SCAN #02 completed through author-supplied note-page transcript. Keep Stage 7 held until all 51 are content-checked, per author.",
+    "retry_queue": [],
+    "retry_policy": "All ten previously missing note bodies have been provided by the author and checked for article-content indexing. No outstanding source-text retry cases.",
     "manual_backfill": {
       "completed": [
         "scan-02",
@@ -1692,16 +1738,15 @@
         "scan-05",
         "scan-12",
         "scan-15",
-        "scan-17"
-      ],
-      "pending": [
+        "scan-17",
         "scan-43",
         "memo-04",
         "memo-06"
       ],
-      "source": "author-supplied rendered note article body",
+      "pending": [],
+      "source": "Author-supplied original published note-page text in conversation for all ten missing entries; SCAN #12 provided as uploaded text file.",
       "completed_date": "2026-10-28",
-      "stage_7_hold": true
+      "stage_7_hold": false
     }
   }
 }
