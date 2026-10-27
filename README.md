@@ -4,7 +4,7 @@
 
 A_L_I_S_Eのnote公開記事を、記事番号・タイトル・公開日・テーマから探すための独立した索引です。本文の正本は [A_L_I_S_Eのnote](https://note.com/alise_s99lab) にあります。
 
-**公開中の索引ページ：** [https://s99lab.github.io/alise-article-index/](https://s99lab.github.io/alise-article-index/)
+**公開中：** [記事番号・公開日で探す](https://s99lab.github.io/alise-article-index/) ／ **[問いから探す（日本語）](https://s99lab.github.io/alise-article-index/questions.html)** ／ [Find by Question (English)](https://s99lab.github.io/alise-article-index/questions_en.html)
 
 **GitHub内のS. Meta記事を探す・編集する：** [S. Meta研究ポータルの別リポジトリ](https://github.com/s99lab/s99lab.github.io) ／ [S. Meta note記事索引のHTML原本](https://github.com/s99lab/s99lab.github.io/blob/main/smeta-note-index.html)
 
@@ -20,6 +20,8 @@ A_L_I_S_Eのnote公開記事を、記事番号・タイトル・公開日・テ�
 
 - [A_L_I_S_Eとは｜公開目的・読み方・研究との違い](about.html)（[公開ページ](https://s99lab.github.io/alise-article-index/about.html)）
 - [公開記事索引](index.html)
+- [問いから探す：日本語](questions.html)／[English](questions_en.html)
+- [51件の日英・問いデータ](data/questions.json)
 - [note原文](https://note.com/alise_s99lab)
 
 **S. Metaとの区別：** [S. Meta Research Archives](https://s99lab.github.io/) は研究成果・概念を検証可能な形で公開する研究アーカイブです。[S. Metaのnote](https://note.com/s99lab) はその研究を分かりやすく伝え、背景の問いや思いを綴る場所です。A_L_I_S_Eは論文の単純な言い換えではなく、Universal OSを通した独立の構造分析メディアです。
@@ -28,13 +30,15 @@ A_L_I_S_Eのnote公開記事を、記事番号・タイトル・公開日・テ�
 
 ---
 
-## 公開記事アーカイブ｜分類と収録範囲（2026-10-27）
+## 公開記事アーカイブ｜分類と収録範囲（2026-10-28）
 
 SCAN（構造分析記事）とMEMO（短編考察）は独立した番号系列であり、プロフィールと読書ガイドを各1記事収録しています。記事本文の正本はnoteです。
 
-**収録済みの原文URLは計51本**：SCAN #01〜#43（43本）、MEMO #01〜#06（6本）、独立案内2本。旧来の50件についてはタイトル・公開日・公開時刻（JST）・URLの照合記録があります。新着SCAN #43は2026年10月27日に著者が共有したnote URLを追加し、タイトルは同日の編集稿に由来します。**note掲載時の正式タイトル・公開日時は未照合**であり、JSON上の日時はnullとしています。本文の正本はnoteです。
+**収録済みの原文URLは計51本**：SCAN #01〜#43（43本）、MEMO #01〜#06（6本）、独立案内2本。51件すべての題名・公開日時（JST）・URLと内容を確認済みです（note原文または著者提供のnote掲載画面テキストによる確認）。SCAN #43も2026年10月27日16:21公開であることを著者の掲載画面から確認しました。本文の正本はnoteです。
 
 - [公開記事索引](index.html)：記事は新着順、種別はすべて／SCAN／MEMOの切替、番号・タイトル検索
+- [問いから探す（日英）](questions.html)（[English](questions_en.html)）：6分類×51件の原文に基づく問い、説明、テーマ・記事種別による絞り込み
+- [機械可読の問いデータ](data/questions.json)：51件の日英の問いと短い編集要約、分類、関連語・原文URL
 - [機械可読メタデータ](data/articles.json)：種別、番号、公開日、原文URL、確認状態
 - [note記事一覧](https://note.com/alise_s99lab)：本文の正式掲載先。GitHubには本文を転載しません
 - [プロフィール「A_L_I_S_E（アライズ）を起動しました」](https://note.com/alise_s99lab/n/n1abf7de120f8)
@@ -49,7 +53,7 @@ SCAN（構造分析記事）とMEMO（短編考察）は独立した番号系列
 
 ### 収録範囲と保守
 
-- SCAN #01〜#42、MEMO #01〜#06を照合済み。SCAN #43は著者提供URLで追加し、タイトル・日時の原文照合待ち。案内記事に取り上げられた5本は重複登録しません。
+- SCAN #01〜#43、MEMO #01〜#06、案内2本の全51件を内容・タイトル・公開日時とともに確認済み。案内記事に取り上げられた5本は重複登録しません。
 - SCAN #44以降、MEMO #07以降など新着記事は公開確認後に追加してください。noteとGitHubは自動同期ではありません。
 - 初回Pilot5記事（SCAN #13/#14/#15/#16/#18）の原文URL・公開メタデータを保持しています。
 
@@ -65,7 +69,7 @@ SCAN（構造分析記事）とMEMO（短編考察）は独立した番号系列
 ## 編集原則
 
 1. タイトル・原文URL・公開日は原則としてnote公開ページまたは著者提供画面で確認する。確認前に著者共有URLと編集稿を暫定登録する場合は、原文未照合であることを明記し公開日・時刻を推定で補わない。
-2. #15「怒らない日本人が、いちばん怖い」は通常のブラウザでは非ログイン閲覧できるが、調査時のAI Web取得経路では本文を取得できなかったため、内容の要約を推測して書かない。
+2. #15を含むAI Web取得困難だった10本については、著者提供の掲載画面本文によって問い・説明の根拠を補完済み。検索エンジン経由でnote本文を直接取得できることは別問題。
 3. URLにトラッキング用クエリパラメータは付けない。
 4. note原文の全文、未公開ドラフト、研究・事業上の非公開情報は掲載しない。
 5. 既存のS. Meta研究ポータルは変更しない。
@@ -84,8 +88,8 @@ GitHubのこのリポジトリの **Settings → Pages → Build and deployment 
 ## 検索エンジン・AIからの発見性
 
 - このリポジトリのGitHub Pages（上記公開サイト）が検索対象となるHTMLの正本です。
-- `sitemap.xml` は **記事索引トップと公開目的ページの日英各2ページ、計4 URL** のみを示します。外部ドメインのnote記事URLはサイトマップに混入させず、HTML内のリンクと構造化データで案内します。
-- `index.html` にcanonical URLとschema.orgの `CollectionPage / ItemList / Article` を設定しています。全文記事の正本はnoteに残ります。
+- `sitemap.xml` は **記事索引トップ、公開目的、問いから探すの各日英2ページ、計6 URL** を示します。外部ドメインのnote記事URLはサイトマップに混入させず、HTML内のリンクと構造化データで案内します。
+- `index.html` と `questions.html` および各英語版にcanonical URLとschema.orgの `CollectionPage / ItemList / Article` を設定しています。問いのページには51件すべての案内を静的HTMLで収録（JavaScript不要で読める）し、ブラウザではキーワード・分類・種別で絞り込みできます。全文記事の正本はnoteに残ります。
 - サイトマップの存在は、Search Consoleへの送信やGoogle検索への登録完了を意味しません。所有者がURL検査とサイトマップ送信結果を確認する必要があります。
 - `s99lab.github.io` ホスト全体のrobots.txtは既存の研究ポータル側が管理します。プロジェクト配下にrobots.txtを置いてもホスト全体のrobots制御にはなりません。
 - note本文や新号の更新は自動同期ではありません。新記事を追加する際は `index.html`・`data/articles.json`・JSON-LDの一致を検査し、サイトマップにはこのドメインの公開URLのみを記載します。
@@ -175,4 +179,14 @@ GitHubのこのリポジトリの **Settings → Pages → Build and deployment 
 - **SCAN #43の正式公開情報も確認：** 「AI犯罪に、銀行は追いつけるのか。ChatGPTトップの警告。｜A_L_I_S_E scan #43」／**2026-10-27 16:21 JST**。旧 `data/articles.json` の公開日時空欄と「編集稿由来タイトル・日時未照合」という注記を、著者提示のnote掲載画面と照合して更新。内部索引の見出しは元と同じ短縮タイトルを維持。
 - 保存順：SCAN #03〜05、SCAN #12・#15・#17、SCAN #43・MEMO #04・#06の3分割で `data/discovery.json` を更新し、`data/articles.json` で#43公開日時を補完。GitHub `index.html`、`index_en.html`、関連JSON-LDの**表示側UIは未変更**。公開『問いから探す』機能の実装は、次の第7工程に限る。
 - 次回は**第7工程＝日本語・英語の公開検索導線・問から探すUI・機械可読データの整合・全件最終監査**。全51件について検証不能な問いの穴埋めは不要になった。過去の保留記録は当時の作業履歴として維持し、最新の集計を正とする。
+
+
+### 第7工程完了｜日英「問いから探す」公開・51件最終監査（2026-10-28）
+
+- **公開ページ：** [日本語・問いから探す](questions.html) ／ [English・Find by Question](questions_en.html)。SCAN43／MEMO6／案内2、計51件の中心の問い、短い内容説明、分類、原文note記事への直接リンクを、各ページの**静的HTML**に直接収録。検索エンジン・読み取りAIにJavaScript実行を要求しない。表示する問い・要約は原文内容に基づく編集上のナビゲーションであり、検証済みの回答ではない。
+- **ユーザー操作：** 検索テキスト、6分類のプルダウン、SCAN／MEMO／案内の3種フィルターを組み合わせられる。絞り込み結果件数、結果なし、解除ボタン、キーボードフォーカス、スマートフォン1列レイアウト。検索文は日本語・英語の記事表現とテーマ語を対象にする。ブラウザ非対応時も全51件の問いと記事へのリンクを表示。
+- **機械可読：** [data/questions.json](data/questions.json) を新規公開（全51件の日英の問い・編集要約・分類・関連語・公開日・原文URL。内部の監査作業ログを除いた公開ナビゲーション向け形式）。[data/discovery.json](data/discovery.json) は従前の照合経緯付き管理台帳として保持。[data/articles.json](data/articles.json) の#43公開日時および全件検証状態を更新。
+- **既存の入口：** [index.html](index.html)／[index_en.html](index_en.html) から新しい問いページへのナビと紹介を追加。元のSCAN+MEMO49カードおよび案内2記事はそのまま維持。トップページ・about両言語・記事データ・構造化データの#43『照合待ち』という古い注意文を最新の著者提供原文に合わせて修正。
+- **検索向けリンク：** 新ページ2本にcanonical／ja-en hreflang／CollectionPage ItemList（51記事）を記載。サイトマップは従前の4 URLに新2 URLを追加し計6 URL、最終更新日2026-10-28。noteドメインのURLはサイトマップには入れず、HTMLの原文リンクと構造化データで示す。
+- 検証は、HTML・JSONの件数、原文URL・ID一致、分類、構造化データ、記事一覧の不変性、最終Pagesビルドを実データで点検する。外部検索での索引登録やAI回答内の引用が即時に起こる保証はしない。
 
