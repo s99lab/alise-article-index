@@ -2,14 +2,14 @@
   "schema": "alise-question-index-v1",
   "site": "https://s99lab.github.io/alise-article-index/",
   "updated": "2026-10-28",
-  "description_ja": "A_L_I_S_EのSCAN43、MEMO6、媒体案内2の全51記事を、原文確認に基づく問い、編集上の短い要約、分類、関連語から探せる公開ナビゲーション索引。記事全文はnoteを参照。",
-  "description_en": "A bilingual editorial navigation index for 51 A_L_I_S_E original Japanese note posts: 43 SCAN articles, 6 MEMO notes, and two guides. These prompts summarize questions explored, not proven answers.",
+  "description_ja": "A_L_I_S_EのSCAN44、MEMO6、媒体案内2の全52記事を、原文確認に基づく問い、編集上の短い要約、分類、関連語から探せる公開ナビゲーション索引。記事全文はnoteを参照。",
+  "description_en": "A bilingual editorial navigation index for 52 A_L_I_S_E original Japanese note posts: 44 SCAN articles, 6 MEMO notes, and two guides. These prompts summarize questions explored, not proven answers.",
   "text_canonical_host": "https://note.com/alise_s99lab",
   "language_note": "English questions and summaries are editorial reading guides, not certified translations of the Japanese full text.",
   "evidence_note": "Checked means the article text or an author-provided copy was inspected for editorial indexing, not that external assertions were independently fact-checked.",
   "counts": {
-    "total": 51,
-    "scan": 43,
+    "total": 52,
+    "scan": 44,
     "memo": 6,
     "guide": 2
   },
@@ -51,6 +51,57 @@
     }
   ],
   "items": [
+    {
+      "id": "scan-44",
+      "kind": "scan",
+      "number": 44,
+      "article_title_ja": "AIの安売りが終わる時代",
+      "published": "2026-10-28",
+      "source_url": "https://note.com/alise_s99lab/n/n23f1be69c9d5",
+      "question_ja": "AIの仕事の価値が高まる一方、計算需要と資金回収の圧力が強まるとき、月額定額の安さはいつまで続くのか。",
+      "question_en": "How long can low-cost AI subscriptions last as the value of AI work grows alongside computing demand and pressure to recover investment?",
+      "summary_ja": "AIモデルの単価低下と企業間競争が安価な定額料金を支える一方、巨額の設備投資、融資条件、長時間の自動作業による計算消費が収益化を難しくする可能性を考察。月額料金を変えず利用枠を縮小する事例も踏まえ、将来の値上げと利用者にとっての価値上昇は両立し得ると問いかける。",
+      "summary_en": "Explores how falling model prices and competition support inexpensive AI subscriptions while heavy infrastructure investment, financing pressure, and compute-intensive agentic tasks complicate cost recovery. Considers tighter usage allowances without higher sticker prices and why AI might remain valuable to users even if subscriptions become more expensive.",
+      "category_ids": [
+        "ai_technology",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "AI料金",
+        "定額制",
+        "サブスクリプション",
+        "AIインフラ投資",
+        "計算コスト",
+        "利用枠",
+        "資金回収"
+      ],
+      "topics_en": [
+        "AI subscription pricing",
+        "flat-rate plans",
+        "AI infrastructure financing",
+        "compute costs",
+        "usage limits",
+        "cost recovery",
+        "value of AI work"
+      ],
+      "note_tags_ja": [
+        "AI",
+        "生成AI",
+        "ChatGPT",
+        "AI活用",
+        "経済",
+        "テクノロジー",
+        "OpenAI",
+        "サブスクリプション",
+        "AIビジネス",
+        "ALISE"
+      ],
+      "theme_ids": [
+        "ai_work",
+        "tech_infrastructure",
+        "economic_systems"
+      ]
+    },
     {
       "id": "scan-43",
       "kind": "scan",
@@ -2008,7 +2059,7 @@
     }
   ],
   "search_notes_ja": "カテゴリーから対応する編集テーマタグを選択できる。全51記事に記事内容に基づくtheme_idsを付与。分野・タグだけでも絞り込み可能。オリジナルnoteタグの確証は著者提示の10記事のみで、それ以外の編集テーマと区別する。",
-  "search_notes_en": "All 51 articles have curated editorial theme IDs under seven broad categories. Filter by category and theme even with an empty search box. Original note.com hashtags are separately source-verified for ten entries only.",
+  "search_notes_en": "All 52 articles have curated editorial theme IDs under seven broad categories. Filter by category and theme even with an empty search box. Original note.com hashtags are separately source-verified for ten entries only.",
   "theme_taxonomy": {
     "schema": "alise-editorial-theme-tags-v1",
     "parent_categories": [
@@ -2033,7 +2084,7 @@
         "category_id": "ai_technology",
         "ja": "AIと仕事・組織",
         "en": "AI, Work & Organizations",
-        "article_count": 6
+        "article_count": 7
       },
       {
         "id": "ai_relationship",
@@ -2047,7 +2098,7 @@
         "category_id": "ai_technology",
         "ja": "技術基盤・競争",
         "en": "Technology Infrastructure & Competition",
-        "article_count": 10
+        "article_count": 11
       },
       {
         "id": "currency_fx",
@@ -2082,7 +2133,7 @@
         "category_id": "money_economy",
         "ja": "経済構造・企業",
         "en": "Economies, Business & Incentives",
-        "article_count": 8
+        "article_count": 9
       },
       {
         "id": "finance_rules",
@@ -2197,6 +2248,12 @@
         "article_count": 1
       }
     ],
-    "note": "Each curated editorial theme tag belongs to one broad category. An article may have multiple themes. Original note hashtags are maintained in note_tags_ja only when verified; these are not interchangeable."
+    "note": "Each curated editorial theme tag belongs to one broad category. An article may have multiple themes. Original note hashtags are maintained in note_tags_ja only when verified; these are not interchangeable.",
+    "coverage": {
+      "article_count": 52,
+      "assigned": 52,
+      "unassigned": 0
+    },
+    "updated": "2026-10-28"
   }
 }
