@@ -1,9 +1,9 @@
 {
   "collection": "A_L_I_S_E scan",
   "source": "https://note.com/alise_s99lab",
-  "status": "all-51-article-source-metadata-checked-2026-10-28",
+  "status": "all-52-article-source-metadata-checked-2026-10-28",
   "index_updated": "2026-10-28",
-  "note": "Original note articles stay on note. This index records 43 SCAN, 6 MEMO and two guide links. Titles, dates, and source URLs were checked from note originals or author-provided note page copies; SCAN #43 publication timestamp confirmed from the author's displayed page (2026-10-27 16:21 JST). This does not independently fact-check article claims or automatically sync future issues. See data/questions.json for bilingual editorial prompts and summaries.",
+  "note": "Original note articles stay on note. This index holds 44 SCAN, 6 MEMO and two guides (52 entries). SCAN #44's title, timestamp, source URL and hashtags were confirmed from the author's shared published note page (2026-10-28 10:07 JST). The Drive document is an earlier preparation draft rather than the published canonical original. Public content sources or author-provided copies were used for editorial indexing, not independent fact-checking. New posts are not automatically synced.",
   "guides": [
     {
       "key": "launch",
@@ -27,6 +27,18 @@
     }
   ],
   "articles": [
+    {
+      "type": "scan",
+      "number": 44,
+      "title": "AIの安売りが終わる時代",
+      "published": "2026-10-28",
+      "time_jst": "10:07",
+      "url": "https://note.com/alise_s99lab/n/n23f1be69c9d5",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "author-supplied-published-note-page-text-2026-10-28; exact title, 10:07 JST time, canonical URL and hashtags confirmed; live note not independently fetched"
+    },
     {
       "type": "scan",
       "number": 43,
