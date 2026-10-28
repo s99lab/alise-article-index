@@ -42,6 +42,12 @@
       "purpose_ja": "金融制度、資産、価格、価値の移動をめぐる問い"
     },
     {
+      "id": "real_estate_housing",
+      "label_ja": "不動産・住まい",
+      "label_en": "Real Estate & Housing",
+      "purpose_ja": "不動産市場、住宅・賃貸、都市居住、資産としての住まいに関する問い"
+    },
+    {
       "id": "society_governance",
       "label_ja": "社会・政治・制度",
       "label_en": "Society, Politics & Institutions",
@@ -100,7 +106,20 @@
         "interbank collaboration",
         "fraud detection",
         "victim reimbursement"
-      ]
+      ],
+      "note_tags_ja": [
+        "AI",
+        "ChatGPT",
+        "OpenAI",
+        "銀行",
+        "サイバーセキュリティ",
+        "ディープフェイク",
+        "サムアルトマン",
+        "AI詐欺",
+        "金融犯罪",
+        "ALISE"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-42",
@@ -363,7 +382,8 @@
       "question_en": "Why might wealthy Tokyo condo buyers wait, and how do interest rates and scarcity affect prices?",
       "category_ids": [
         "money_economy",
-        "human_life_health"
+        "human_life_health",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "東京マンション",
@@ -381,7 +401,20 @@
         "mortgage rates",
         "scarcity"
       ],
-      "review_note": "Editorial interpretation of author argument, not independent validation. English fields are navigation aids."
+      "review_note": "Editorial interpretation of author argument, not independent validation. English fields are navigation aids.",
+      "search_aliases_ja": [
+        "不動産",
+        "不動産市場",
+        "マンション",
+        "中古マンション",
+        "住宅市場",
+        "住宅ローン",
+        "東京マンション"
+      ],
+      "search_aliases_en": [
+        "real estate",
+        "condominium"
+      ]
     },
     {
       "id": "scan-33",
@@ -478,7 +511,20 @@
         "US–China relations",
         "coordinated slowdown",
         "fear of falling behind"
-      ]
+      ],
+      "note_tags_ja": [
+        "AI",
+        "テクノロジー",
+        "人工知能",
+        "シリコンバレー",
+        "構造分析",
+        "AI安全性",
+        "AIリスク",
+        "米中",
+        "A_L_I_S_E",
+        "Pdoom"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-31",
@@ -700,7 +746,17 @@
         "press-and-hold images",
         "attention capture",
         "social media"
-      ]
+      ],
+      "note_tags_ja": [
+        "SNS",
+        "メディアリテラシー",
+        "構造分析",
+        "クリックベイト",
+        "A_L_I_S_E",
+        "サムネイル詐欺",
+        "長押し画像"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "memo-03",
@@ -834,7 +890,8 @@
       "question_en": "Could Tokyo condo price adjustments begin with faster seller repricing decisions rather than prices alone?",
       "category_ids": [
         "money_economy",
-        "ai_technology"
+        "ai_technology",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "東京中古マンション",
@@ -854,7 +911,20 @@
         "seller repricing",
         "AI market analysis"
       ],
-      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid."
+      "review_note": "Editorial index question/interpretation derived from the article, not external verification of reported facts, motives, future outcomes, legal allegations or scientific claims. English is navigation aid.",
+      "search_aliases_ja": [
+        "不動産",
+        "不動産市場",
+        "中古不動産",
+        "マンション",
+        "中古マンション",
+        "住宅売買",
+        "住宅価格"
+      ],
+      "search_aliases_en": [
+        "real estate",
+        "condominium"
+      ]
     },
     {
       "id": "scan-24",
@@ -1027,7 +1097,8 @@
       "question_en": "Can inexpensive solo housing in Tokyo signal both accessible living conditions and Japan's relative economic weakness?",
       "category_ids": [
         "money_economy",
-        "human_life_health"
+        "human_life_health",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "東京賃貸",
@@ -1047,7 +1118,22 @@
         "housing costs",
         "urban life"
       ],
-      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids."
+      "review_note": "The question and summary describe an author's argument or hypothesis. They do not independently validate political, legal, medical, economic, or other factual claims. English fields are editorial navigation aids.",
+      "search_aliases_ja": [
+        "不動産",
+        "住宅",
+        "住まい",
+        "賃貸",
+        "家賃",
+        "単身賃貸",
+        "賃貸住宅",
+        "居住費"
+      ],
+      "search_aliases_en": [
+        "housing",
+        "rent",
+        "rental property"
+      ]
     },
     {
       "id": "scan-18",
@@ -1113,7 +1199,20 @@
         "friction in relationships"
       ],
       "summary_ja": "GPTライブの自然な音声対話への『凄い、しかし怖い』という反応から、人間が声や間や応答で人格・心を推測する仕組みを考察。摩擦の少ないAIとの会話が人間関係の重みや不完全さとの比較を生み得るとし、感じた親密さと実在する相互的関係を区別する必要を問う。",
-      "summary_en": "Reflects on a response of amazement and unease to natural AI voice dialogue. It examines how people infer personhood from tone, timing and responsiveness, and why effortless AI conversation may blur the distinction between felt intimacy and mutual relationships with other people."
+      "summary_en": "Reflects on a response of amazement and unease to natural AI voice dialogue. It examines how people infer personhood from tone, timing and responsiveness, and why effortless AI conversation may blur the distinction between felt intimacy and mutual relationships with other people.",
+      "note_tags_ja": [
+        "AI",
+        "生成AI",
+        "ChatGPT",
+        "コミュニケーション",
+        "AI時代",
+        "AI倫理",
+        "人間とAI",
+        "音声AI",
+        "GPTLive",
+        "A_L_I_S_E"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-16",
@@ -1179,7 +1278,20 @@
         "silence versus consent"
       ],
       "summary_ja": "日本社会に見られると筆者が考える『怒りを畳む』態度を、礼節による衝突回避と、声に出さない信用低下の両面から描く。SNSでの不満の共有、観光の受益者と生活負担者の違い、苦情が出ないことと同意を混同する危険を論じる。国民全体を実証的に一般化した研究ではない。",
-      "summary_en": "Portrays the author's reading of Japanese courtesy as sometimes containing unspoken grievances and quiet withdrawal of trust. Connects this to social-media discussion and uneven tourism burdens, while not presenting a proven generalization about all Japanese people."
+      "summary_en": "Portrays the author's reading of Japanese courtesy as sometimes containing unspoken grievances and quiet withdrawal of trust. Connects this to social-media discussion and uneven tourism burdens, while not presenting a proven generalization about all Japanese people.",
+      "note_tags_ja": [
+        "SNS",
+        "共感",
+        "日本人",
+        "日本文化",
+        "怒り",
+        "おもてなし",
+        "空気を読む",
+        "礼儀",
+        "日本人の美学",
+        "A_L_I_S_E"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-14",
@@ -1276,7 +1388,20 @@
         "testing XRP demand"
       ],
       "summary_ja": "Open USD構想を機に、準備金が生む利息を発行体と配布・決済パートナーの誰が受け取るかを検討。CircleのUSDCとRippleのRLUSD・決済／流動性サービスを『水槽と配管』にたとえ、利回り分配から相互接続へ注目を移す。Open USDはXRPの保有需要を直接証明しないと明記する。",
-      "summary_en": "Uses the proposed Open USD model to examine how interest earned on stablecoin reserves might be shared among issuers and distribution partners. Contrasts Circle's USDC reserve model with Ripple's potential connectivity services, while explicitly saying Open USD does not demonstrate XRP demand."
+      "summary_en": "Uses the proposed Open USD model to examine how interest earned on stablecoin reserves might be shared among issuers and distribution partners. Contrasts Circle's USDC reserve model with Ripple's potential connectivity services, while explicitly saying Open USD does not demonstrate XRP demand.",
+      "note_tags_ja": [
+        "経済",
+        "金融",
+        "暗号資産",
+        "ステーブルコイン",
+        "XRP",
+        "Ripple",
+        "USDC",
+        "circle",
+        "OpenUSD",
+        "A_L_I_S_E"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-11",
@@ -1470,7 +1595,8 @@
       "question_en": "How can China's domestic property distress coexist with powerful leverage over global manufacturing supply chains?",
       "category_ids": [
         "society_governance",
-        "money_economy"
+        "money_economy",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "中国",
@@ -1492,7 +1618,32 @@
         "Taiwan",
         "US–China relations"
       ],
-      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid."
+      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid.",
+      "search_aliases_ja": [
+        "不動産",
+        "不動産市場",
+        "不動産バブル",
+        "不動産開発",
+        "恒大",
+        "不動産危機"
+      ],
+      "search_aliases_en": [
+        "China property market",
+        "real estate"
+      ],
+      "note_tags_ja": [
+        "中国",
+        "考察",
+        "地政学",
+        "サプライチェーン",
+        "資産防衛",
+        "世界経済",
+        "台湾有事",
+        "米中対立",
+        "不動産バブル",
+        "ALISE"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-04",
@@ -1504,7 +1655,8 @@
       "question_en": "What location, demand, management and exit conditions would let Tokyo property act as a refuge from yen-related uncertainty?",
       "category_ids": [
         "money_economy",
-        "human_life_health"
+        "human_life_health",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "東京不動産",
@@ -1526,7 +1678,35 @@
         "ownership costs",
         "exit liquidity"
       ],
-      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid."
+      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid.",
+      "search_aliases_ja": [
+        "不動産",
+        "東京不動産",
+        "不動産投資",
+        "資産防衛",
+        "物件",
+        "住まい",
+        "住宅",
+        "東京"
+      ],
+      "search_aliases_en": [
+        "real estate",
+        "housing",
+        "property"
+      ],
+      "note_tags_ja": [
+        "投資",
+        "東京",
+        "考察",
+        "不動産",
+        "金融",
+        "不動産投資",
+        "円安",
+        "資産防衛",
+        "東京不動産",
+        "ALISE"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-03",
@@ -1559,7 +1739,20 @@
         "liquidity",
         "actual use versus announced adoption"
       ],
-      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid."
+      "review_note": "The question reflects the author's proposed structural interpretation, not independent validation of macroeconomic, property or geopolitical assertions. The English version is an editorial navigation aid.",
+      "note_tags_ja": [
+        "考察",
+        "金融",
+        "暗号資産",
+        "ステーブルコイン",
+        "XRP",
+        "クリプト",
+        "ドル",
+        "Ripple",
+        "RLUSD",
+        "ALISE"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-02",
@@ -1593,7 +1786,20 @@
         "currency usage demand",
         "asset allocation"
       ],
-      "review_note": "Author-supplied note-page transcript, not an independent live-page fetch. Describes an editorial thesis, not proof that digital-dollar usage causes or sustains FX depreciation. Note title appears with the public issue suffix '｜A_L_I_S_E scan #02'; the index intentionally uses a shorter headline. Published 2026-06-25 06:47 JST (already present in articles.json)."
+      "review_note": "Author-supplied note-page transcript, not an independent live-page fetch. Describes an editorial thesis, not proof that digital-dollar usage causes or sustains FX depreciation. Note title appears with the public issue suffix '｜A_L_I_S_E scan #02'; the index intentionally uses a shorter headline. Published 2026-06-25 06:47 JST (already present in articles.json).",
+      "note_tags_ja": [
+        "考察",
+        "ドル円",
+        "金融",
+        "暗号資産",
+        "為替",
+        "円安",
+        "ステーブルコイン",
+        "クリプト",
+        "ドル",
+        "ALISE"
+      ],
+      "note_tags_basis": "2026-10-28: exact hashtag list transcribed from the author's shared rendered original note article page (SCAN #12 via uploaded plain text). Not inferred from topic or title."
     },
     {
       "id": "scan-01",
@@ -1737,5 +1943,19 @@
       "format": "Pre-rendered static bilingual HTML question index with on-page filtering; machine-readable JSON of 51 items.",
       "display_scope": "51 verified article-content-based questions, English editorial navigation, note remains canonical full text."
     }
+  },
+  "search_enhancement": {
+    "version": "v2.1",
+    "updated": "2026-10-28",
+    "note_tag_coverage": 10,
+    "housing_articles": [
+      "scan-04",
+      "scan-05",
+      "scan-19",
+      "scan-25",
+      "scan-34"
+    ],
+    "policy_ja": "note_tags_jaは著者提供のnote掲載画面からハッシュタグ文字列を読み取れた10件のみ。残る41件に未確認のnoteタグは付けない。search_aliases_ja/enは本文に基づく編集上の検索補助語でありnoteタグではない。real_estate_housingは広い従来カテゴリと重なる追加テーマで、経済記事に含まれる住まいや中国不動産も拾う。",
+    "policy_en": "note_tags_ja contains exact note-page hashtags only for ten author-shared originals. For all other entries, no note tag claim. search_aliases are editorial search hints derived from inspected article meaning; Real Estate & Housing is a cross-cutting content category."
   }
 }
