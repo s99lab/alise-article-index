@@ -25,6 +25,11 @@
       "en": "Money, Finance & Economy"
     },
     {
+      "id": "real_estate_housing",
+      "ja": "不動産・住まい",
+      "en": "Real Estate & Housing"
+    },
+    {
       "id": "society_governance",
       "ja": "社会・政治・制度",
       "en": "Society, Politics & Institutions"
@@ -77,6 +82,18 @@
         "interbank collaboration",
         "fraud detection",
         "victim reimbursement"
+      ],
+      "note_tags_ja": [
+        "AI",
+        "ChatGPT",
+        "OpenAI",
+        "銀行",
+        "サイバーセキュリティ",
+        "ディープフェイク",
+        "サムアルトマン",
+        "AI詐欺",
+        "金融犯罪",
+        "ALISE"
       ]
     },
     {
@@ -327,7 +344,8 @@
       "summary_en": "Distinguishes broad affordability from actual buyer resources, considering waiting behavior, loan costs, and scarce property attributes.",
       "category_ids": [
         "money_economy",
-        "human_life_health"
+        "human_life_health",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "東京マンション",
@@ -340,6 +358,19 @@
         "buyers",
         "mortgage rates",
         "scarcity"
+      ],
+      "search_aliases_ja": [
+        "不動産",
+        "不動産市場",
+        "マンション",
+        "中古マンション",
+        "住宅市場",
+        "住宅ローン",
+        "東京マンション"
+      ],
+      "search_aliases_en": [
+        "real estate",
+        "condominium"
       ]
     },
     {
@@ -431,6 +462,18 @@
         "US–China relations",
         "coordinated slowdown",
         "fear of falling behind"
+      ],
+      "note_tags_ja": [
+        "AI",
+        "テクノロジー",
+        "人工知能",
+        "シリコンバレー",
+        "構造分析",
+        "AI安全性",
+        "AIリスク",
+        "米中",
+        "A_L_I_S_E",
+        "Pdoom"
       ]
     },
     {
@@ -639,6 +682,15 @@
         "press-and-hold images",
         "attention capture",
         "social media"
+      ],
+      "note_tags_ja": [
+        "SNS",
+        "メディアリテラシー",
+        "構造分析",
+        "クリックベイト",
+        "A_L_I_S_E",
+        "サムネイル詐欺",
+        "長押し画像"
       ]
     },
     {
@@ -768,7 +820,8 @@
       "summary_en": "Explores a hypothesis that profitable sellers and AI-assisted comparisons can shorten the lag between asking prices, repricing decisions, and actual condominium transactions.",
       "category_ids": [
         "money_economy",
-        "ai_technology"
+        "ai_technology",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "東京中古マンション",
@@ -783,6 +836,19 @@
         "transaction prices",
         "seller repricing",
         "AI market analysis"
+      ],
+      "search_aliases_ja": [
+        "不動産",
+        "不動産市場",
+        "中古不動産",
+        "マンション",
+        "中古マンション",
+        "住宅売買",
+        "住宅価格"
+      ],
+      "search_aliases_en": [
+        "real estate",
+        "condominium"
       ]
     },
     {
@@ -949,7 +1015,8 @@
       "summary_en": "Compares July 2026 rental listings across cities, viewing a private small apartment as the cost of independent urban participation while contrasting affordability and earnings.",
       "category_ids": [
         "money_economy",
-        "human_life_health"
+        "human_life_health",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "東京賃貸",
@@ -964,6 +1031,21 @@
         "international rent comparison",
         "housing costs",
         "urban life"
+      ],
+      "search_aliases_ja": [
+        "不動産",
+        "住宅",
+        "住まい",
+        "賃貸",
+        "家賃",
+        "単身賃貸",
+        "賃貸住宅",
+        "居住費"
+      ],
+      "search_aliases_en": [
+        "housing",
+        "rent",
+        "rental property"
       ]
     },
     {
@@ -1026,6 +1108,18 @@
         "anthropomorphism",
         "intimacy",
         "friction in relationships"
+      ],
+      "note_tags_ja": [
+        "AI",
+        "生成AI",
+        "ChatGPT",
+        "コミュニケーション",
+        "AI時代",
+        "AI倫理",
+        "人間とAI",
+        "音声AI",
+        "GPTLive",
+        "A_L_I_S_E"
       ]
     },
     {
@@ -1088,6 +1182,18 @@
         "social media",
         "overtourism",
         "silence versus consent"
+      ],
+      "note_tags_ja": [
+        "SNS",
+        "共感",
+        "日本人",
+        "日本文化",
+        "怒り",
+        "おもてなし",
+        "空気を読む",
+        "礼儀",
+        "日本人の美学",
+        "A_L_I_S_E"
       ]
     },
     {
@@ -1179,6 +1285,18 @@
         "Circle and USDC",
         "Ripple and RLUSD",
         "testing XRP demand"
+      ],
+      "note_tags_ja": [
+        "経済",
+        "金融",
+        "暗号資産",
+        "ステーブルコイン",
+        "XRP",
+        "Ripple",
+        "USDC",
+        "circle",
+        "OpenUSD",
+        "A_L_I_S_E"
       ]
     },
     {
@@ -1364,7 +1482,8 @@
       "summary_en": "Rejects a simple China-is-collapsing versus China-is-dominating choice. It contrasts real-estate and local-government strains with global strengths in processing and manufacturing, and examines Taiwan semiconductor risk and Japan's dependence on both US security and Chinese supply chains as an editorial interpretation.",
       "category_ids": [
         "society_governance",
-        "money_economy"
+        "money_economy",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "中国",
@@ -1381,6 +1500,30 @@
         "supply chains",
         "Taiwan",
         "US–China relations"
+      ],
+      "search_aliases_ja": [
+        "不動産",
+        "不動産市場",
+        "不動産バブル",
+        "不動産開発",
+        "恒大",
+        "不動産危機"
+      ],
+      "search_aliases_en": [
+        "China property market",
+        "real estate"
+      ],
+      "note_tags_ja": [
+        "中国",
+        "考察",
+        "地政学",
+        "サプライチェーン",
+        "資産防衛",
+        "世界経済",
+        "台湾有事",
+        "米中対立",
+        "不動産バブル",
+        "ALISE"
       ]
     },
     {
@@ -1396,7 +1539,8 @@
       "summary_en": "Explores why yen-denominated Tokyo property might attract real household demand and global capital, while warning that only select properties can function as a refuge. Location, occupancy demand, upkeep, disaster exposure, financing costs and resale exit matter more than the city's name.",
       "category_ids": [
         "money_economy",
-        "human_life_health"
+        "human_life_health",
+        "real_estate_housing"
       ],
       "topics_ja": [
         "東京不動産",
@@ -1413,6 +1557,33 @@
         "housing demand",
         "ownership costs",
         "exit liquidity"
+      ],
+      "search_aliases_ja": [
+        "不動産",
+        "東京不動産",
+        "不動産投資",
+        "資産防衛",
+        "物件",
+        "住まい",
+        "住宅",
+        "東京"
+      ],
+      "search_aliases_en": [
+        "real estate",
+        "housing",
+        "property"
+      ],
+      "note_tags_ja": [
+        "投資",
+        "東京",
+        "考察",
+        "不動産",
+        "金融",
+        "不動産投資",
+        "円安",
+        "資産防衛",
+        "東京不動産",
+        "ALISE"
       ]
     },
     {
@@ -1444,6 +1615,18 @@
         "ledger interoperability",
         "liquidity",
         "actual use versus announced adoption"
+      ],
+      "note_tags_ja": [
+        "考察",
+        "金融",
+        "暗号資産",
+        "ステーブルコイン",
+        "XRP",
+        "クリプト",
+        "ドル",
+        "Ripple",
+        "RLUSD",
+        "ALISE"
       ]
     },
     {
@@ -1476,6 +1659,18 @@
         "digital dollar",
         "currency usage demand",
         "asset allocation"
+      ],
+      "note_tags_ja": [
+        "考察",
+        "ドル円",
+        "金融",
+        "暗号資産",
+        "為替",
+        "円安",
+        "ステーブルコイン",
+        "クリプト",
+        "ドル",
+        "ALISE"
       ]
     },
     {
@@ -1560,5 +1755,7 @@
         "structural analysis"
       ]
     }
-  ]
+  ],
+  "search_notes_ja": "『不動産』のような検索語は、原文ベースの内容分類と関連語・確認済noteタグでも探せる。キーワードなしで分野だけの選択も可能。note_tags_jaは著者が提供した掲載画面で確認できた10本のみ。search_aliasesはnote側のタグとは別の編集上の検索補助語。",
+  "search_notes_en": "Keyword matching covers article-derived editorial aliases, categories and verified note-page hashtags. Category and issue filters work with an empty search box. Note tags are available for only ten author-supplied originals; editorial aliases are not note tags."
 }
