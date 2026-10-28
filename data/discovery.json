@@ -6,16 +6,16 @@
   "source_index": "data/articles.json",
   "canonical_text_host": "https://note.com/alise_s99lab",
   "coverage": {
-    "all": 51,
-    "scan": 43,
+    "all": 52,
+    "scan": 44,
     "memo": 6,
     "guides": 2,
-    "checked_primary_source": 51,
+    "checked_primary_source": 52,
     "unavailable_primary_source": 0,
     "seeded_from_existing_pilot": 0,
     "pending_primary_source": 0,
     "original_note_reverified_in_this_stage": 0,
-    "manual_original_text_checked": 10,
+    "manual_original_text_checked": 11,
     "stage_6_original_note_reverified": 8
   },
   "rules": {
@@ -73,6 +73,60 @@
     }
   ],
   "items": [
+    {
+      "id": "scan-44",
+      "kind": "scan",
+      "number": 44,
+      "title_ja": "AIの安売りが終わる時代",
+      "source_url": "https://note.com/alise_s99lab/n/n23f1be69c9d5",
+      "question_ja": "AIの仕事の価値が高まる一方、計算需要と資金回収の圧力が強まるとき、月額定額の安さはいつまで続くのか。",
+      "question_en": "How long can low-cost AI subscriptions last as the value of AI work grows alongside computing demand and pressure to recover investment?",
+      "category_ids": [
+        "ai_technology",
+        "money_economy"
+      ],
+      "topics_ja": [
+        "AI料金",
+        "定額制",
+        "サブスクリプション",
+        "AIインフラ投資",
+        "計算コスト",
+        "利用枠",
+        "資金回収"
+      ],
+      "review_state": "checked_primary_source",
+      "review_basis": "2026-10-28: author provided the published note page text, title, URL, 10:07 JST timestamp and ten hashtags; separately checked an earlier Drive preparation draft.",
+      "review_note": "Editorial finding aid only. Provider cost, financial projections, cited headlines and AI pricing claims were not independently fact-checked during index update; full text stays on note.",
+      "summary_ja": "AIモデルの単価低下と企業間競争が安価な定額料金を支える一方、巨額の設備投資、融資条件、長時間の自動作業による計算消費が収益化を難しくする可能性を考察。月額料金を変えず利用枠を縮小する事例も踏まえ、将来の値上げと利用者にとっての価値上昇は両立し得ると問いかける。",
+      "summary_en": "Explores how falling model prices and competition support inexpensive AI subscriptions while heavy infrastructure investment, financing pressure, and compute-intensive agentic tasks complicate cost recovery. Considers tighter usage allowances without higher sticker prices and why AI might remain valuable to users even if subscriptions become more expensive.",
+      "topics_en": [
+        "AI subscription pricing",
+        "flat-rate plans",
+        "AI infrastructure financing",
+        "compute costs",
+        "usage limits",
+        "cost recovery",
+        "value of AI work"
+      ],
+      "note_tags_ja": [
+        "AI",
+        "生成AI",
+        "ChatGPT",
+        "AI活用",
+        "経済",
+        "テクノロジー",
+        "OpenAI",
+        "サブスクリプション",
+        "AIビジネス",
+        "ALISE"
+      ],
+      "note_tags_basis": "Author-shared published note-page hashtags, 2026-10-28. Distinct from editorial theme tags.",
+      "theme_ids": [
+        "ai_work",
+        "tech_infrastructure",
+        "economic_systems"
+      ]
+    },
     {
       "id": "scan-43",
       "kind": "scan",
@@ -2191,14 +2245,21 @@
     },
     "publication": {
       "enabled": true,
-      "format": "Pre-rendered static bilingual HTML question index with on-page filtering; machine-readable JSON of 51 items.",
-      "display_scope": "51 verified article-content-based questions, English editorial navigation, note remains canonical full text."
-    }
+      "format": "Pre-rendered static bilingual HTML question index with 52 source URL entries and public JSON.",
+      "display_scope": "52 article-content-checked entries, English editorial navigation, note as canonical full text"
+    },
+    "post_stage_updates": [
+      {
+        "date": "2026-10-28",
+        "change": "Add author-verified SCAN #44 after all seven original stages, preserving prior audit history.",
+        "source": "https://note.com/alise_s99lab/n/n23f1be69c9d5"
+      }
+    ]
   },
   "search_enhancement": {
     "version": "v2.1",
     "updated": "2026-10-28",
-    "note_tag_coverage": 10,
+    "note_tag_coverage": 11,
     "housing_articles": [
       "scan-04",
       "scan-05",
@@ -2206,8 +2267,8 @@
       "scan-25",
       "scan-34"
     ],
-    "policy_ja": "note_tags_jaは著者提供のnote掲載画面からハッシュタグ文字列を読み取れた10件のみ。残る41件に未確認のnoteタグは付けない。search_aliases_ja/enは本文に基づく編集上の検索補助語でありnoteタグではない。real_estate_housingは広い従来カテゴリと重なる追加テーマで、経済記事に含まれる住まいや中国不動産も拾う。",
-    "policy_en": "note_tags_ja contains exact note-page hashtags only for ten author-shared originals. For all other entries, no note tag claim. search_aliases are editorial search hints derived from inspected article meaning; Real Estate & Housing is a cross-cutting content category.",
+    "policy_ja": "note_tags_jaは著者提供のnote掲載画面からハッシュタグ文字列を読み取れた11件のみ。残る41件に未確認のnoteタグは付けない。search_aliases_ja/enは本文に基づく編集上の検索補助語でありnoteタグではない。real_estate_housingは広い従来カテゴリと重なる追加テーマで、経済記事に含まれる住まいや中国不動産も拾う。",
+    "policy_en": "note_tags_ja contains exact note-page hashtags only for eleven author-shared originals. For all other entries, no note tag claim. search_aliases are editorial search hints derived from inspected article meaning; Real Estate & Housing is a cross-cutting content category.",
     "tag_taxonomy_version": "v1.0",
     "tag_category_navigation": "All 51 article records have editorial theme_ids linked to parent category IDs; independently verified note_tags_ja are not treated as universal category labels."
   },
@@ -2245,7 +2306,7 @@
         "category_id": "ai_technology",
         "label_ja": "AIと仕事・組織",
         "label_en": "AI, Work & Organizations",
-        "article_count": 6
+        "article_count": 7
       },
       {
         "id": "ai_relationship",
@@ -2259,7 +2320,7 @@
         "category_id": "ai_technology",
         "label_ja": "技術基盤・競争",
         "label_en": "Technology Infrastructure & Competition",
-        "article_count": 10
+        "article_count": 11
       },
       {
         "id": "currency_fx",
@@ -2294,7 +2355,7 @@
         "category_id": "money_economy",
         "label_ja": "経済構造・企業",
         "label_en": "Economies, Business & Incentives",
-        "article_count": 8
+        "article_count": 9
       },
       {
         "id": "finance_rules",
@@ -2410,8 +2471,8 @@
       }
     ],
     "coverage": {
-      "article_count": 51,
-      "assigned": 51,
+      "article_count": 52,
+      "assigned": 52,
       "unassigned": 0
     }
   }
