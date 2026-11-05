@@ -1,15 +1,15 @@
 {
   "schema": "alise-question-index-v1",
   "site": "https://s99lab.github.io/alise-article-index/",
-  "updated": "2026-10-28",
-  "description_ja": "A_L_I_S_EのSCAN44、MEMO6、媒体案内2の全52記事を、原文確認に基づく問い、編集上の短い要約、分類、関連語から探せる公開ナビゲーション索引。記事全文はnoteを参照。",
-  "description_en": "A bilingual editorial navigation index for 52 A_L_I_S_E original Japanese note posts: 44 SCAN articles, 6 MEMO notes, and two guides. These prompts summarize questions explored, not proven answers.",
+  "updated": "2026-11-05",
+  "description_ja": "A_L_I_S_EのSCAN45、MEMO6、媒体案内2の全53件を、著者が共有した原文URL・閲覧できた本文または著者本文控えに基づく問い、短い説明、分類、関連語から探せる公開ナビゲーション索引。記事全文はnoteを参照。#45の掲載時刻と実タグは未確認。",
+  "description_en": "A bilingual editorial navigation index for 53 original Japanese note links: 45 SCAN articles, 6 MEMO notes, and two guides. SCAN #45 uses the author-provided link and authored copy; exact posting time and note hashtags remain unverified.",
   "text_canonical_host": "https://note.com/alise_s99lab",
   "language_note": "English questions and summaries are editorial reading guides, not certified translations of the Japanese full text.",
   "evidence_note": "Checked means the article text or an author-provided copy was inspected for editorial indexing, not that external assertions were independently fact-checked.",
   "counts": {
-    "total": 52,
-    "scan": 44,
+    "total": 53,
+    "scan": 45,
     "memo": 6,
     "guide": 2
   },
@@ -51,6 +51,54 @@
     }
   ],
   "items": [
+    {
+      "id": "scan-45",
+      "kind": "scan",
+      "number": 45,
+      "article_title_ja": "複数の正しさが衝突する時代",
+      "published": "2026-11-05",
+      "source_url": "https://note.com/alise_s99lab/n/n9d005af8fecb",
+      "question_ja": "技術で異なる価値観が身近になった世界で、互いの「正しさ」を理解しても同意できない私たちは、共通の社会ルールをどう決め、共存できるのか。",
+      "question_en": "When technology brings different values into close contact, how can people coexist and negotiate shared social rules even when understanding one another does not mean agreement?",
+      "summary_ja": "インターネットやSNS、国境を越える人・情報の移動によって遠い社会の価値観が日常に接近する一方、相互理解は自動的には深まらないと考察。信仰・自由・共同体の秩序など複数の正しさが同じ制度を共有するとき、生活への脅威という認識や政治的摩擦が生じ得るという構造仮説を提示し、異なる価値観との共存を読者に問いかける。",
+      "summary_en": "Examines how the internet, social platforms and cross-border exchange bring distant values into daily life without guaranteeing deeper mutual understanding. Considers how competing notions of faith, freedom and community can become perceived threats when people share institutions and rules, and asks how coexistence is possible without requiring agreement. This is an editorial account of the author's structural hypothesis, not an established causal finding.",
+      "category_ids": [
+        "society_governance",
+        "media_information",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "価値観の対立",
+        "異文化理解",
+        "多様性",
+        "共存",
+        "民主主義",
+        "社会制度",
+        "SNS",
+        "政治的分断",
+        "集団心理",
+        "インターネット"
+      ],
+      "topics_en": [
+        "conflicting values",
+        "cultural differences",
+        "pluralism",
+        "coexistence",
+        "democratic institutions",
+        "shared rules",
+        "social media",
+        "political polarization",
+        "intergroup psychology",
+        "internet connectivity"
+      ],
+      "theme_ids": [
+        "governance_elections",
+        "public_institutions",
+        "social_trust",
+        "attention_social",
+        "psychology_relations"
+      ]
+    },
     {
       "id": "scan-44",
       "kind": "scan",
@@ -2058,8 +2106,8 @@
       ]
     }
   ],
-  "search_notes_ja": "カテゴリーから対応する編集テーマタグを選択できる。全51記事に記事内容に基づくtheme_idsを付与。分野・タグだけでも絞り込み可能。オリジナルnoteタグの確証は著者提示の10記事のみで、それ以外の編集テーマと区別する。",
-  "search_notes_en": "All 52 articles have curated editorial theme IDs under seven broad categories. Filter by category and theme even with an empty search box. Original note.com hashtags are separately source-verified for ten entries only.",
+  "search_notes_ja": "既存7分野と25テーマタグを使用し、全53件に記事内容に基づくtheme_idsを付与。分野・タグだけでも絞り込み可能。実際のnoteタグは著者が提示した掲載画面で確認できた11件分のみ記録し、#45の候補タグは正式タグに転記しない。",
+  "search_notes_en": "All 53 indexed posts have curated editorial theme IDs under seven broad categories. Original note.com hashtags are source-verified for eleven entries; hashtags suggested for SCAN #45 are not treated as actual published tags.",
   "theme_taxonomy": {
     "schema": "alise-editorial-theme-tags-v1",
     "parent_categories": [
@@ -2161,7 +2209,7 @@
         "category_id": "society_governance",
         "ja": "政治・民主主義",
         "en": "Politics & Democracy",
-        "article_count": 6
+        "article_count": 7
       },
       {
         "id": "geopolitics",
@@ -2175,7 +2223,7 @@
         "category_id": "society_governance",
         "ja": "公共制度・社会基盤",
         "en": "Public Institutions & Services",
-        "article_count": 6
+        "article_count": 7
       },
       {
         "id": "law_rights",
@@ -2189,7 +2237,7 @@
         "category_id": "society_governance",
         "ja": "社会の信頼・格差",
         "en": "Social Trust & Inequality",
-        "article_count": 7
+        "article_count": 8
       },
       {
         "id": "news_editorial",
@@ -2203,7 +2251,7 @@
         "category_id": "media_information",
         "ja": "SNS・認知・情報操作",
         "en": "Social Media & Attention",
-        "article_count": 5
+        "article_count": 6
       },
       {
         "id": "publishing_content",
@@ -2217,7 +2265,7 @@
         "category_id": "human_life_health",
         "ja": "心理・人間関係",
         "en": "Psychology & Relationships",
-        "article_count": 7
+        "article_count": 8
       },
       {
         "id": "health_wellbeing",
@@ -2250,10 +2298,10 @@
     ],
     "note": "Each curated editorial theme tag belongs to one broad category. An article may have multiple themes. Original note hashtags are maintained in note_tags_ja only when verified; these are not interchangeable.",
     "coverage": {
-      "article_count": 52,
-      "assigned": 52,
+      "article_count": 53,
+      "assigned": 53,
       "unassigned": 0
     },
-    "updated": "2026-10-28"
+    "updated": "2026-11-05"
   }
 }
