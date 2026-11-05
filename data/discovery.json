@@ -98,9 +98,9 @@
         "集団心理",
         "インターネット"
       ],
-      "review_state": "author_copy_checked_live_note_unretrieved",
-      "review_basis": "2026-11-05: author supplied exact note article URL; authored Drive publication copy inspected. Live note page did not load in independent web retrieval; precise time and live hashtags not verified.",
-      "review_note": "Editorial interpretation of authored article only. Figures cited from ITU/Pew and intergroup-contact research are not independently fact-checked for this index. Full published text lives on note.",
+      "review_state": "published_header_time_tags_confirmed_body_comparison_pending",
+      "review_basis": "2026-11-05: author-provided screenshot of the published note article confirms full headline, original URL, 09:04 JST publication time; second screenshot confirms all ten original hashtags. Authored Drive manuscript read for editorial summary; published full body not independently retrieved.",
+      "review_note": "Published-page screenshot substantiates the headline, date/time, URL and exact 10 note hashtags. Editorial summary based on author's Drive text, not a complete post-publication textual comparison or independent validation of cited facts.",
       "summary_ja": "インターネットやSNS、国境を越える人・情報の移動によって遠い社会の価値観が日常に接近する一方、相互理解は自動的には深まらないと考察。信仰・自由・共同体の秩序など複数の正しさが同じ制度を共有するとき、生活への脅威という認識や政治的摩擦が生じ得るという構造仮説を提示し、異なる価値観との共存を読者に問いかける。",
       "summary_en": "Examines how the internet, social platforms and cross-border exchange bring distant values into daily life without guaranteeing deeper mutual understanding. Considers how competing notions of faith, freedom and community can become perceived threats when people share institutions and rules, and asks how coexistence is possible without requiring agreement. This is an editorial account of the author's structural hypothesis, not an established causal finding.",
       "topics_en": [
@@ -121,7 +121,20 @@
         "social_trust",
         "attention_social",
         "psychology_relations"
-      ]
+      ],
+      "note_tags_ja": [
+        "AI",
+        "価値観",
+        "政治",
+        "テクノロジー",
+        "多様性",
+        "社会問題",
+        "異文化理解",
+        "世界情勢",
+        "社会の分析",
+        "ALISE"
+      ],
+      "note_tags_basis": "Author-supplied screenshots of the published note.com page dated 2026-11-05, showing ten visible hashtags verbatim. Different from curated editorial categories and themes."
     },
     {
       "id": "scan-44",
@@ -2296,7 +2309,7 @@
     "publication": {
       "enabled": true,
       "format": "Pre-rendered static bilingual HTML question index with 53 source URL entries and public JSON.",
-      "display_scope": "53 source URL entries, including 52 earlier text-reviewed sources and SCAN #45 based on an author-shared article URL and authored copy (live note access, exact time and hashtags still unverified). English editorial navigation; note remains the original full-text host."
+      "display_scope": "53 source URL entries, with 52 earlier content-reviewed sources; SCAN #45's published title, link, 09:04 JST posting time and ten original hashtags confirmed from author-shared note screenshots. Its editorial summary comes from an authored Drive copy; complete published body not independently fetched."
     },
     "post_stage_updates": [
       {
@@ -2308,13 +2321,18 @@
         "date": "2026-11-05",
         "change": "Add author-reported SCAN #45 with source link supplied in conversation and authored Drive copy. Actual note page and exact posting time/hashtags remain unverified. Earlier stage audit records intentionally preserved.",
         "source": "https://note.com/alise_s99lab/n/n9d005af8fecb"
+      },
+      {
+        "date": "2026-11-05",
+        "change": "Author supplied screenshots of publicly published SCAN #45 note page. Exact 09:04 JST posting time and all ten original hashtags confirmed; original body still not independently retrieved. Replaces earlier time/hashtags pending notes without rewriting historical audit stages.",
+        "source": "https://note.com/alise_s99lab/n/n9d005af8fecb"
       }
     ]
   },
   "search_enhancement": {
     "version": "v2.1",
     "updated": "2026-11-05",
-    "note_tag_coverage": 11,
+    "note_tag_coverage": 12,
     "housing_articles": [
       "scan-04",
       "scan-05",
@@ -2325,7 +2343,7 @@
     "policy_ja": "note_tags_jaは著者提供のnote掲載画面からハッシュタグ文字列を読み取れた11件のみ。残る41件に未確認のnoteタグは付けない。search_aliases_ja/enは本文に基づく編集上の検索補助語でありnoteタグではない。real_estate_housingは広い従来カテゴリと重なる追加テーマで、経済記事に含まれる住まいや中国不動産も拾う。",
     "policy_en": "note_tags_ja contains exact note-page hashtags only for eleven author-shared originals. For all other entries, no note tag claim. search_aliases are editorial search hints derived from inspected article meaning; Real Estate & Housing is a cross-cutting content category.",
     "tag_taxonomy_version": "v1.0",
-    "tag_category_navigation": "All 53 indexed note URL records have editorial theme_ids linked to parent category IDs; independently verified note_tags_ja on 11 records are not treated as universal category labels. SCAN #45's live note hashtags remain unverified."
+    "tag_category_navigation": "All 53 entries have curated theme_ids under parent categories; 12 entries have independently source-grounded original note_tags_ja from author-supplied published-page evidence. SCAN #45's 10 real note tags are confirmed, distinct from editorial theme tags."
   },
   "theme_taxonomy": {
     "schema": "alise-editorial-theme-tags-v1",
