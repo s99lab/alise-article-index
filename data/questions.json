@@ -2,8 +2,8 @@
   "schema": "alise-question-index-v1",
   "site": "https://s99lab.github.io/alise-article-index/",
   "updated": "2026-11-05",
-  "description_ja": "A_L_I_S_EのSCAN45、MEMO6、媒体案内2の全53件を、著者が共有した原文URL・閲覧できた本文または著者本文控えに基づく問い、短い説明、分類、関連語から探せる公開ナビゲーション索引。記事全文はnoteを参照。#45の掲載時刻と実タグは未確認。",
-  "description_en": "A bilingual editorial navigation index for 53 original Japanese note links: 45 SCAN articles, 6 MEMO notes, and two guides. SCAN #45 uses the author-provided link and authored copy; exact posting time and note hashtags remain unverified.",
+  "description_ja": "A_L_I_S_Eの53件（SCAN45、MEMO6、案内2）を、原文と著者提供資料に基づく問い・要約・編集分類から探す公開索引。SCAN #45のnote原文URL・公開日時・実タグは著者共有の公開画面で確認。原文全文はnote。",
+  "description_en": "Bilingual editorial navigation to 53 Japanese note articles (45 SCAN, 6 MEMO and 2 guides). SCAN #45 title, source URL, November 5 2026 at 09:04 JST, and ten original note hashtags are confirmed by author-shared published-page screenshots; full text stays on note.",
   "text_canonical_host": "https://note.com/alise_s99lab",
   "language_note": "English questions and summaries are editorial reading guides, not certified translations of the Japanese full text.",
   "evidence_note": "Checked means the article text or an author-provided copy was inspected for editorial indexing, not that external assertions were independently fact-checked.",
@@ -97,6 +97,18 @@
         "social_trust",
         "attention_social",
         "psychology_relations"
+      ],
+      "note_tags_ja": [
+        "AI",
+        "価値観",
+        "政治",
+        "テクノロジー",
+        "多様性",
+        "社会問題",
+        "異文化理解",
+        "世界情勢",
+        "社会の分析",
+        "ALISE"
       ]
     },
     {
@@ -2106,8 +2118,8 @@
       ]
     }
   ],
-  "search_notes_ja": "既存7分野と25テーマタグを使用し、全53件に記事内容に基づくtheme_idsを付与。分野・タグだけでも絞り込み可能。実際のnoteタグは著者が提示した掲載画面で確認できた11件分のみ記録し、#45の候補タグは正式タグに転記しない。",
-  "search_notes_en": "All 53 indexed posts have curated editorial theme IDs under seven broad categories. Original note.com hashtags are source-verified for eleven entries; hashtags suggested for SCAN #45 are not treated as actual published tags.",
+  "search_notes_ja": "全53件に既存7分野と25の編集テーマタグを適用。note正式タグは著者提供の公開画面により12件確認。SCAN #45の10件は2026-11-05のnote掲載画面で確認済み。編集テーマと実タグは別情報として管理する。",
+  "search_notes_en": "All 53 indexed entries have curated editorial theme IDs under seven broad categories. Original note.com hashtags are verified from author-shared published-page evidence for 12 entries, including all ten SCAN #45 tags.",
   "theme_taxonomy": {
     "schema": "alise-editorial-theme-tags-v1",
     "parent_categories": [
