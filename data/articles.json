@@ -1,9 +1,9 @@
 {
   "collection": "A_L_I_S_E scan",
   "source": "https://note.com/alise_s99lab",
-  "status": "all-52-article-source-metadata-checked-2026-10-28",
-  "index_updated": "2026-10-28",
-  "note": "Original note articles stay on note. This index holds 44 SCAN, 6 MEMO and two guides (52 entries). SCAN #44's title, timestamp, source URL and hashtags were confirmed from the author's shared published note page (2026-10-28 10:07 JST). The Drive document is an earlier preparation draft rather than the published canonical original. Public content sources or author-provided copies were used for editorial indexing, not independent fact-checking. New posts are not automatically synced.",
+  "status": "53-indexed-note-links-author-and-public-sources-2026-11-05",
+  "index_updated": "2026-11-05",
+  "note": "53 indexed note URLs: 45 SCAN, 6 MEMO, two guides. The SCAN #45 note URL was supplied directly by the author on 2026-11-05; its editorial question and summary are drawn from the authored Drive publication copy. The live note page, exact posting time and actual hashtags were not independently retrieved. No fabricated tags or time. Older verified entries preserved. GitHub contains finding aids, not article bodies.",
   "guides": [
     {
       "key": "launch",
@@ -27,6 +27,18 @@
     }
   ],
   "articles": [
+    {
+      "type": "scan",
+      "number": 45,
+      "title": "複数の正しさが衝突する時代",
+      "published": "2026-11-05",
+      "time_jst": null,
+      "url": "https://note.com/alise_s99lab/n/n9d005af8fecb",
+      "topic": "SCAN",
+      "summary": null,
+      "tags": [],
+      "verification": "author-provided-note-url-2026-11-05; author-provided-Drive-publication-copy; live note page/time/hashtags not independently retrievable"
+    },
     {
       "type": "scan",
       "number": 44,
