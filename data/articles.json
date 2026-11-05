@@ -673,7 +673,9 @@
     "guide_links": 0,
     "undated_confirmed_scan": [],
     "undated_memo": [],
-    "future_new_issues": "Not automatically synced. Later note posts may require separate verification.",
-    "latest_scan_requires_note_original_check": []
+    "future_new_issues": "SCAN #45 author-supplied link and authored manuscript indexed; exact live note posting time, note hashtags and the final live page text remain to be checked. Later note posts are not automatically synced.",
+    "latest_scan_requires_note_original_check": [
+      45
+    ]
   }
 }
