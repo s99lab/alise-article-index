@@ -3,7 +3,7 @@
   "source": "https://note.com/alise_s99lab",
   "status": "53-indexed-note-links-author-and-public-sources-2026-11-05",
   "index_updated": "2026-11-05",
-  "note": "53 indexed note URLs: 45 SCAN, 6 MEMO, two guides. The SCAN #45 note URL was supplied directly by the author on 2026-11-05; its editorial question and summary are drawn from the authored Drive publication copy. The live note page, exact posting time and actual hashtags were not independently retrieved. No fabricated tags or time. Older verified entries preserved. GitHub contains finding aids, not article bodies.",
+  "note": "53 unique note article URLs: 45 SCAN, 6 MEMO, two guides. SCAN #45 (2026-11-05 09:04 JST) exact public title, canonical URL and 10 note hashtags confirmed by author-supplied screenshots of the live publication. The full published article body was not independently retrieved; editorial summary is based on the authored Drive copy. Earlier article records preserved.",
   "guides": [
     {
       "key": "launch",
@@ -32,12 +32,12 @@
       "number": 45,
       "title": "複数の正しさが衝突する時代",
       "published": "2026-11-05",
-      "time_jst": null,
+      "time_jst": "09:04",
       "url": "https://note.com/alise_s99lab/n/n9d005af8fecb",
       "topic": "SCAN",
       "summary": null,
       "tags": [],
-      "verification": "author-provided-note-url-2026-11-05; author-provided-Drive-publication-copy; live note page/time/hashtags not independently retrievable"
+      "verification": "2026-11-05 author-supplied screenshots of published note page confirm full publication title, 09:04 JST date/time, canonical URL and ten original note hashtags; independent retrieval of full published article body still pending"
     },
     {
       "type": "scan",
@@ -673,7 +673,7 @@
     "guide_links": 0,
     "undated_confirmed_scan": [],
     "undated_memo": [],
-    "future_new_issues": "SCAN #45 author-supplied link and authored manuscript indexed; exact live note posting time, note hashtags and the final live page text remain to be checked. Later note posts are not automatically synced.",
+    "future_new_issues": "SCAN #45 public-page header, posted time and ten note hashtags verified from author screenshots. Independent full-body comparison against the authored Drive manuscript remains outstanding. Later note posts are not automatically synced.",
     "latest_scan_requires_note_original_check": [
       45
     ]
