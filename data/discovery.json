@@ -2295,20 +2295,25 @@
     },
     "publication": {
       "enabled": true,
-      "format": "Pre-rendered static bilingual HTML question index with 52 source URL entries and public JSON.",
-      "display_scope": "52 article-content-checked entries, English editorial navigation, note as canonical full text"
+      "format": "Pre-rendered static bilingual HTML question index with 53 source URL entries and public JSON.",
+      "display_scope": "53 source URL entries, including 52 earlier text-reviewed sources and SCAN #45 based on an author-shared article URL and authored copy (live note access, exact time and hashtags still unverified). English editorial navigation; note remains the original full-text host."
     },
     "post_stage_updates": [
       {
         "date": "2026-10-28",
         "change": "Add author-verified SCAN #44 after all seven original stages, preserving prior audit history.",
         "source": "https://note.com/alise_s99lab/n/n23f1be69c9d5"
+      },
+      {
+        "date": "2026-11-05",
+        "change": "Add author-reported SCAN #45 with source link supplied in conversation and authored Drive copy. Actual note page and exact posting time/hashtags remain unverified. Earlier stage audit records intentionally preserved.",
+        "source": "https://note.com/alise_s99lab/n/n9d005af8fecb"
       }
     ]
   },
   "search_enhancement": {
     "version": "v2.1",
-    "updated": "2026-10-28",
+    "updated": "2026-11-05",
     "note_tag_coverage": 11,
     "housing_articles": [
       "scan-04",
@@ -2320,7 +2325,7 @@
     "policy_ja": "note_tags_jaは著者提供のnote掲載画面からハッシュタグ文字列を読み取れた11件のみ。残る41件に未確認のnoteタグは付けない。search_aliases_ja/enは本文に基づく編集上の検索補助語でありnoteタグではない。real_estate_housingは広い従来カテゴリと重なる追加テーマで、経済記事に含まれる住まいや中国不動産も拾う。",
     "policy_en": "note_tags_ja contains exact note-page hashtags only for eleven author-shared originals. For all other entries, no note tag claim. search_aliases are editorial search hints derived from inspected article meaning; Real Estate & Housing is a cross-cutting content category.",
     "tag_taxonomy_version": "v1.0",
-    "tag_category_navigation": "All 51 article records have editorial theme_ids linked to parent category IDs; independently verified note_tags_ja are not treated as universal category labels."
+    "tag_category_navigation": "All 53 indexed note URL records have editorial theme_ids linked to parent category IDs; independently verified note_tags_ja on 11 records are not treated as universal category labels. SCAN #45's live note hashtags remain unverified."
   },
   "theme_taxonomy": {
     "schema": "alise-editorial-theme-tags-v1",
