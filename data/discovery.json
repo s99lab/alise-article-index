@@ -1,19 +1,19 @@
 {
   "schema": "alise-question-discovery-v1",
   "project": "A_L_I_S_E",
-  "updated": "2026-10-28",
+  "updated": "2026-11-05",
   "role": "Editorial discovery registry for navigating original note articles by question. Not article bodies, verified conclusions, rankings, or instructions for crawlers.",
   "source_index": "data/articles.json",
   "canonical_text_host": "https://note.com/alise_s99lab",
   "coverage": {
-    "all": 52,
-    "scan": 44,
+    "all": 53,
+    "scan": 45,
     "memo": 6,
     "guides": 2,
     "checked_primary_source": 52,
     "unavailable_primary_source": 0,
     "seeded_from_existing_pilot": 0,
-    "pending_primary_source": 0,
+    "pending_primary_source": 1,
     "original_note_reverified_in_this_stage": 0,
     "manual_original_text_checked": 11,
     "stage_6_original_note_reverified": 8
@@ -73,6 +73,56 @@
     }
   ],
   "items": [
+    {
+      "id": "scan-45",
+      "kind": "scan",
+      "number": 45,
+      "title_ja": "複数の正しさが衝突する時代",
+      "source_url": "https://note.com/alise_s99lab/n/n9d005af8fecb",
+      "question_ja": "技術で異なる価値観が身近になった世界で、互いの「正しさ」を理解しても同意できない私たちは、共通の社会ルールをどう決め、共存できるのか。",
+      "question_en": "When technology brings different values into close contact, how can people coexist and negotiate shared social rules even when understanding one another does not mean agreement?",
+      "category_ids": [
+        "society_governance",
+        "media_information",
+        "human_life_health"
+      ],
+      "topics_ja": [
+        "価値観の対立",
+        "異文化理解",
+        "多様性",
+        "共存",
+        "民主主義",
+        "社会制度",
+        "SNS",
+        "政治的分断",
+        "集団心理",
+        "インターネット"
+      ],
+      "review_state": "author_copy_checked_live_note_unretrieved",
+      "review_basis": "2026-11-05: author supplied exact note article URL; authored Drive publication copy inspected. Live note page did not load in independent web retrieval; precise time and live hashtags not verified.",
+      "review_note": "Editorial interpretation of authored article only. Figures cited from ITU/Pew and intergroup-contact research are not independently fact-checked for this index. Full published text lives on note.",
+      "summary_ja": "インターネットやSNS、国境を越える人・情報の移動によって遠い社会の価値観が日常に接近する一方、相互理解は自動的には深まらないと考察。信仰・自由・共同体の秩序など複数の正しさが同じ制度を共有するとき、生活への脅威という認識や政治的摩擦が生じ得るという構造仮説を提示し、異なる価値観との共存を読者に問いかける。",
+      "summary_en": "Examines how the internet, social platforms and cross-border exchange bring distant values into daily life without guaranteeing deeper mutual understanding. Considers how competing notions of faith, freedom and community can become perceived threats when people share institutions and rules, and asks how coexistence is possible without requiring agreement. This is an editorial account of the author's structural hypothesis, not an established causal finding.",
+      "topics_en": [
+        "conflicting values",
+        "cultural differences",
+        "pluralism",
+        "coexistence",
+        "democratic institutions",
+        "shared rules",
+        "social media",
+        "political polarization",
+        "intergroup psychology",
+        "internet connectivity"
+      ],
+      "theme_ids": [
+        "governance_elections",
+        "public_institutions",
+        "social_trust",
+        "attention_social",
+        "psychology_relations"
+      ]
+    },
     {
       "id": "scan-44",
       "kind": "scan",
@@ -2274,7 +2324,7 @@
   },
   "theme_taxonomy": {
     "schema": "alise-editorial-theme-tags-v1",
-    "updated": "2026-10-28",
+    "updated": "2026-11-05",
     "kind": "Editorial article-topic labels organized beneath established broad categories; distinct from the author's note.com hashtags.",
     "source_fields": [
       "question_ja",
@@ -2383,7 +2433,7 @@
         "category_id": "society_governance",
         "label_ja": "政治・民主主義",
         "label_en": "Politics & Democracy",
-        "article_count": 6
+        "article_count": 7
       },
       {
         "id": "geopolitics",
@@ -2397,7 +2447,7 @@
         "category_id": "society_governance",
         "label_ja": "公共制度・社会基盤",
         "label_en": "Public Institutions & Services",
-        "article_count": 6
+        "article_count": 7
       },
       {
         "id": "law_rights",
@@ -2411,7 +2461,7 @@
         "category_id": "society_governance",
         "label_ja": "社会の信頼・格差",
         "label_en": "Social Trust & Inequality",
-        "article_count": 7
+        "article_count": 8
       },
       {
         "id": "news_editorial",
@@ -2425,7 +2475,7 @@
         "category_id": "media_information",
         "label_ja": "SNS・認知・情報操作",
         "label_en": "Social Media & Attention",
-        "article_count": 5
+        "article_count": 6
       },
       {
         "id": "publishing_content",
@@ -2439,7 +2489,7 @@
         "category_id": "human_life_health",
         "label_ja": "心理・人間関係",
         "label_en": "Psychology & Relationships",
-        "article_count": 7
+        "article_count": 8
       },
       {
         "id": "health_wellbeing",
@@ -2471,8 +2521,8 @@
       }
     ],
     "coverage": {
-      "article_count": 52,
-      "assigned": 52,
+      "article_count": 53,
+      "assigned": 53,
       "unassigned": 0
     }
   }
